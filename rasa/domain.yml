@@ -1,0 +1,86 @@
+version: '3.1'
+
+intents:
+- affirm
+- ask_for_explanation:
+    use_entities:
+    - subject
+- bot_challenge
+- deny
+- goodbye
+- greet
+- out_of_scope
+- thanks
+- stop
+
+entities:
+- subject
+
+slots:
+  subject:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: subject
+      intent: ask_for_explanation
+  match:
+    type: text
+    mappings:
+    - type: custom
+      action: action_get_results
+
+responses:
+  utter_greet:
+  - text: Hey there!
+  - text: Hello :)
+  - text: Hi!!
+  utter_how_help:
+  - text: How can I help you?
+  - text: How can I be of assistance?
+  - text: What can I do for you?
+  utter_how_else_help:
+  - text: What else would you like to know?
+  utter_here_is_info:
+  - text: "Here is some information I found:"
+  utter_give_explanation:
+  - text: Results
+  utter_try_again:
+  - text: I'm sorry, I'll try again. Could you please rephrase your request?
+  utter_iamabot:
+  - text: I am Explorer AI, a chatbot.
+  utter_welcome:
+  - text: Glad I could be of assistance!
+  - text: You're very welcome.
+  - text: No problem at all!
+  utter_goodbye:
+  - text: Bye :)
+  - text: See you next time!
+  - text: Goodbye!
+  utter_default:
+  - text: Sorry, I don't understand. Could you please rephrase that?
+  utter_try_this:
+  - text: I don't know how to respond to that. Try something like 'Tell me about electricity.'
+  utter_ask_subject:
+  - text: What subject would you like to know about?
+  - text: What topic are you interested in?
+  - text: Please let me know which subject you'd like information about.
+  utter_ask_about_other:
+  - text: I'm sorry, but I don't have information about that topic.
+
+forms:
+  explanation_form:
+    ignored_intents:
+    - greet
+    - goodbye
+    - thanks
+    required_slots:
+    - subject
+
+actions:
+- action_get_results
+- action_reset_subject
+- validate_explanation_form
+
+session_config:
+  session_expiration_time: 30
+  carry_over_slots_to_new_session: false

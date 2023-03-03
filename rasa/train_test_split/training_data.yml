@@ -1,0 +1,448 @@
+version: "3.1"
+nlu:
+- intent: bot_challenge
+  examples: |
+    - who am i talking to?
+    - are you real?
+    - who is this?
+    - ru bot
+    - ru real?
+    - u robot?
+    - who are you?
+    - am I talking to a robot?
+    - what name do you go by?
+    - are you a bot?
+    - what is your name?
+    - you a machine?
+    - ru bot?
+    - am I talking to a human?
+    - what do you call yourself?
+    - are you a human?
+- intent: out_of_scope
+  examples: |
+    - what is your favorite season?
+    - are you a dog person or a cat person?
+    - tell me a joke
+    - how old are you?
+    - what's your sign?
+    - what's 2+2?
+    - what kind of music do you like?
+    - who is the president of the US?
+    - who trained you?
+    - what time is it?
+    - what's the captial of France?
+    - how many licks does it take to get to the center of a tootsie pop?
+    - what do you look like?
+    - do you like pizza?
+    - what's the weather like?
+    - where do you live?
+- intent: stop
+  examples: |
+    - abort
+    - quit asking
+    - never mind
+    - nm
+    - I'd like to stop
+    - please go back
+    - stop now
+    - I figured it out
+    - I don't have a question anymore
+    - quit please
+    - abort mission
+    - please stop
+    - stop it
+    - quit asking that
+    - stop asking
+    - I changed my mind
+    - i'd like to quit
+- intent: thanks
+  examples: |
+    - i appreciate it
+    - i owe you
+    - thank you very much
+    - that's exactly what i'm looking for
+    - awesome, thanks!
+    - thank you
+    - ty
+    - excellent
+    - thank u
+    - that's amazing
+    - kthx
+    - wow, how cool
+    - thank you so much
+    - perfect
+    - thanks a million
+    - thanks again
+    - thanks
+    - thanks a lot
+    - many thanks
+- intent: goodbye
+  examples: |
+    - bye
+    - byebye
+    - i'll see you on the flip side
+    - see you around
+    - i am departing
+    - good by
+    - byeeee
+    - goodbye
+    - see you later
+    - gotta go
+    - cee you later
+    - good night
+    - i'm leaving now
+    - so long now
+    - so long
+    - later
+    - cu later alligator
+    - later, tater
+    - i have to go
+- intent: affirm
+  examples: |
+    - confirm
+    - correct
+    - yes, that's right
+    - yup
+    - yip
+    - affirm
+    - sure
+    - that's right
+    - of course
+    - i guess so
+    - that's exactly right
+    - "yes"
+    - you know it
+    - precisely
+    - yea
+    - yeppers
+    - yep
+    - yeah
+    - indeed
+- intent: deny
+  examples: |
+    - nooooo
+    - n
+    - nope
+    - i don't like the idea of that
+    - negative
+    - that's not what I'm looking for
+    - far from the truth
+    - not remotely close
+    - not even
+    - I doubt it
+    - not really
+    - that's not what I asked for
+    - I don't think so
+    - not it
+    - don't like that
+    - deny
+    - not at all
+    - i'm not so sure about that
+    - absolutely not
+    - "no"
+- intent: greet
+  examples: |
+    - hellooooooo
+    - greetings
+    - morning
+    - aloha
+    - hellooooo
+    - good evening
+    - hiiiiii
+    - hey hi
+    - hi friend
+    - goodmorning
+    - sup
+    - goodevening
+    - howdy
+    - is anyone there?
+    - hi, hello
+    - anyone out there?
+    - hiya
+    - hi there
+    - anyone there?
+    - hi
+    - good morning
+    - yo
+    - what's up?
+    - good afternoon
+    - hello in there
+    - yoohoo
+    - hi, is anyone there?
+- intent: ask_for_explanation
+  examples: |
+    - plz give info on [shearing](subject)
+    - what is [biophilia hypothesis](subject), if you please
+    - educate me on the topic of [gravity](subject)
+    - can you tell me who [attention](subject) is?
+    - teach me about [motion picture](subject)
+    - i don't know the first thing about [vibration](subject)
+    - '[Ordovician Period](subject) explanation'
+    - what is [race](subject), if you please
+    - explain the concept of [whale](subject)
+    - i don't know the first thing about [complexity](subject)
+    - explain the concept of [volcano](subject)
+    - i want to know more about [fog](subject)
+    - elaborate on [prism](subject)
+    - i'm tryng to learn about [feedback](subject)
+    - what's [metallurgy](subject) all about?
+    - i'd like to know more about [ionization](subject)
+    - plese help me understand [billiards](subject)
+    - i want to know more about [twin](subject)
+    - I was wondering if you could educate me on the subject of [mechanoreception](subject)
+    - please describe [sand](subject)
+    - i'd like an explanation about [scale](subject)
+    - i want to learn about [artiodactyl](subject)
+    - explain the concept of [centre of gravity](subject)
+    - i'd like information on [China](subject)
+    - what is [dominant](subject)?
+    - who is [potential energy](subject)?
+    - who was [membrane](subject)?
+    - i'm confused about [analysis](subject)
+    - can you tell me about [judgment](subject)?
+    - plese help me understand [Protestant Reformation](subject)
+    - provide information about [architectural glass](subject)
+    - I don't understand [nucleation](subject)
+    - elaborate on [torque](subject)
+    - can you describe to me [inertia](subject)
+    - provide information about [drawing](subject)
+    - i'm confused about [perspective](subject)
+    - i want to learn about [combinatorics](subject)
+    - please tell me a little bit about [complementary colour](subject)
+    - plz give info on [soil](subject)
+    - i'm confused about [evaporation](subject)
+    - i want to know more about [salt](subject)
+    - i want to become an expert about [petroleum refining](subject), please
+    - plese help me understand [steel band](subject)
+    - '[laminar flow](subject) explanation'
+    - can you describe to me [marine ecosystem](subject)
+    - elaborate on [parabola](subject)
+    - i want to become an expert about [combinatorial mathematics](subject), please
+    - i'd like to know more about [laser](subject)
+    - please explain [linear motion](subject)
+    - please tell me a little bit about [precession](subject)
+    - what is [chicken](subject)?
+    - i don't know the first thing about [musical instrument](subject)
+    - what do you know about [electric current](subject)?
+    - what is [fiction](subject), if you please
+    - who was [animal social behaviour](subject)?
+    - can you give me a description of [fistula](subject)
+    - i'm confused about [field](subject)
+    - who was [refraction](subject)?
+    - what is [history of Europe](subject), if you please
+    - what is the meaning of [floral decoration](subject)?
+    - i'm confused about [immune system](subject)
+    - please explain [human behaviour](subject)
+    - please describe [Paul Auster](subject)
+    - i'm confused about [phase](subject)
+    - I was wondering if you could educate me on the subject of [ready-made](subject)
+    - educate me on the topic of [communication](subject)
+    - '[sugar](subject) information'
+    - what is the meaning of [electricity](subject)?
+    - please explain [snake](subject)
+    - what is [dilemma](subject), if you please
+    - provide information about [chaos theory](subject)
+    - i want to become an expert about [painting](subject), please
+    - plz give info on [albedo](subject)
+    - what is [simple harmonic motion](subject)?
+    - i'd like information on [time](subject)
+    - '[human eye](subject) explanation'
+    - plese help me understand [steelband](subject)
+    - please tell me a little bit about [turtle](subject)
+    - can you tell me who [reference frame](subject) is?
+    - elaborate on [optics](subject)
+    - '[condensation](subject) information'
+    - who is [photosynthesis](subject)?
+    - what does it mean [iridescence](subject)?
+    - '[earthquake](subject)'
+    - plz give info on [atom](subject)
+    - please explain [real](subject)
+    - i want to know more about [genetics](subject)
+    - what is [embryology](subject)?
+    - educate me on the topic of [environment](subject)
+    - can you tell me who [deep ecology](subject) is?
+    - i want to become an expert about [temperature](subject), please
+    - '[Western theatre](subject) definition'
+    - i want to know more about [emoticon](subject)
+    - i'd like to know more about [radiation](subject)
+    - what's [conservation of energy](subject) all about?
+    - what does it mean [electric field](subject)?
+    - teach me about [inhibition](subject)
+    - please explain [television](subject)
+    - i'm tryng to learn about [development](subject)
+    - can you tell me who [fluorescence](subject) is?
+    - '[modeling](subject) definition'
+    - I don't understand [wave](subject)
+    - i don't know the first thing about [information processing](subject)
+    - what is [Drafting](subject)?
+    - '[binary fission](subject)'
+    - what is [zebra fish](subject)?
+    - teach me about [composition](subject)
+    - info about [toque](subject), please
+    - i want to become an expert about [water supply system](subject), please
+    - what's [moment of a force](subject) all about?
+    - '[movie](subject) definition'
+    - i'm tryng to learn about [ratio](subject)
+    - provide information about [Reformation](subject)
+    - please explain [Caudata](subject)
+    - i'd like information on [elastomer](subject)
+    - '[electromagnet](subject)'
+    - can you tell me who [mechanics](subject) is?
+    - what is [pressure](subject)?
+    - what do you know about [electromagnetic spectrum](subject)?
+    - can you give me a description of [igneous rock](subject)
+    - i don't know the first thing about [sundial](subject)
+    - '[emotion](subject) information'
+    - i want to know more about [illusion](subject)
+    - what's [Kenneth Wartinbee Spence](subject) all about?
+    - i want to become an expert about [George Stubbs](subject), please
+    - please describe [history of the motion picture](subject)
+    - plz give info on [sublimation](subject)
+    - can you tell me about [waveguide](subject)?
+    - '[reflection](subject) information'
+    - can you describe to me [hand](subject)
+    - can you tell me about [magnetism](subject)?
+    - i want to learn about [shark](subject)
+    - elaborate on [electromagnetic radiation](subject)
+    - what is the meaning of [stereotype](subject)?
+    - i'm confused about [number](subject)
+    - what does it mean [smelting](subject)?
+    - what do you know about [ecotone](subject)?
+    - please explain [sound](subject)
+    - please tell me a little bit about [detection](subject)
+    - I was wondering if you could educate me on the subject of [information theory](subject)
+    - i'd like to know more about [telescope](subject)
+    - info about [streamline flow](subject), please
+    - what is [David Williamson](subject)?
+    - i don't know the first thing about [community ecology](subject)
+    - '[migration](subject) explanation'
+    - '[Mullā Ṣadrā](subject) definition'
+    - can you describe to me [law](subject)
+    - i'd like information on [psychomotor learning](subject)
+    - '[plankton](subject) explanation'
+    - i want to learn about [Huygens' principle](subject)
+    - what's [Scientific Revolution](subject) all about?
+    - I was wondering if you could educate me on the subject of [ocean current](subject)
+    - what is [amorphous solid](subject), if you please
+    - what is [frequency](subject), if you please
+    - '[Francesco Borromini](subject)'
+    - i'm tryng to learn about [Indian Ocean](subject)
+    - info about [respiratory system](subject), please
+    - can you tell me who [Barkhausen effect](subject) is?
+    - '[Western architecture](subject) definition'
+    - plz give info on [photodynamism](subject)
+    - can you give me a description of [friction](subject)
+    - what does it mean [magnetic field](subject)?
+    - '[damping](subject)'
+    - who was [Johannes Kepler](subject)?
+    - what is [recession](subject), if you please
+    - what does it mean [appearance](subject)?
+    - i'm tryng to learn about [Japanese architecture](subject)
+    - plese help me understand [angular momentum](subject)
+    - teach me about [motion](subject)
+    - plese help me understand [luminescence](subject)
+    - I don't understand [cryptology](subject)
+    - i want to learn about [balance](subject)
+    - I don't understand [telemetry](subject)
+    - i want to learn about [Ptolemy](subject)
+    - i want to learn about [Marcel Duchamp](subject)
+    - I was wondering if you could educate me on the subject of [transformation](subject)
+    - i'd like to know more about [equilibrium](subject)
+    - what is the meaning of [conservation law](subject)?
+    - who is [principles of physical science](subject)?
+    - teach me about [magnet](subject)
+    - teach me about [noise](subject)
+    - please tell me a little bit about [fluid mechanics](subject)
+    - please tell me a little bit about [architecture](subject)
+    - what do you know about [animation](subject)?
+    - i'm confused about [polarization](subject)
+    - who was [Ṣadr Ad-dīn Ash-shīrāzī](subject)?
+    - i don't know the first thing about [levitation](subject)
+    - plz give info on [frog and toad](subject)
+    - i'd like information on [excitation](subject)
+    - can you tell me about [preference](subject)?
+    - please explain [fatigue](subject)
+    - elaborate on [packing](subject)
+    - what do you know about [wind](subject)?
+    - '[surface](subject) information'
+    - '[flywheel](subject) definition'
+    - info about [nerve](subject), please
+    - I was wondering if you could educate me on the subject of [conservation of momentum](subject)
+    - can you give me a description of [marine](subject)
+    - i'd like to know more about [kinetic energy](subject)
+    - educate me on the topic of [navigation](subject)
+    - what is [lens](subject)?
+    - explain the concept of [tenson](subject)
+    - can you give me a description of [thermoreception](subject)
+    - can you tell me who [habitat](subject) is?
+    - i'm tryng to learn about [film](subject)
+    - can you tell me about [procession](subject)?
+    - '[scattering](subject) information'
+    - what do you know about [color](subject)?
+    - i'd like information on [art conservation and restoration](subject)
+    - can you tell me about [sculpture](subject)?
+    - elaborate on [mirror](subject)
+    - what does it mean [parallel](subject)?
+    - teach me about [spectroscopy](subject)
+    - plese help me understand [cosmic ray](subject)
+    - can you tell me who [cell](subject) is?
+    - info about [musical performance](subject), please
+    - '[newton](subject)'
+    - I don't understand [water](subject)
+    - teach me about [pendulum](subject)
+    - who is [judgement](subject)?
+    - provide information about [interior design](subject)
+    - please tell me a little bit about [Urodela](subject)
+    - please tell me a little bit about [gravitation](subject)
+    - I don't understand [comet](subject)
+    - '[psittaciform](subject)'
+    - please describe [Western painting](subject)
+    - i'd like information on [magnification](subject)
+    - educate me on the topic of [wavelength](subject)
+    - what is the meaning of [telecommunication](subject)?
+    - provide information about [light](subject)
+    - who was [transverse wave](subject)?
+    - i'd like to know more about [absorption](subject)
+    - what does it mean [melting](subject)?
+    - elaborate on [colour](subject)
+    - i'm tryng to learn about [emigration](subject)
+    - i don't know the first thing about [gas](subject)
+    - can you tell me about [reproduction](subject)?
+    - plz give info on [quantum mechanics](subject)
+    - plese help me understand [tension](subject)
+    - can you tell me who [flight](subject) is?
+    - i'd like an explanation about [uniform motion](subject)
+    - '[separation and purification](subject) explanation'
+    - who was [separation](subject)?
+    - can you give me a description of [spectrum](subject)
+    - '[aesthetics](subject) definition'
+    - i'd like to know more about [dispersion](subject)
+    - plz give info on [serpent](subject)
+    - i want to know more about [electromagnetism](subject)
+    - i'd like an explanation about [energy](subject)
+    - can you give me a description of [weather](subject)
+    - what is the meaning of [blight](subject)?
+    - explain the concept of [rectilinear motion](subject)
+    - who is [frame of reference](subject)?
+    - can you describe to me [succession](subject)
+    - i want to become an expert about [microscope](subject), please
+    - what is the meaning of [Volvox](subject)?
+    - what's [history of film](subject) all about?
+    - i'd like an explanation about [carbon dioxide](subject)
+    - i'd like to know more about [curve](subject)
+    - '[ball](subject) definition'
+    - '[echinoderm](subject) information'
+    - what is the meaning of [prisoner's dilemma](subject)?
+    - info about [pacing](subject), please
+    - I was wondering if you could educate me on the subject of [Ekman layer](subject)
+    - who is [magneto](subject)?
+    - info about [Huygens-Fresnel principle](subject), please
+    - please describe [geoid](subject)
+    - educate me on the topic of [retina](subject)
+    - i want to become an expert about [ordination](subject), please
+    - can you describe to me [opportunism](subject)
+    - can you tell me about [lateral](subject)?
+    - '[phosphorescence](subject) explanation'
+    - '[John Cassavetes](subject) information'
+    - who is [electrolysis](subject)?
+    - please tell me a little bit about [air](subject)

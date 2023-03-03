@@ -1,0 +1,49 @@
+version: "3.1"
+
+rules:
+
+- rule: return greeting
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - action: utter_how_help
+
+- rule: say i'm a bot
+  steps:
+    - intent: bot_challenge
+    - action: utter_iamabot
+
+- rule: say you're welcome
+  steps:
+    - intent: thanks
+    - action: utter_welcome
+
+- rule: say goodbye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- rule: respond to out-of-scope queries
+  steps:
+    - intent: out_of_scope
+    - action: utter_try_this
+
+
+- rule: activate explanation_form
+  steps:
+    - intent: ask_for_explanation
+    - action: explanation_form
+    - active_loop: explanation_form
+
+- rule: submit explanation_form
+  condition:
+  - active_loop: explanation_form
+  steps:
+  - action: explanation_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: action_get_results
+  - action: utter_here_is_info
+  - action: utter_give_explanation
+  - action: action_reset_subject
