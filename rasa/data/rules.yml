@@ -6,7 +6,6 @@ rules:
   steps:
     - intent: greet
     - action: utter_greet
-    - action: utter_how_help
 
 - rule: say i'm a bot
   steps:
@@ -28,22 +27,74 @@ rules:
     - intent: out_of_scope
     - action: utter_try_this
 
-
-- rule: activate explanation_form
+- rule: when user requests an explanation, ask for the subject (if not given)
+  condition:
+    - slot_was_set:
+        - subject: null
   steps:
     - intent: ask_for_explanation
-    - action: explanation_form
-    - active_loop: explanation_form
+    - action: utter_what_subject
 
-- rule: submit explanation_form
+- rule: when user requests an explanation of a subject, get matches
   condition:
-  - active_loop: explanation_form
+    - slot_was_set:
+        - subject: subject
   steps:
-  - action: explanation_form
-  - active_loop: null
-  - slot_was_set:
-    - requested_slot: null
-  - action: action_get_results
-  - action: utter_here_is_info
-  - action: utter_give_explanation
-  - action: action_reset_subject
+    - intent: ask_for_explanation
+    - action: action_get_match_ids
+  wait_for_user_input: false
+
+- rule: when no matches are found, inform user and ask what's next
+  steps:
+    - action: action_get_match_ids
+    - slot_was_set:
+        - matches_available: false
+    - action: utter_found_nothing
+    - action: action_reset_subject
+    - action: utter_how_else_help
+
+- rule: when matches are found, give explanation and ask for confirmation
+  steps:
+    - action: action_get_match_ids
+    - slot_was_set:
+        - matches_available: true
+    - action: action_give_explanation
+    - slot_was_set:
+        - subject: subject
+    - or:
+        - slot_was_set:
+            - matches_available: true
+        - slot_was_set:
+            - matches_available: false
+    - action: utter_confirm_explanation
+
+- rule: when user affirms explanation, ask what's next
+  steps:
+    - action: utter_confirm_explanation
+    - intent: affirm
+    - action: action_reset_subject
+    - action: action_reset_match_ids
+    - action: action_reset_matches_available
+    - action: action_reset_num_tries
+    - action: utter_great
+    - action: utter_how_else_help
+
+- rule: when user rejects explanation, give the next result
+  steps:
+    - action: utter_confirm_explanation
+    - intent: deny
+    - action: utter_thanks_for_feedback
+    - action: action_give_explanation
+    - slot_was_set:
+        - subject: subject
+    - action: utter_confirm_explanation
+
+- rule: when user rejects final explanation, inform and ask what's next
+  steps:
+    - action: utter_confirm_explanation
+    - intent: deny
+    - action: utter_thanks_for_feedback
+    - action: action_give_explanation
+    - slot_was_set:
+        - subject: null
+    - action: utter_how_else_help
