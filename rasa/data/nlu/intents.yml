@@ -223,67 +223,67 @@ nlu:
     - what is your favorite season?
     - who is the president of the US?
 
-- intent: ask_favorite_exhibit
-  examples: |
-    - what is your favorite exhibit?
-    - which exhibit do you like best?
-    - which exhibit is the best?
-    - what is your fave exhibit?
-    - what's the best one to visit?
-    - which exhibit is your number 1?
-    - what is the most excited exhibit at the exploratorium?
-    - i'd like to know which exhibit is your favorite
-    - i'm wondering which exhibit you prefer
-    - can you recommend an exhibit, please?
-    - i'm looking for an exhibit recommendation
-    - which exhibit should i visit next?
-
-- intent: ask_about_exhibit_creator
-  examples: |
-    - who created the {name} exhibit?
-    - who invented {exhibit name}?
-    - which people made the {name} exhibit?
-    - who developed this exhibit?
-    - who are the individuals responsible for {exhibit name}?
-    - what's the name of the person who created this exhibit?
-    - who is the creator?
-    - who's the inventor?
-    - what's the name of the mastermind?
-    - did an artist make this?
-    - who designs the exhibits at the exploratorium?
-    - who are the people that created this?
-    - who is the maker?
-    - what's the name of the artist?
-    - who thought of {exhibit name}
-
-- intent: ask_about_exhibit_date
-  examples: |
-    - how long has {exhibit name} been at the exploratorium?
-    - how old is this exhibit?
-    - what year was this created?
-    - how long has this been around?
-    - what date was the {name} exhibit first opened?
-    - in what year did this exhibit come to be?
-    - when was this exhibit created?
-    - when was {exhibit name} added to the museum?
-    - what year did {exhibit name} debut?
-    - please tell me when the {name} exhibit was created
-    - i'd like to know how old this exhibit is
-    - do you know when this exhibit was created?
-    - can you tell me what year {exhibit name} was debuted?
-
-- intent: ask_about_exhibit
-  examples: |
-    - what is this exhibit all about?
-    - what is going on in {exhibit name}?
-    - please explain the theme of {exhibit name}
-    - tell me about this exhibit
-    - can you tell me what this exhibit is about?
-    - do you know how {exhibit name} works?
-    - what is the theme of this exhibit?
-
-- intent: ask_about_gallery
-  examples: |
-    - what is the theme of this gallery?
-    - who created the gallery?
+#- intent: ask_favorite_exhibit
+#  examples: |
+#    - what is your favorite exhibit?
+#    - which exhibit do you like best?
+#    - which exhibit is the best?
+#    - what is your fave exhibit?
+#    - what's the best one to visit?
+#    - which exhibit is your number 1?
+#    - what is the most excited exhibit at the exploratorium?
+#    - i'd like to know which exhibit is your favorite
+#    - i'm wondering which exhibit you prefer
+#    - can you recommend an exhibit, please?
+#    - i'm looking for an exhibit recommendation
+#    - which exhibit should i visit next?
+#
+#- intent: ask_about_exhibit_creator
+#  examples: |
+#    - who created the {name} exhibit?
+#    - who invented {exhibit name}?
+#    - which people made the {name} exhibit?
+#    - who developed this exhibit?
+#    - who are the individuals responsible for {exhibit name}?
+#    - what's the name of the person who created this exhibit?
+#    - who is the creator?
+#    - who's the inventor?
+#    - what's the name of the mastermind?
+#    - did an artist make this?
+#    - who designs the exhibits at the exploratorium?
+#    - who are the people that created this?
+#    - who is the maker?
+#    - what's the name of the artist?
+#    - who thought of {exhibit name}
+#
+#- intent: ask_about_exhibit_date
+#  examples: |
+#    - how long has {exhibit name} been at the exploratorium?
+#    - how old is this exhibit?
+#    - what year was this created?
+#    - how long has this been around?
+#    - what date was the {name} exhibit first opened?
+#    - in what year did this exhibit come to be?
+#    - when was this exhibit created?
+#    - when was {exhibit name} added to the museum?
+#    - what year did {exhibit name} debut?
+#    - please tell me when the {name} exhibit was created
+#    - i'd like to know how old this exhibit is
+#    - do you know when this exhibit was created?
+#    - can you tell me what year {exhibit name} was debuted?
+#
+#- intent: ask_about_exhibit
+#  examples: |
+#    - what is this exhibit all about?
+#    - what is going on in {exhibit name}?
+#    - please explain the theme of {exhibit name}
+#    - tell me about this exhibit
+#    - can you tell me what this exhibit is about?
+#    - do you know how {exhibit name} works?
+#    - what is the theme of this exhibit?
+#
+#- intent: ask_about_gallery
+#  examples: |
+#    - what is the theme of this gallery?
+#    - who created the gallery?
     
