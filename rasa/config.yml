@@ -1,0 +1,30 @@
+recipe: default.v1
+
+language: en
+
+pipeline:
+  - name: WhitespaceTokenizer
+  - name: RegexFeaturizer
+  - name: CountVectorsFeaturizer  # sparse features at the character level
+  - name: CountVectorsFeaturizer # creates bag of words representation (sparse features)
+    analyzer: char_wb  # counts n-grams
+    min_ngram: 1
+    max_ngram: 4
+  - name: LexicalSyntacticFeaturizer  # lexical and syntactic (sparse) features; can add POS w/ Spacy
+  - name: DIETClassifier
+    epochs: 30
+    constrain_similarities: True
+    random_seed: 42
+  - name: FallbackClassifier
+    threshold: 0.3
+#    ambiguity_threshold: 0.1
+
+policies:
+  - name: RulePolicy
+  - name: MemoizationPolicy
+  - name: UnexpecTEDIntentPolicy
+    max_history: 10
+    epochs: 10
+  - name: TEDPolicy
+    max_history: 10
+    epochs: 10
