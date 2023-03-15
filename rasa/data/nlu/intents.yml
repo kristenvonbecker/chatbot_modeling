@@ -279,21 +279,27 @@ nlu:
     - what is your favorite season?
     - who is the president of the US?
 
-#- intent: ask_favorite_exhibit
-#  examples: |
-#    - what is your favorite exhibit?
-#    - which exhibit do you like best?
-#    - which exhibit is the best?
-#    - what is your fave exhibit?
-#    - what's the best one to visit?
-#    - which exhibit is your number 1?
-#    - what is the most excited exhibit at the exploratorium?
-#    - i'd like to know which exhibit is your favorite
-#    - i'm wondering which exhibit you prefer
-#    - can you recommend an exhibit, please?
-#    - i'm looking for an exhibit recommendation
-#    - which exhibit should i visit next?
-#
+- intent: ask_fave_exhibit
+  examples: |
+    - what is your favorite exhibit?
+    - which exhibit do you like best?
+    - which exhibit is the best?
+    - what is your fave exhibit?
+    - what's the best one to visit?
+    - which exhibit is your number 1?
+    - what is the most exciting exhibit at the exploratorium?
+    - which exhibit is the coolest?
+    - what part of the exploratorium is your favorite?
+    - which thing at the museum do you like best?
+    - what's your favorite?
+    - i'd like to know which exhibit is your favorite
+    - i'm wondering which exhibit you prefer
+    - which exhibit should I see first?
+    - which exhibit should i not miss?
+    - where should i go first?
+    - what should I see first?
+    - which exhibit should I see at the Exploratorium?
+
 #- intent: ask_about_exhibit_creator
 #  examples: |
 #    - who created the {name} exhibit?

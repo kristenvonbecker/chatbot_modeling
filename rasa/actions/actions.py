@@ -1,66 +1,20 @@
-import logging
-
 from rasa_sdk.events import SlotSet, SessionStarted, ActionExecuted, BotUttered
 from rasa_sdk import Action, Tracker
-from rasa_sdk.forms import ValidationAction
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.types import DomainDict
-
+from rasa_sdk.forms import ValidationAction
 from typing import Any, Text, Dict, List
-import os
-import json
-import pandas as pd
-import ast
-from fuzzywuzzy import fuzz, process
-from nltk.tokenize import sent_tokenize
-
+from actions import scripts
+from actions import knowledgebase
 from dotenv import load_dotenv
+import logging
+import random
+from importlib import reload
+reload(scripts)
+reload(knowledgebase)
+
 load_dotenv()
-
 logger = logging.getLogger(__name__)
-
-
-# import data needed for chatbot responses
-
-home = os.getenv("PROJ_HOME")
-exhibits_filepath = os.path.join(home, "data/chatbot_knowledgebase/institutional/exhibits.json")
-galleries_filepath = os.path.join(home, "data/chatbot_knowledgebase/institutional/galleries.json")
-articles_filepath = os.path.join(home, "data/chatbot_knowledgebase/subject_matter/article_data.json")
-
-with open(exhibits_filepath, "r") as f:
-    exhibits = json.load(f)
-
-with open(galleries_filepath, "r") as f:
-    galleries = json.load(f)
-
-with open(articles_filepath, "r") as f:
-    articles = json.load(f)
-
-title_aliases = []
-alias_id_lookup = {}
-text_id_lookup = {}
-for article in articles:
-    article["aliases"].insert(0, article["title"])
-    del article["title"]
-    title_aliases += article["aliases"]
-    alias_id_lookup.update({
-        article["article_id"]: article["aliases"]
-    })
-    text_id_lookup.update({
-        article["article_id"]: article["paragraphs"]
-    })
-
-
-def get_title_matches(subject, threshold=90, scorer=fuzz.WRatio):
-    matches = process.extract(subject, title_aliases, scorer=scorer, limit=5)
-    matches.sort(key=lambda item: item[1], reverse=True)
-    good_matches = [match for (match, score) in matches if score >= threshold]
-    return good_matches
-
-
-def get_text(article_id):
-    text = text_id_lookup[article_id][0]
-    return text
 
 
 class ActionSessionStart(Action):
@@ -96,10 +50,10 @@ class ActionGetMatchIds(Action):
         subject = tracker.get_slot("subject")
         matches = []
         if subject:
-            matches += get_title_matches(subject)
+            matches += scripts.get_title_matches(subject)
         match_ids = []
         for match in matches:
-            for article_id, aliases in alias_id_lookup.items():
+            for article_id, aliases in knowledgebase.alias_id_lookup.items():
                 if match in aliases:
                     match_ids.append(article_id)
         match_ids = list(set(match_ids))
@@ -126,7 +80,7 @@ class ActionGiveExplanation(Action):
         if not subject:
             return []
         if matches_available:
-            explanation = get_text(match_ids[num_tries])
+            explanation = scripts.get_text(match_ids[num_tries])
             if num_tries == 0:
                 dispatcher.utter_message(response="utter_found_something")
             else:
@@ -148,33 +102,50 @@ class ActionGiveExplanation(Action):
             ]
 
 
+class ActionGiveFaveExhibit(Action):
+    def name(self) -> Text:
+        return "action_give_fave_exhibit"
+
+    def run(self,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: DomainDict
+            ) -> List[Dict[Text, Any]]:
+        exhibit_id, exhibit_name, fun_fact = scripts.get_fave_exhibit()
+        if fun_fact:
+            fun_fact_alt = fun_fact[0].lower() + fun_fact[1:].rstrip(".")
+            msgs = [
+                f"My favorite exhibit at the Exploratorium is {exhibit_name}, because {fun_fact_alt}.",
+                f"I like to recommend an exhibit called {exhibit_name}. {fun_fact}",
+                f"One of the highlights of the Exploratorium is {exhibit_name}, since {fun_fact_alt}."
+            ]
+        else:
+            msgs = [
+                f"My favorite exhibit at the Exploratorium is {exhibit_name}.",
+                f"I like to recommend an exhibit called {exhibit_name}.",
+                f"One of the highlights of the Exploratorium is {exhibit_name}."
+            ]
+        msg = random.choice(msgs)
+        dispatcher.utter_message(text=msg)
+        return []
+
+
+class ActionResetExplanationSlots(Action):
+    def name(self) -> Text:
+        return "action_reset_explanation_slots"
+
+    def run(self, dispatcher, tracker, domain) -> List[Dict[Text, Any]]:
+        return [
+            SlotSet("subject", None),
+            SlotSet("match_ids", []),
+            SlotSet("matches_available", False),
+            SlotSet("num_tries", 0)
+        ]
+
+
 class ActionResetSubject(Action):
     def name(self) -> Text:
         return "action_reset_subject"
 
     def run(self, dispatcher, tracker, domain) -> List[Dict[Text, Any]]:
         return [SlotSet("subject", None)]
-
-
-class ActionResetMatchIds(Action):
-    def name(self) -> Text:
-        return "action_reset_match_ids"
-
-    def run(self, dispatcher, tracker, domain) -> List[Dict[Text, Any]]:
-        return [SlotSet("match_ids", [])]
-
-
-class ActionResetMatchesAvailable(Action):
-    def name(self) -> Text:
-        return "action_reset_matches_available"
-
-    def run(self, dispatcher, tracker, domain) -> List[Dict[Text, Any]]:
-        return [SlotSet("matches_available", False)]
-
-
-class ActionResetNumTries(Action):
-    def name(self) -> Text:
-        return "action_reset_num_tries"
-
-    def run(self, dispatcher, tracker, domain) -> List[Dict[Text, Any]]:
-        return [SlotSet("num_tries", 0)]

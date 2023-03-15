@@ -60,10 +60,7 @@ rules:
       - intent: affirm
       - intent: affirm+thanks
       - intent: thanks
-    - action: action_reset_subject
-    - action: action_reset_match_ids
-    - action: action_reset_matches_available
-    - action: action_reset_num_tries
+    - action: action_reset_explanation_slots
     - action: utter_great
     - action: utter_how_else_help
 
@@ -90,3 +87,8 @@ rules:
     - slot_was_set:
         - subject: null
     - action: utter_how_else_help
+
+- rule: respond to user's request for my favorite exhibit
+  steps:
+    - intent: ask_fave_exhibit
+    - action: action_give_fave_exhibit

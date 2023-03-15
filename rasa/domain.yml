@@ -13,6 +13,7 @@ intents:
 - chitchat
 - out_of_scope
 - stop
+- ask_fave_exhibit
 
 entities:
 - subject
@@ -112,7 +113,6 @@ actions:
 - action_session_start
 - action_get_match_ids
 - action_give_explanation
-- action_reset_match_ids
-- action_reset_matches_available
-- action_reset_num_tries
+- action_reset_explanation_slots
 - action_reset_subject
+- action_give_fave_exhibit
