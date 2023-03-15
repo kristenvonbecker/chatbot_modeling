@@ -2,25 +2,10 @@ version: "3.1"
 
 rules:
 
-- rule: return greeting
+- rule: respond to chitchat
   steps:
-    - intent: greet
-    - action: utter_greet
-
-- rule: say i'm a bot
-  steps:
-    - intent: bot_challenge
-    - action: utter_iamabot
-
-- rule: say you're welcome
-  steps:
-    - intent: thanks
-    - action: utter_welcome
-
-- rule: say goodbye
-  steps:
-    - intent: goodbye
-    - action: utter_goodbye
+    - intent: chitchat
+    - action: utter_chitchat
 
 - rule: respond to out-of-scope queries
   steps:
@@ -71,7 +56,10 @@ rules:
 - rule: when user affirms explanation, ask what's next
   steps:
     - action: utter_confirm_explanation
-    - intent: affirm
+    - or:
+      - intent: affirm
+      - intent: affirm+thanks
+      - intent: thanks
     - action: action_reset_subject
     - action: action_reset_match_ids
     - action: action_reset_matches_available
@@ -82,7 +70,9 @@ rules:
 - rule: when user rejects explanation, give the next result
   steps:
     - action: utter_confirm_explanation
-    - intent: deny
+    - or:
+      - intent: deny
+      - intent: deny+thanks
     - action: utter_thanks_for_feedback
     - action: action_give_explanation
     - slot_was_set:
@@ -92,7 +82,9 @@ rules:
 - rule: when user rejects final explanation, inform and ask what's next
   steps:
     - action: utter_confirm_explanation
-    - intent: deny
+    - or:
+      - intent: deny
+      - intent: deny+thanks
     - action: utter_thanks_for_feedback
     - action: action_give_explanation
     - slot_was_set:

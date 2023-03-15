@@ -4,20 +4,25 @@ language: en
 
 pipeline:
   - name: WhitespaceTokenizer
+    intent_tokenization_flag: True
+    intent_split_symbol: "+"
   - name: RegexFeaturizer
-  - name: CountVectorsFeaturizer  # sparse features at the character level
-  - name: CountVectorsFeaturizer # creates bag of words representation (sparse features)
-    analyzer: char_wb  # counts n-grams
+  - name: CountVectorsFeaturizer
+  - name: CountVectorsFeaturizer
+    analyzer: char_wb
     min_ngram: 1
     max_ngram: 4
-  - name: LexicalSyntacticFeaturizer  # lexical and syntactic (sparse) features; can add POS w/ Spacy
+  - name: LexicalSyntacticFeaturizer
   - name: DIETClassifier
     epochs: 30
-    constrain_similarities: True
+    constrain_similarities: True  # what does this do??
     random_seed: 42
+  - name: ResponseSelector
+    epochs: 30
+    retrieval_intent: chitchat
   - name: FallbackClassifier
     threshold: 0.3
-#    ambiguity_threshold: 0.1
+    ambiguity_threshold: 0.1
 
 policies:
   - name: RulePolicy

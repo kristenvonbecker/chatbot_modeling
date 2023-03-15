@@ -2,7 +2,7 @@ version: "3.1"
 
 nlu:
 
-- intent: greet
+- intent: chitchat/greet
   examples: |
     - hey there
     - hellooooooo
@@ -40,7 +40,25 @@ nlu:
     - howdy
     - what's up?
 
-- intent: goodbye
+- intent: chitchat/ask_mood
+  examples: |
+    - how are you?
+    - how are you doing today?
+    - how's it going?
+    - are you well?
+    - how are things?
+    - I hope you are well
+    - how are things?
+    - how's life?
+
+- intent: chitchat/greet+ask_mood
+  examples: |
+    - hey, how's it going?
+    - hi, how are you?
+    - hello, how are you today?
+    - hey there! how are things going?
+
+- intent: chitchat/goodbye
   examples: |
     - good-bye
     - later, tater
@@ -67,7 +85,16 @@ nlu:
     - i'm leaving now
     - i would like to end the conversation
 
-- intent: thanks
+- intent: chitchat/thanks+goodbye
+  examples: |
+    - thank you, goodbye
+    - thanks for your help, bye!
+    - thanks, see you later
+    - I appreciate your help. Goodbye!
+    - thanks a lot, i gotta go
+    - okay, thanks, bye!
+
+- intent: chitchat/thanks
   examples: |
     - thank you
     - thanks so much
@@ -89,9 +116,6 @@ nlu:
     - thx
     - kthx
     - ty
-    - excellent
-    - perfect
-    - that's exactly what i'm looking for
 
 - intent: affirm
   examples: |
@@ -118,7 +142,22 @@ nlu:
     - confirm
     - affirmative
     - i guess so
+    - i think so
+    - i guess
     - sure
+
+- intent: affirm+thanks
+  examples: |
+    - that's right, thanks
+    - yep, thank you
+    - thanks, that's correct
+    - yes, thanks
+    - indeed, and I appreciate it
+    - indeed, excellent!
+    - that's exactly what i'm looking for
+    - yes indeed, thank you so much
+    - sure, thanks
+    - yes and thanks
 
 - intent: deny
   examples: |
@@ -148,7 +187,16 @@ nlu:
     - not at all
     - absolutely not
 
-- intent: bot_challenge
+- intent: deny+thanks
+  examples: |
+    - no thank you
+    - no thanks
+    - nope, but thanks
+    - no, but I appreciate your effort
+    - thanks, but that's not correct
+    - thanks but no
+
+- intent: chitchat/bot_challenge
   examples: |
     - are you a bot?
     - are you a human?
@@ -173,6 +221,14 @@ nlu:
     - you a machine?
     - are you computer
     - ru bot
+
+- intent: chitchat/greet+bot_challenge
+  examples: |
+    - hi, what's your name?
+    - hello, who am I speaking with?
+    - hi, who goes there?
+    - hey there, who are you?
+    - hey, are you a human?
 
 - intent: stop
   examples: |

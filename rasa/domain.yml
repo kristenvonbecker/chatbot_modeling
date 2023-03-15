@@ -4,16 +4,16 @@ session_config:
   carry_over_slots_to_new_session: false
 intents:
 - affirm
+- deny
+- affirm+thanks
+- deny+thanks
 - ask_for_explanation:
     use_entities:
     - subject
-- bot_challenge
-- deny
-- goodbye
-- greet
+- chitchat
 - out_of_scope
 - stop
-- thanks
+
 entities:
 - subject
 slots:
@@ -49,7 +49,7 @@ responses:
   - text: Hello! I'm Explorer AI, a virtual assistant for visitors to the Exploratorium in San Fransisco.
   utter_what_i_do:
   - text: I've been trained to answer questions about the Exploratorium's exhibits and the concepts they illustrate.
-  utter_greet:
+  utter_chitchat/greet:
   - text: Hey there!
   - text: Hello :)
   - text: Hi!!
@@ -58,6 +58,22 @@ responses:
   - text: That's great!
   - text: Good to hear.
   - text: Excellent!
+  utter_okay:
+  - text: Okay.
+  utter_chitchat/ask_mood:
+  - text: I'm great, thanks for asking!
+  - text: I am doing well!
+  - text: I'm well, thank you!
+  utter_chitchat/greet+ask_mood:
+  - text: Hello! I'm doing well, thanks for asking.
+  - text: Hi! :) I'm swell, thanks.
+  - text: Hey! I'm doing pretty well.
+  utter_chitchat/thanks+goodbye:
+  - text: No problem! See you later.
+  - text: Glad I could help -- goodbye!
+  - text: You're very welcome. Bye :)
+  utter_chitchat/greet+bot_challenge:
+  - text: Hello! I am Explorer AI, a chatbot.
   utter_thanks_for_feedback:
   - text: Thanks for the feedback.
   - text: Sorry about that; I'm still learning.
@@ -78,13 +94,13 @@ responses:
   - text: Here's something else I found in the Encyclopedia Britannica.
   utter_confirm_explanation:
   - text: Does that answer your question?
-  utter_iamabot:
+  utter_chitchat/bot_challenge:
   - text: I am Explorer AI, a chatbot. :)
-  utter_welcome:
+  utter_chitchat/thanks:
   - text: Glad I could be of assistance!
   - text: You're very welcome.
   - text: No problem at all!
-  utter_goodbye:
+  utter_chitchat/goodbye:
   - text: Bye :)
   - text: See you next time!
   - text: Goodbye!
@@ -96,7 +112,7 @@ actions:
 - action_session_start
 - action_get_match_ids
 - action_give_explanation
-- action_reset_matches_available
 - action_reset_match_ids
+- action_reset_matches_available
 - action_reset_num_tries
 - action_reset_subject
