@@ -25,7 +25,7 @@ logger = logging.getLogger(__name__)
 home = os.getenv("PROJ_HOME")
 exhibits_filepath = os.path.join(home, "data/chatbot_knowledgebase/institutional/exhibits.json")
 galleries_filepath = os.path.join(home, "data/chatbot_knowledgebase/institutional/galleries.json")
-articles_filepath = os.path.join(home, "data/chatbot_knowledgebase/subject_matter/encyclopedia_britannica.csv")
+articles_filepath = os.path.join(home, "data/chatbot_knowledgebase/subject_matter/article_data.json")
 
 with open(exhibits_filepath, "r") as f:
     exhibits = json.load(f)
@@ -33,29 +33,22 @@ with open(exhibits_filepath, "r") as f:
 with open(galleries_filepath, "r") as f:
     galleries = json.load(f)
 
-articles = pd.read_csv(articles_filepath,
-                       header=0,
-                       names=["Id", "Title", "Alt Title", "Field", "Is Person", "Text"],
-                       index_col=0)
+with open(articles_filepath, "r") as f:
+    articles = json.load(f)
 
-ids = articles.index.tolist()
-titles = articles["Title"]
-alt_titles = articles["Alt Title"].apply(lambda x: ast.literal_eval(x))
-field = articles["Field"].apply(lambda x: ast.literal_eval(x))
-is_person = articles["Is Person"]
-text = articles["Text"]
-
-alias_id_lookup = {}
 title_aliases = []
-for article_id, main_title, alt_titles in zip(ids, titles, alt_titles):
-    aliases = [main_title] + alt_titles
-    alias_id_lookup.update({article_id: aliases})
-    title_aliases += aliases
-
-
+alias_id_lookup = {}
 text_id_lookup = {}
-for article_id, text in zip(ids, text):
-    text_id_lookup.update({article_id: text})
+for article in articles:
+    article["aliases"].insert(0, article["title"])
+    del article["title"]
+    title_aliases += article["aliases"]
+    alias_id_lookup.update({
+        article["article_id"]: article["aliases"]
+    })
+    text_id_lookup.update({
+        article["article_id"]: article["paragraphs"]
+    })
 
 
 def get_title_matches(subject, threshold=90, scorer=fuzz.WRatio):
@@ -65,11 +58,9 @@ def get_title_matches(subject, threshold=90, scorer=fuzz.WRatio):
     return good_matches
 
 
-def get_text(article_id, num_sent=3):
-    full_text = text_id_lookup[article_id]
-    sentences = sent_tokenize(full_text)
-    txt = " ".join(sentences[:num_sent])
-    return txt
+def get_text(article_id):
+    text = text_id_lookup[article_id][0]
+    return text
 
 
 class ActionSessionStart(Action):
@@ -135,7 +126,7 @@ class ActionGiveExplanation(Action):
         if not subject:
             return []
         if matches_available:
-            explanation = get_text(match_ids[num_tries], num_sent=3)
+            explanation = get_text(match_ids[num_tries])
             if num_tries == 0:
                 dispatcher.utter_message(response="utter_found_something")
             else:
