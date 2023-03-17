@@ -1,0 +1,27 @@
+version: '3.1'
+nlu:
+- intent: inform_like_exhibit
+  examples: |
+    - that's my favorite exhibit
+    - I love that exhibit
+    - it's a great exhibit
+    - it's my fave
+    - I'm a big fan of it
+    - I really like the exhibit
+    - it's one of my favorite parts of the museum
+    - my favorite exhibit is [Big Tuning Fork](exhibit)
+    - the exhibit that I like best is [Chicken Eggs](exhibit)
+    - I prefer [Bacteria Wall](exhibit)
+    - the exhibit I like best is [Café Wall Illusion](exhibit)
+    - you should know that I like [Drinking Fountain](exhibit) the best
+    - I'm particularly fond of the exhibit [Bronze Hand](exhibit)
+    - I happen to really enjoy [Toothpick Roller Coaster](exhibit)
+    - '[Fog Bridge #72494](exhibit) is the most awesome exhibit'
+    - the exhibit [Disappearing Rings](exhibit) is pretty cool
+    - I absolutely love [The Edge Makes the Difference](exhibit)
+    - the best exhibit at the museum is [RayLights](exhibit)
+    - I really like the [Bubble Sheet](exhibit)
+    - a really fun exhibit at the Exploratorium is [Rolling Through the Bay](exhibit)
+    - '[Are Your Cells You?](exhibit) was really fun!'
+    - we really enjoyed [Small Monatomic Molecules](exhibit) exhibit
+    - '[Sun Swarm](exhibit) is my favorite!'

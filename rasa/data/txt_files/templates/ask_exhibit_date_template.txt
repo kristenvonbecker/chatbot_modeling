@@ -1,0 +1,20 @@
+how old is this exhibit?
+what year was this created?
+how old is it?
+is it old?
+how long has it been around?
+when did this exhibit start?
+how long has this been around?
+in what year did this exhibit come to be?
+when was this exhibit created?
+i'd like to know how old this exhibit is
+do you know when this exhibit was created?
+what date was the [](exhibit) exhibit first opened?
+when was [](exhibit) added to the museum?
+what year did [](exhibit) debut?
+please tell me when the [](exhibit) exhibit was created
+can you tell me what year [](exhibit) was debuted?
+how long has [](exhibit) been at the exploratorium?
+when did [](exhibit) first show up?
+what date was [](exhibit) created?
+how old is [](exhibit)?

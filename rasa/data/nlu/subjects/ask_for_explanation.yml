@@ -1,0 +1,59 @@
+version: '3.1'
+nlu:
+- intent: ask_for_explanation
+  examples: |
+    - I've got a question
+    - can i ask you something
+    - I'd like to ask a question, please.
+    - Can you please explain something for me?
+    - I'd like to understand something
+    - i'm confused about a topic and would like an explanation
+    - please explain a topic for me
+    - please tell me what you know!
+    - Tell me about a topic
+    - tell me something
+    - Explain it like I'm a child
+    - I'd like to ask a question, if that's okay
+    - is it possible to ask you questions?
+    - Can you teach me about a subject?
+    - I would like to know something
+    - can you tell me about [clouded leopard](subject)?
+    - what is [felsic and mafic rocks](subject)?
+    - please describe [teacher education](subject)
+    - what does it mean [Ragged Dick](subject)?
+    - what's [Ailsa Craig](subject) all about?
+    - what is the meaning of [The Artist](subject)?
+    - what is [significant digits](subject), if you please
+    - can you describe to me [Airspace](subject)
+    - can you give me a description of [The Mirror](subject)
+    - i'd like to know more about [metal](subject)
+    - what do you know about [transposing musical instrument](subject)?
+    - explain the concept of [embryology](subject)
+    - please explain [intertropical convergence zone](subject)
+    - i'd like information on [scientific visualization](subject)
+    - info about [universe](subject), please
+    - I don't understand [United Nations Research Institute for Social Development](subject)
+    - i'm confused about [Augustan History](subject)
+    - plz give info on [circuit breaker](subject)
+    - i want to become an expert about [telescope](subject), please
+    - i want to know more about [United Nations Research Institute for Social Development](subject)
+    - provide information about [Ocean](subject)
+    - plese help me understand [sand](subject)
+    - '[shingle](subject)'
+    - '[mortar](subject) definition'
+    - '[magnetic mirror](subject) information'
+    - '[sublimation](subject) explanation'
+    - '[ferret](subject) explain it'
+    - '[futhark](subject) what is it?'
+    - i don't know the first thing about [stringed instrument](subject)
+    - i'm tryng to learn about [Out of the Past](subject)
+    - teach me about [wheel lock](subject)
+    - i want to learn about [sunlight](subject)
+    - educate me on the topic of [Archimedes principle](subject)
+    - elaborate on [extrasensory perception](subject)
+    - i'd like an explanation about [bay](subject)
+    - who was [sexuality](subject)?
+    - who is [canvas](subject)?
+    - can you tell me who [The Way of the World](subject) is?
+    - please tell me a little bit about [antiangiogenic agent](subject)
+    - I was wondering if you could educate me on the subject of [parallax](subject)

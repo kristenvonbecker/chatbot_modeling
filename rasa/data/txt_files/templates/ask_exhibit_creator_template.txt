@@ -1,0 +1,24 @@
+who developed this exhibit?
+what's the name of the person who created this exhibit?
+who is the creator?
+who's the inventor?
+who made it?
+who designed it?
+what's the name of the mastermind?
+did an artist make this?
+who designs the exhibits at the exploratorium?
+who are the people that created this?
+who is the maker?
+who made it?
+who invented this?
+who thought this up?
+which people created it?
+what's the name of the artist?
+who created the [](exhibit) exhibit?
+who thought up the idea of [](exhibit)?
+which brilliant person designed [](exhibit)?
+who invented [](exhibit)?
+which people made the [](exhibit) exhibit?
+who are the individuals responsible for [](exhibit)?
+who thought of [](exhibit)?
+which people are the masterminds behind [](exhibit)?

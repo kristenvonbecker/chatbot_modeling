@@ -1,0 +1,10 @@
+version: '3.1'
+nlu:
+- lookup: gallery
+  examples: |
+    - 'Gordon and Betty Moore Gallery 4: Living Systems'
+    - 'Gallery 2: Tinkering'
+    - 'Gallery 5: Outdoor Exhibits'
+    - 'Bechtel Gallery 3: Seeing & Reflections'
+    - 'Bernard and Barbro Osher Gallery 1: Human Phenomena'
+    - 'Fisher Bay Observatory Gallery 6: Observing Landscapes'

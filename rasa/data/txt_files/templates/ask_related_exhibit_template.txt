@@ -1,0 +1,14 @@
+what else is like it?
+related exhibit, please
+something similar
+can you recommend a related exhibit?
+which other exhibits at the exploratorium are like this one?
+can you recommend something similar?
+that was fun, what should I visit next?
+what other exhibits are similar to this?
+please recommend something similar
+please tell me which other exhibits are like [](exhibit)
+I'd like to visit an exhibit like [](exhibit)
+which exhibits are similar to [](exhibit)?
+I'm looking for an exhibit like [](exhibit)
+what else at the Exploratorium is similar to [](exhibit)?

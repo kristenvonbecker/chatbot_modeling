@@ -1,0 +1,18 @@
+version: '3.1'
+nlu:
+- intent: ask_related_exhibit
+  examples: |
+    - what else is like it?
+    - related exhibit, please
+    - something similar
+    - can you recommend a related exhibit?
+    - which other exhibits at the exploratorium are like this one?
+    - can you recommend something similar?
+    - that was fun, what should I visit next?
+    - what other exhibits are similar to this?
+    - please recommend something similar
+    - please tell me which other exhibits are like [Chicken Wire](exhibit)
+    - I'd like to visit an exhibit like [Giant Spherical Mirror](exhibit)
+    - which exhibits are similar to [Anamorphic Bench](exhibit)?
+    - I'm looking for an exhibit like [Magnetic Sand](exhibit)
+    - what else at the Exploratorium is similar to [Praxinoscope Tower](exhibit)?

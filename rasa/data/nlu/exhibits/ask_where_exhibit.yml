@@ -1,0 +1,20 @@
+version: '3.1'
+nlu:
+- intent: ask_where_exhibit
+  examples: |
+    - please tell me where I can find it
+    - is the exhibit on display?
+    - I'm looking for an exhibit
+    - I can't find the exhibit
+    - can you tell me where I can find it?
+    - where's it at?
+    - where?
+    - where is the exhibit located?
+    - where is [Research Buoy](exhibit)?
+    - where can I find [Pi Has Your Number](exhibit)?
+    - in which gallery can I find [Giant Spherical Mirror](exhibit)?
+    - I can't seem to locate [Sharing Faces](exhibit)
+    - where can [Fluttering](exhibit) be found?
+    - I'm trying to locate [Disagreeing About Color](exhibit)
+    - what is the location of [Is It Genetic?](exhibit)?
+    - 'which gallery has [Rock Box](exhibit)?  '

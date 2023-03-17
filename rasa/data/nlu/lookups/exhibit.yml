@@ -1,0 +1,334 @@
+version: '3.1'
+nlu:
+- lookup: exhibit
+  examples: |
+    - Sophisticated Shadows
+    - Colored Words
+    - Blood Cells in Your Eye
+    - Listening Vessels
+    - Disappearing Act
+    - Reaction Time 2
+    - Disappearing Glass Rods
+    - Coupled Resonant Pendula
+    - NOAA Buoy
+    - Chaotic Pendulum
+    - Balancing Ball
+    - Ames Chairs
+    - Gas Model
+    - Pedal Generator
+    - Drinking Fountain
+    - Living on Death
+    - Bubble Sheet
+    - Bulbs and Batteries
+    - Heliorama
+    - Toothpick Sculpture
+    - Blood Vessels in Your Eye
+    - Vortex
+    - Watch Water Freeze
+    - Magnetic Sand
+    - Tactile Gallery
+    - Cattle Game
+    - Distorted Room
+    - Energy from Death
+    - 'Uroborus: A Snake Chasing Its Tail'
+    - Gray Step
+    - Triple Aye Stick
+    - Big Tuning Fork
+    - Color Ball
+    - Career Criminal
+    - Throw Pi
+    - Adapting to Color
+    - Square Wheel
+    - Land/Water
+    - Sun Benches
+    - They're Identical . . . Or Are They?
+    - DICE
+    - Velvet Hands
+    - HeLa Cells
+    - Water Evaporation
+    - Coupled Resonant Pendulums
+    - Scrapple
+    - Saltscapes
+    - Museum of the Moon
+    - Velvet Harp
+    - Color Splitter
+    - Blood Cell Scale
+    - Pendulum Snake
+    - Giant Spherical Mirror
+    - Disappearing Rings
+    - Small Monatomic Molecules
+    - Buckyball
+    - Illuminated Fog
+    - Aurora
+    - Magnetic Labyrinth
+    - 'Fog Bridge #72494'
+    - Pi Shrine
+    - Cooperative Red Phone
+    - Solar Hour Benches
+    - Lariat Chain
+    - Cloud Rings
+    - Pitch Slider
+    - Zephyr Trio
+    - Archimedes
+    - Look Inside a Developing Fish
+    - Rotating Light
+    - Stop and Start
+    - Whispering Dishes
+    - Pier Piling Pivot
+    - Sip or Squirt
+    - Becoming Horizon
+    - Human Phenomena Explainer Station
+    - Scream into Sand
+    - 3D Cell Zoetrope
+    - The Enchanted Tree
+    - Bay Lexicon
+    - Elastotron
+    - Plankton Rainbow
+    - Bacteriopolis
+    - Bright Black
+    - Disagreement About Color
+    - The Dome
+    - Bronze Hand
+    - Green Lips
+    - Braided Stream
+    - Giant Mirror
+    - Ice Window
+    - Red/Blue
+    - Ice Crystals
+    - Cubatron Core
+    - Circles of Magnetism
+    - As One
+    - Spacetime
+    - Horse's Tail
+    - Soap Film Painting
+    - Sound Bite
+    - All the Light You See (Infinity)
+    - Icy Bodies
+    - Black Card/White Card
+    - Winogradsky Column
+    - Bicycle Rope Squirter
+    - Giant Chair
+    - Bicycle Chain
+    - Ocean Tracks
+    - RayLights
+    - Fluttering Silk
+    - Confused Sea
+    - Chicken Eggs
+    - Are Your Cells You?
+    - Colored Shadows
+    - Café Wall Illusion
+    - Downhill Race
+    - Trust Fountain
+    - Genetic Inheritance
+    - 'The Atmosphere: A Guide'
+    - Sky Theater
+    - Disorted Bench
+    - Red-Green Goggles
+    - Frozen Water Drop
+    - Color Conflicts
+    - Pi Marker
+    - Entangled Attraction
+    - Fog Bridge
+    - Jellybean Room
+    - Bacteria Wall
+    - Developing Chick Embryos
+    - Aeolian Landscape
+    - Dioximoirekinesis
+    - Big Chair, Little Chair
+    - Out Quiet Yourself
+    - 'Big Wood: 300 Years of Photosynthesis'
+    - Glass Settling Plate
+    - Liquid Litmus
+    - Mapping Migrations
+    - Digital Footprints
+    - Diffraction Shadows
+    - Snake Pendulum
+    - Wall Watching Bench
+    - Seismograph
+    - Sky Panorama
+    - Timepieces (Solar System)
+    - Drip Chamber
+    - The Art of Neon
+    - Rock Box
+    - Still Life
+    - Flourish (Bloom)
+    - Touch the Teapot
+    - Look Into Infinity
+    - Colored Lights
+    - Water Tornado
+    - Water-Drop Photography
+    - Walking on Gravel
+    - Leaves That Sprout
+    - Rolling Through the Bay
+    - Fox Walking
+    - Give Heart Cells a Beat
+    - Fluttering
+    - A Sip of Conflict
+    - Tinkerer's Clock
+    - Too Slow to See
+    - Chladni Singing
+    - Bay Windows
+    - Probably Chelsea
+    - Aeolian Harp
+    - Spectral Meadow
+    - Salt Ponds from the Sky
+    - Time Shift
+    - Circuit Workbench
+    - Big/Little Chair
+    - Plant Tunes
+    - Pi Search
+    - A Cell in Motion
+    - Black Sand
+    - twins photos
+    - Turbulent Sea
+    - Teardrop (after Robert Irwin)
+    - Prisoner's Dilemma
+    - Sun Painting
+    - Flock
+    - Shadow Box
+    - The Tree Experience
+    - Chromoscope
+    - Within 15 Minutes
+    - Anti-Gravity Mirror
+    - Venn Diagram
+    - Buffon's Needles
+    - Creating Life With Just One Parent
+    - Tinkering Clock
+    - Oscylinderscope
+    - Beach Ball Blower
+    - Touch the Spring
+    - Albert's Watching
+    - Tornado
+    - Everyone Is You and Me
+    - Machine with Concrete
+    - Big Magnifier
+    - The Last Ocean
+    - Bicycle Wheel Gyro
+    - Recollections
+    - Glow Ball
+    - Turntable
+    - What's Hot, What's Not?
+    - Creatures from the Sea Settling Plate
+    - Seeing Scientifically
+    - Oculus Table
+    - A Pendulum Clock
+    - Prelinger Library
+    - Rotting Carcass
+    - Magnetic Fluid Patterns
+    - Heat Camera
+    - Albert
+    - Seeing and Listening Explainer Station
+    - Research Buoy
+    - Capture a Moment in Time
+    - Prelinger Map Archive and Library
+    - Bacteriopolis Wall
+    - Community Garden,
+    - Toilet Bowl Drinking Fountain
+    - The Cow Game
+    - Lumen-Illusion
+    - Time 2 Think
+    - Sharing Faces
+    - Bike Rope Squirter
+    - Rift Zone
+    - Your Turn Counts
+    - Jardín comunitario,
+    - Interpreting the Living Systems Lab
+    - Sweeper's Clock
+    - Is It Genetic?
+    - All the Flowers Are for Me (Turquoise)
+    - Washer Game
+    - Red Phone
+    - Tactile Harp
+    - Peacemaker
+    - The Edge Makes the Difference
+    - Freeloader
+    - Kalanchoe
+    - Colored Venn diagram
+    - Button Game
+    - Mirrorly a Window
+    - Bubble Well
+    - Pitch Twanger
+    - Duck Into a Kaleidoscope
+    - Light Box
+    - Big Chair/Little Chair
+    - Bay Lexicon Columns
+    - Try Pi
+    - Turbulent Orb
+    - Harmonograms
+    - Gray Step 1
+    - Sun Swarm
+    - Spherical Reflections
+    - Triple-Aye Lightstick
+    - Unseen Stories
+    - Survival Game
+    - Lab Illustrations
+    - Ames Room
+    - Anamorphic Bench
+    - Colored Circles
+    - Mood Lighting
+    - Shaking
+    - Tactile Dome
+    - Zebrafish Embryos
+    - Disagreeing About Color
+    - Can You Believe Your Eyes?
+    - Emotion Tracer
+    - Corpuscles in the Eye
+    - Circling Wave Umbrella
+    - Leaves that Sprout Plants
+    - Drawing Board
+    - Animation Tower
+    - Christmas Tree Balls
+    - Countless Colors
+    - Visitor Pulse
+    - Responsive Heart Cells
+    - Echo Tube
+    - Wave Organ
+    - Aromas y recuerdos
+    - Ice Painting
+    - IR Camera
+    - Toilet Water Fountain
+    - Blood-o-Meter
+    - Fluorescent Tube
+    - Pi Has Your Number
+    - Library of Earth Anatomy
+    - Cloud Chamber
+    - Giant Tuning Fork
+    - Bridge Light
+    - Need-Based Transfer Economy
+    - Compare Yellow (LEDs)
+    - GALAXY03
+    - Chick Embryos
+    - Coupled Pendulums
+    - Long-Path Diffraction
+    - Monochromatic Room
+    - Scent Memories
+    - Bird in a Cage
+    - Time to Think
+    - Shifting Time
+    - Live Chicken Embryos
+    - Bernoulli Blower
+    - Too Slow to Notice
+    - Toothpick Roller Coaster
+    - Toilet Drinking Fountain
+    - Melodías de plantas
+    - All Eyes on Me
+    - Yellow Room
+    - Praxinoscope Tower
+    - Golden Gate Bridge Motion
+    - Animation Station
+    - Pulling Together
+    - Moving Objects
+    - Living Colors
+    - Cows
+    - Pi Toss
+    - A Drop to Drink
+    - Giant Clock
+    - Pinscreen
+    - Bay Bridge Model
+    - Chicken Wire
+    - Golden Gate Bridge
+    - Water Spinner
+    - Cardiac Myocytes
+    - Bite-O-Phone
+    - Two Ways of Seeing Yellow
+    - Observatory Library

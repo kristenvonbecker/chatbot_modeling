@@ -1,0 +1,1032 @@
+version: '3.1'
+nlu:
+- lookup: subject
+  examples: |
+    - hour
+    - Canterbury earthquakes
+    - motion picture
+    - sign
+    - development
+    - conservation of momentum
+    - Sea People
+    - chromatography
+    - technology
+    - perpetual motion
+    - umbrella
+    - pansy
+    - Berry
+    - deontological ethics
+    - afterimage
+    - energy
+    - magnet
+    - creativity
+    - shearing
+    - aleatory music
+    - reference frame
+    - pi
+    - armillary sphere
+    - judgment
+    - bulb
+    - absorption
+    - Lobedu
+    - spinning
+    - Bar
+    - A Place in the Sun
+    - bull snake
+    - molecule
+    - San Francisco Bay
+    - dispensation
+    - linear motion
+    - human ear
+    - The Sketch Book
+    - human resources management
+    - symbol
+    - Pete Conrad
+    - frame of reference
+    - water
+    - aerial photography
+    - comet
+    - Glass House Mountains
+    - Pacific Coast
+    - Save the Children
+    - mechanical system
+    - Alicia Cockburn
+    - photo-ionization
+    - physics
+    - Apollo Theater
+    - surface tension
+    - E.B. White
+    - Lunsar
+    - Ocean
+    - moon
+    - monatomic gas
+    - throttle
+    - high-pressure phenomena
+    - Goona
+    - skip rope
+    - the Turtles
+    - dilemma
+    - Harold Edgerton
+    - artificial intelligence, situated approach
+    - cycling
+    - Stoicism
+    - The Young Persons Guide to the Orchestra
+    - grinding machine
+    - spontaneous fission
+    - cave art
+    - B-movie
+    - sculpture
+    - Bay Bridge
+    - orthographic projection
+    - embryology
+    - Arzamas society
+    - Frogs
+    - Karl Mauch
+    - ocular accommodation
+    - rain
+    - mental disorder
+    - Lissajous curve
+    - stainless steel
+    - convection
+    - tea
+    - the Green Book
+    - Great Dividing Range
+    - artificial life
+    - data mining
+    - ABO blood group system
+    - musical
+    - Web application
+    - sanctuary knocker
+    - remanent magnetism
+    - A Shot in the Dark
+    - The Loved One
+    - time-sharing
+    - pattern glass
+    - nitrogen group element
+    - Coffin Texts
+    - gin
+    - R.C. Sherriff
+    - sweet alison
+    - Alison Cockburn
+    - building code
+    - Angle
+    - fog
+    - gateleg table
+    - wheel
+    - Media
+    - anabatic wind
+    - conflict
+    - Travelers Insurance
+    - Lake Agassiz
+    - The Beehive
+    - order of architecture
+    - human intelligence
+    - Unity
+    - visual Art
+    - garden
+    - neon
+    - cybernetics
+    - time reversal
+    - fore-edge painting
+    - low-temperature phenomena
+    - ferret
+    - perspective
+    - didactic
+    - The Waste Land
+    - authigenic sediment
+    - Go Tell It on the Mountain
+    - balance
+    - climate change
+    - harmony
+    - dominant
+    - Charismatic
+    - Wales
+    - body politic
+    - ecology
+    - Catskill Mountains
+    - significant digits
+    - prison
+    - needle
+    - apoptosis
+    - crystal gazing
+    - uplift
+    - basic oxygen process
+    - joking relationship
+    - genetics
+    - Parallel Lives
+    - Reading
+    - wave velocity
+    - Gutob language
+    - Aurora
+    - delta
+    - navigation chart
+    - bike wagon
+    - nerve fibre
+    - fruit
+    - heliostat
+    - imagination
+    - separation of variables
+    - bronze
+    - song
+    - wheel lock
+    - frequency
+    - multicellular organism
+    - permutations and combinations
+    - photon
+    - good-night
+    - Abū Qīr Bay
+    - the Shadow
+    - Islamic arts
+    - Widmanstätten figure
+    - amberina glass
+    - detection
+    - cluster of galaxies
+    - packing
+    - salt glaze
+    - Poems, Chiefly Lyrical
+    - associative learning
+    - chance music
+    - I Know Why the Caged Bird Sings
+    - magnetic-core storage
+    - Christchurch earthquakes of 2010–11
+    - environmental engineering
+    - heart urchin
+    - magnetic pole
+    - Coriolis force
+    - pier
+    - plankton
+    - South San Francisco
+    - Armas Järnefelt
+    - Transpacific Race
+    - Monotype
+    - the Shadows
+    - electricity
+    - teacher education
+    - circle
+    - hydrogen cyanide
+    - Cleopatras Needle
+    - freezing
+    - gopher snake
+    - curve
+    - gene doping
+    - lucid dreaming
+    - sunlight
+    - complementary colour
+    - Shrine Shintō
+    - decay constant
+    - experience consciously created through an expression of skill
+    - Math
+    - dynamical time
+    - solar system
+    - spin
+    - regulating factor
+    - Ailsa Craig
+    - Ken Russell
+    - B-film
+    - detergent
+    - divorce
+    - fluorescence
+    - Tell Halaf
+    - Cosmos
+    - transverse wave
+    - dance
+    - art
+    - science
+    - franking
+    - sundial
+    - linear accelerator
+    - leaf fish
+    - sound-level meter
+    - shingle
+    - T.H. Green
+    - astronomy
+    - Mars
+    - Augustan History
+    - environmentalism
+    - North Bay
+    - clock
+    - Milwaukee Art Museum
+    - Honolulu Race
+    - ghosts
+    - membrane
+    - gravity
+    - evaporation
+    - Coopers Creek
+    - New York Philharmonic
+    - region
+    - centre of gravity
+    - transmutation
+    - Styles Bridges
+    - thrombocyte
+    - damping
+    - Burning of the Gaspee
+    - Patient Protection and Affordable Care Act
+    - engineering
+    - art for arts sake
+    - Mark Aldanov
+    - refraction
+    - light-frame construction
+    - table
+    - pressure
+    - conductor
+    - futhark
+    - sexual reproduction
+    - eye colour
+    - electromagnetic spectrum
+    - core memory
+    - intellectual disability
+    - invention
+    - periodic motion
+    - round
+    - Paternò
+    - whisper
+    - research and development
+    - rocket and missile system
+    - power
+    - bitmap graphics
+    - Our Lady of the Flowers
+    - cups and balls trick
+    - mood
+    - laminar flow
+    - Inland Sea
+    - knowledge discovery in databases
+    - motion sickness
+    - Out of the Past
+    - endocrine modulator
+    - money order
+    - projection
+    - flat Earth
+    - wave
+    - Tower Hamlets
+    - Seven Cities of Cíbola
+    - modern art
+    - transposing musical instrument
+    - mental retardation
+    - rose
+    - declaratory judgment
+    - Andersens disease
+    - feedback
+    - Archimedes principle
+    - Sun
+    - 60 Minutes
+    - community
+    - pebble mosaic
+    - scattering
+    - parabola
+    - Archaic period
+    - Peace
+    - Venn diagram
+    - endocrine disruptor
+    - The Setting Sun
+    - precession
+    - human nature
+    - arc furnace
+    - sound
+    - Peter Balesius
+    - Henrietta Lacks
+    - Marine One
+    - standing wave
+    - The Stars and Stripes
+    - developmental disability
+    - memento mori
+    - plant breeding
+    - 24-hour clock
+    - Hypsographic Curve
+    - earthquake
+    - Worksop
+    - Final Fantasy
+    - mechanism
+    - yellow toadflax
+    - Deep Blue
+    - Froude number
+    - number game
+    - equation of motion
+    - landscape architecture
+    - Diagnostic and Statistical Manual of Mental Disorders
+    - concept formation
+    - kakelaar
+    - shaft coupling
+    - Apollinaris The Younger
+    - The Arabian Nights
+    - motion-picture camera
+    - Nippon Hōsō Kyōkai
+    - metal
+    - pine
+    - Loyal Publication Society
+    - resin
+    - vestibulocochlear nerve
+    - After Dark
+    - methylene blue
+    - nationality
+    - white cloud
+    - bioEcology
+    - heliosphere
+    - mortar
+    - Seyfert galaxy
+    - LED
+    - ability grouping
+    - tree
+    - fainting
+    - pitch
+    - complexity
+    - United Nations Research Institute for Social Development
+    - salutary neglect
+    - judgement
+    - Memento Mori
+    - conditional probability
+    - settlement
+    - simple harmonic motion
+    - circuit breaker
+    - R. Buckminster Fuller
+    - World Wide Web
+    - Transformational-generative Grammar
+    - Venus Express
+    - hide-and-seek
+    - To Build a Fire
+    - magic number
+    - human sacrifice
+    - Chaos
+    - Zeeman effect
+    - air force
+    - Ragged Dick
+    - acid-base catalysis
+    - still-life painting
+    - simple machine
+    - sustainability
+    - graveyard school
+    - binoculars
+    - cohort analysis
+    - eolian sound
+    - CARE
+    - lumen
+    - In Search of Lost Time
+    - language
+    - Forbes family
+    - human migration
+    - neural oscillation
+    - significant figures
+    - cooperative
+    - core
+    - relative density
+    - mode
+    - lymph
+    - anamorphosis
+    - cosmology
+    - mechanical engineering
+    - extrasensory perception
+    - turtle
+    - sublimation
+    - galaxy
+    - Breast Cancer Awareness Month
+    - materials processing
+    - color
+    - soap and detergent
+    - focusing
+    - high-voltage electron microscope
+    - ferromagnetism
+    - Sting
+    - separation and purification
+    - Great Game
+    - air space
+    - learning disabilities
+    - Sebastian Coe
+    - table of opposites
+    - search engine
+    - Syrian Catholic Church
+    - The Way of the World
+    - gallery
+    - interference
+    - The Trees
+    - Peace of Cateau-Cambrésis
+    - electromagnetic radiation
+    - optical crystallography
+    - turntable
+    - music
+    - Templar
+    - Aeolian
+    - WAVES
+    - Harmony
+    - animal social behaviour
+    - inertia
+    - prisoners dilemma
+    - Zen
+    - lunar eclipse
+    - two-state solution
+    - sweet alyssum
+    - microscope
+    - criminal justice
+    - Christabel
+    - angiogenesis inhibitor
+    - Pictures from Brueghel
+    - Munsell colour system
+    - electrolysis
+    - snake-eyed skink
+    - The Color Purple
+    - phosphorescence
+    - Freer Gallery of Art
+    - French 75
+    - butter-and-eggs
+    - Rappaccinis Daughter
+    - air pollution
+    - parallel
+    - Hundred Days
+    - Labé
+    - kinetic sculpture
+    - Red Blaik
+    - Secchi disk
+    - kalanchoe
+    - artificial intelligence
+    - perception
+    - transparency
+    - nerve
+    - Brave New World
+    - wood hoopoe
+    - chicken
+    - mean free path
+    - Tanglewood Tales for Girls and Boys
+    - movie
+    - Vernon L
+    - Fresnel lens
+    - Abrasion Platform
+    - problem solving
+    - normative measurement
+    - pocket shark
+    - platelet
+    - Coriolis effect
+    - prism
+    - The Thousand and One Nights
+    - Baroque art and architecture
+    - emotion
+    - adaptation
+    - magnetic-core memory
+    - Ivan Bunin
+    - density-dependent factor
+    - sound production
+    - Arthur Rackham
+    - The Story of Ahikar
+    - phosphorous acid
+    - diffraction
+    - weather
+    - Blow-Up
+    - whitewood
+    - canvas
+    - field
+    - College Football Playoff
+    - aurora
+    - marine
+    - colour
+    - Lovedu
+    - yellow poplar
+    - transformational grammar
+    - specific gravity
+    - amyotrophic lateral sclerosis
+    - grateful dead
+    - Tasmanian devil
+    - telescope
+    - Private Lives
+    - ratio
+    - Gallery of Modern Art
+    - Pittsburgh Penguins
+    - liquid
+    - small solar system body
+    - corn starch
+    - guided missile
+    - attention
+    - paint
+    - Košice government
+    - Pool
+    - cylinder
+    - dancing plague of 1518
+    - Tall Ḥalaf
+    - appearance
+    - guitar
+    - geology
+    - Mars Science Laboratory
+    - Red Cloud
+    - expert system
+    - scale
+    - chemical hydrology
+    - Nathan Clifford
+    - potential energy
+    - cognition
+    - universe
+    - ocean
+    - oxygen cycle
+    - juniper
+    - extraterrestrial intelligence
+    - Pong
+    - Los Angeles
+    - Seven-note Scale
+    - wave-cut platform
+    - spatial disorientation
+    - sibling rivalry
+    - dispersion
+    - polarization
+    - Tokyo Skytree
+    - D region
+    - Ray Stannard Baker
+    - blood
+    - wood
+    - Paleomagnetism
+    - environment
+    - Action painting
+    - settling
+    - negative capability
+    - Bobbsey Twins
+    - kippers
+    - Council of Five Hundred
+    - psychological hedonism
+    - gear
+    - toreva block
+    - optical image
+    - umbilical cord
+    - crop rotation
+    - intertropical convergence zone
+    - sphere of influence
+    - solar time
+    - city
+    - formonitrile
+    - Bennington College
+    - philosophy of as if
+    - Abukir Bay
+    - pulse
+    - reflection
+    - Villarreal
+    - Museum of Islamic Art
+    - common toadflax
+    - Kidnapped
+    - harbours and sea works
+    - A Dance to the Music of Time
+    - personality
+    - Citrus
+    - Isles of Scilly
+    - The Turn of the Screw
+    - talent
+    - red
+    - The Skin of Our Teeth
+    - Tokyo Sky Tree
+    - Eocene Series
+    - Battle of Blenheim
+    - Gadaba
+    - fluid mechanics
+    - high-speed steel
+    - mint
+    - periodic table
+    - Lens
+    - political culture
+    - pattern recognition
+    - eustachian tube
+    - Kieselguhr
+    - biomass
+    - wavelength
+    - streamline flow
+    - process philosophy
+    - Renaissance
+    - self
+    - infinity
+    - bleeding heart
+    - Numbers
+    - Mogollon Mountains
+    - conjuring
+    - motion
+    - temperature
+    - axon
+    - museum
+    - break
+    - reproduction
+    - Faces
+    - statistics
+    - runic alphabet
+    - hot flash
+    - light quantum
+    - Gaspé Current
+    - Amratian culture
+    - small body
+    - Linear A and Linear B
+    - Ashmolean Museum
+    - Charles Brockden Brown
+    - follicle-stimulating hormone
+    - The Day the Earth Stood Still
+    - Great Divide
+    - reciprocity
+    - silk
+    - number
+    - Pentagon
+    - migration
+    - continuity
+    - moral philosophy
+    - reflection nebula
+    - conservation of energy
+    - physiology
+    - product cipher
+    - wind
+    - African American folktale
+    - Airspace
+    - telex
+    - Scilly Isles
+    - illusion
+    - space
+    - budding bacterium
+    - symmetry
+    - People
+    - Bob and Ray
+    - University of Utah
+    - centrifuge
+    - competition
+    - hypsometric curve
+    - Muriel Rukeyser
+    - bridge
+    - magic
+    - Second Great Awakening
+    - string quartet
+    - diffusion
+    - celestial sphere
+    - information processing
+    - pocket billiards
+    - American Indian
+    - single nucleotide polymorphism
+    - genetically modified organism
+    - Large Hadron Collider
+    - supply-side economics
+    - black
+    - Widmanstätten pattern
+    - composition
+    - time perception
+    - philosophy
+    - albedo
+    - goldenrain tree
+    - Little America
+    - podzolic soil
+    - complex variable
+    - fitchet
+    - race
+    - Walk off the Earth
+    - Sarah Chauncey Woolsey
+    - Boundary Peak
+    - button
+    - social structure
+    - laser
+    - augmentative and alternative communication
+    - Time
+    - biology
+    - bird
+    - memory
+    - Curiosity
+    - film
+    - cornstarch
+    - Ronald Searle
+    - Doric order
+    - blue
+    - lake
+    - form
+    - electric current
+    - Arrábida Bridge
+    - antigenic drift
+    - small arm
+    - protagonist
+    - acrylic
+    - heat transfer
+    - animation
+    - The Diary of a Country Priest
+    - iPhone
+    - magnetism
+    - atomic clock
+    - Tobacco Road
+    - Selective Service System
+    - human behaviour
+    - oceanography
+    - incongruent melting
+    - transportation
+    - A-life
+    - Tasmanian Wilderness
+    - plant
+    - pride-of-India
+    - Reformation
+    - Lives
+    - electromagnet
+    - tunny
+    - brightness
+    - Delta
+    - ethics
+    - glass
+    - game theory
+    - melting
+    - molybdate and tungstate minerals
+    - Brownian motion
+    - dendrochronology
+    - Thomas Godfrey
+    - kaleidoscope
+    - Our Bodies, Ourselves
+    - turbulent flow
+    - Merovingian art
+    - Japanese performing arts
+    - heptatonic scale
+    - materialism
+    - resonance
+    - Milan Kundera
+    - auditory tube
+    - atmospheric turbulence
+    - Michael S
+    - Lissajous figure
+    - Jill Biden
+    - She Done Him Wrong
+    - atmosphere
+    - phase
+    - Runabout
+    - interior design
+    - computer
+    - Guna
+    - organic compound
+    - Auditory Nerve
+    - panorama
+    - order
+    - flower
+    - Iron Gate
+    - battery
+    - Economy
+    - mirror
+    - A Wrinkle in Time
+    - space frame
+    - equilibrium
+    - continued fraction
+    - tulip tree
+    - January
+    - atmospheric perspective
+    - The Vision of Adamnán
+    - ionization
+    - biological Community
+    - magnetic field
+    - natural fibre
+    - light
+    - electric motor
+    - The Artist
+    - A Delicate Balance
+    - mineral
+    - tuna
+    - Khone Falls
+    - marine biology
+    - light curve
+    - magnetic mirror
+    - Leonardo da Vinci
+    - Bar Hebraeus
+    - pouncet-box
+    - control system
+    - Tower of the Winds
+    - architecture
+    - reproductive system disease
+    - Asia Society Museum
+    - Tim Burton
+    - bathyal zone
+    - Its a Wonderful Life
+    - white
+    - Black Range
+    - Peter Bales
+    - broken windows theory
+    - sunshine
+    - carbon dioxide
+    - Hydrochemistry
+    - kinetic energy
+    - felsic and mafic rocks
+    - Christmas
+    - public relations
+    - soil
+    - Focus on the Family
+    - Nashville Predators
+    - crucifixion
+    - gravitation
+    - trust
+    - field-emission microscope
+    - sand
+    - Rossby wave
+    - photosynthesis
+    - contrast medium
+    - Knight Templar
+    - rainbow
+    - Days of Our Lives
+    - pigment
+    - alliteration
+    - HeLa cell
+    - Discover
+    - gender
+    - strong force
+    - futures
+    - Bend
+    - antiangiogenic agent
+    - levitation
+    - clouded tiger
+    - minute
+    - magnification
+    - Henrician Articles
+    - twin
+    - Americans with Disabilities Act
+    - design
+    - military necessity
+    - psychology
+    - heart
+    - shift work
+    - codependency
+    - bootlegging
+    - country music
+    - emptiness
+    - pendulum
+    - Protestant Reformation
+    - antiphonal singing
+    - sexuality
+    - Canaanite religion
+    - vision
+    - alife
+    - stringed instrument
+    - sea turtle
+    - Pacific Ocean
+    - bristlecone pine
+    - black sand
+    - tree-ring dating
+    - religion
+    - Moon
+    - wait
+    - raster graphics
+    - intergalactic medium
+    - introverted quatrain
+    - hydrocarbon
+    - augmented reality
+    - rhythm
+    - camouflage
+    - lattice energy
+    - Nanking porcelain
+    - Friends
+    - stereotype
+    - Oral
+    - bicycle
+    - white cloud mountain minnow
+    - musical instrument
+    - Huygens principle
+    - vertical integration
+    - Straits Settlements
+    - iridescence
+    - geography
+    - stationary wave
+    - gas
+    - topology
+    - shaper
+    - crime
+    - artificial organ
+    - acoustics
+    - turbulence
+    - parallax
+    - country and western
+    - privileged communication
+    - Nothingness
+    - gas meter
+    - history
+    - November
+    - self-determination
+    - Treatise on the Power and Primacy of the Pope
+    - Google Workspace
+    - jump rope
+    - electric guitar
+    - Leaves of Grass
+    - Twenty-five Articles of Religion
+    - big-bang model
+    - identity politics
+    - condensation
+    - electric field
+    - frequency meter
+    - torque
+    - yield point
+    - Italic languages
+    - Cooper Creek
+    - radiation-damage dating
+    - seismograph
+    - air
+    - Rain
+    - Fayum portrait
+    - ounce
+    - human eye
+    - dark energy
+    - Flying Tigers
+    - flight
+    - building
+    - Appendix On The Papacy
+    - Horologium
+    - electron scattering
+    - habitat
+    - social equilibrium
+    - DNA
+    - information retrieval
+    - moment of a force
+    - potato
+    - buoy
+    - green
+    - economics
+    - data structure
+    - dimension
+    - euphonium
+    - The Mirror
+    - identity of indiscernibles
+    - aromatic compound
+    - recycling
+    - organizational culture
+    - Naqādah I culture
+    - autokinetic effect
+    - bone conduction
+    - Earth
+    - self-fulfilling prophecy
+    - hand
+    - digit
+    - tone
+    - mystery story
+    - John Hersey
+    - upslope wind
+    - hexagon
+    - Sanctuary Ring
+    - physicalism
+    - dark web
+    - Linac
+    - bike
+    - historiography
+    - optical storage
+    - radio range
+    - scrying
+    - environmental scanning electron microscope
+    - azo dye
+    - Model T
+    - library science
+    - churning of the ocean of milk
+    - fatigue
+    - Native American
+    - scientific visualization
+    - Heart of Darkness
+    - clouded leopard
+    - San Francisco
+    - lethargy
+    - table talk
+    - walking
+    - Organization of the Islamic Cooperation
+    - event
+    - prose poem
+    - rope
+    - Tunguska event
+    - trickle-down economics
+    - navigation
+    - bay
+    - Movie Camera
+    - vibration
+    - friction
+    - cardiac catheterization
+    - diatomaceous earth
+    - New Economic Policy
+    - Golden Gate Bridge
+    - blending
+    - cosmic ray
+    - musical comedy
+    - Brownian movement
+    - physical activity
+    - Amarāvatī sculpture
+    - critical angle
+    - sports
+    - colour vision
+    - shark
+    - aerial perspective
+    - electron microscopy
+    - programmed cell death
+    - The Dead Lecturer

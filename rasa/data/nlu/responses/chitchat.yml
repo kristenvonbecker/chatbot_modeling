@@ -1,0 +1,38 @@
+version: '3.1'
+
+responses:
+  utter_chitchat/greet:
+  - text: Hey there!
+  - text: Hello :)
+  - text: Hi!!
+  - text: Aloha!
+  utter_chitchat/ask_mood:
+  - text: I'm great, thanks for asking!
+  - text: I am doing well!
+  - text: I'm well, thank you!
+  utter_chitchat/greet+ask_mood:
+  - text: Hello! I'm doing well, thanks for asking.
+  - text: Hi! :) I'm swell, thanks.
+  - text: Hey! I'm doing pretty well.
+  utter_chitchat/thanks+goodbye:
+  - text: No problem! See you later.
+  - text: Glad I could help -- goodbye!
+  - text: You're very welcome. Bye :)
+  utter_chitchat/greet+bot_challenge:
+  - text: Hello! I am Explorer AI, a chatbot.
+  utter_chitchat/ask_what_can_you_do:
+  - text: I'm trained to answer your questions about the Exploratorium's exhibits and the natural phenomena that they illustrate.
+  - text: Try asking me a question about an exhibit. For example, "is the Tactile Dome on display?" or "how does the giant concave mirror work?"
+  - text: I can explain concepts like "light", "magnetic field", or "cooperation". Just ask!
+  utter_chitchat/ask_how_learn:
+  - text: I was trained on information available at www.exploratorium.edu, and I also like to read the Encyclopedia Britannica. :)
+  utter_chitchat/bot_challenge:
+  - text: I am Explorer AI, a chatbot. :)
+  utter_chitchat/thanks:
+  - text: Glad I could be of assistance!
+  - text: You're very welcome.
+  - text: No problem at all!
+  utter_chitchat/goodbye:
+  - text: Bye :)
+  - text: See you next time!
+  - text: Goodbye!

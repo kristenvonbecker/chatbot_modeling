@@ -1,0 +1,22 @@
+version: '3.1'
+nlu:
+- intent: ask_about_exhibit
+  examples: |
+    - what is this exhibit all about?
+    - how does it work?
+    - please summarize this exhibit for me
+    - can you describe the exhibit?
+    - tell me about this exhibit
+    - what is the theme of this exhibit?
+    - what is the main idea behind this exhibit?
+    - tell me a little about it
+    - explain the concept behind the exhibit
+    - can you tell me what this exhibit is about?
+    - what is going on in [Genetic Inheritance](exhibit)?
+    - please explain the theme of [Interpreting the Living Systems Lab](exhibit)
+    - how does [Colored Words](exhibit) work?
+    - do you know how [Lumen-Illusion](exhibit) works?
+    - what is [Library of Earth Anatomy](exhibit) all about?
+    - tell me a little about [Ice Painting](exhibit)
+    - explain [Color Ball](exhibit) to me
+    - how would you explain [Velvet Harp](exhibit)?

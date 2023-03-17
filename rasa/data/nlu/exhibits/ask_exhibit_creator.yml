@@ -1,0 +1,28 @@
+version: '3.1'
+nlu:
+- intent: ask_exhibit_creator
+  examples: |
+    - who developed this exhibit?
+    - what's the name of the person who created this exhibit?
+    - who is the creator?
+    - who's the inventor?
+    - who made it?
+    - who designed it?
+    - what's the name of the mastermind?
+    - did an artist make this?
+    - who designs the exhibits at the exploratorium?
+    - who are the people that created this?
+    - who is the maker?
+    - who made it?
+    - who invented this?
+    - who thought this up?
+    - which people created it?
+    - what's the name of the artist?
+    - who created the [Plant Tunes](exhibit) exhibit?
+    - who thought up the idea of [Blood Cells in Your Eye](exhibit)?
+    - which brilliant person designed [Too Slow to Notice](exhibit)?
+    - who invented [Bike Rope Squirter](exhibit)?
+    - which people made the [DICE](exhibit) exhibit?
+    - who are the individuals responsible for [Prelinger Map Archive and Library](exhibit)?
+    - who thought of [Coupled Resonant Pendula](exhibit)?
+    - which people are the masterminds behind [Bacteria Wall](exhibit)?

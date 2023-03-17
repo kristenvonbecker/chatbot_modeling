@@ -5,13 +5,14 @@ from rasa_sdk.types import DomainDict
 from rasa_sdk.forms import ValidationAction
 from typing import Any, Text, Dict, List
 from actions import scripts
-from actions import knowledgebase
+from actions.knowledgebase import articles, exhibits
 from dotenv import load_dotenv
 import logging
 import random
 from importlib import reload
 reload(scripts)
-reload(knowledgebase)
+reload(articles)
+reload(exhibits)
 
 load_dotenv()
 logger = logging.getLogger(__name__)
@@ -39,6 +40,29 @@ class ActionSessionStart(Action):
         return events
 
 
+# class ValidateSlots(ValidationAction):
+#     async def extract_exhibit_id(
+#             self,
+#             dispatcher: CollectingDispatcher,
+#             tracker: Tracker,
+#             domain: DomainDict
+#     ) -> Dict[Text, Any]:
+#         last_intent = tracker.get_intent_of_latest_message()
+#         if last_intent in [
+#             "ask_exhibit_creator",
+#             "ask_exhibit_date",
+#             "ask_where_exhibit",
+#             "ask_about_exhibit",
+#             "inform_like_exhibit",
+#             "ask_related_exhibit"
+#         ]:
+#             exhibit_id = tracker.get_slot("exhibit")
+#             exhibit_id = scripts.get_exhibit_id(exhibit_alias)
+#         else:
+#             exhibit_id = tracker.get_slot("exhibit_id")
+#         return {"exhibit_id": exhibit_id}
+
+
 class ActionGetMatchIds(Action):
     def name(self) -> Text:
         return "action_get_match_ids"
@@ -50,10 +74,10 @@ class ActionGetMatchIds(Action):
         subject = tracker.get_slot("subject")
         matches = []
         if subject:
-            matches += scripts.get_title_matches(subject)
+            matches += scripts.get_article_title_matches(subject)
         match_ids = []
         for match in matches:
-            for article_id, aliases in knowledgebase.alias_id_lookup.items():
+            for article_id, aliases in articles.alias_id_lookup.items():
                 if match in aliases:
                     match_ids.append(article_id)
         match_ids = list(set(match_ids))
@@ -78,9 +102,10 @@ class ActionGiveExplanation(Action):
         matches_available = tracker.get_slot("matches_available")
         num_tries = int(tracker.get_slot("num_tries"))
         if not subject:
+            dispatcher.utter_message(response="utter_what_subject")
             return []
         if matches_available:
-            explanation = scripts.get_text(match_ids[num_tries])
+            explanation = scripts.get_article_text(match_ids[num_tries])
             if num_tries == 0:
                 dispatcher.utter_message(response="utter_found_something")
             else:
@@ -116,7 +141,7 @@ class ActionGiveFaveExhibit(Action):
             fun_fact_alt = fun_fact[0].lower() + fun_fact[1:].rstrip(".")
             msgs = [
                 f"My favorite exhibit at the Exploratorium is {exhibit_name}, because {fun_fact_alt}.",
-                f"I like to recommend an exhibit called {exhibit_name}. {fun_fact}",
+                f"I like to recommend an exhibit called {exhibit_name}. {fun_fact}.",
                 f"One of the highlights of the Exploratorium is {exhibit_name}, since {fun_fact_alt}."
             ]
         else:
@@ -127,7 +152,32 @@ class ActionGiveFaveExhibit(Action):
             ]
         msg = random.choice(msgs)
         dispatcher.utter_message(text=msg)
-        return []
+        return [SlotSet("exhibit", exhibit_id)]
+
+
+class ActionGiveExhibitLocation(Action):
+    def name(self) -> Text:
+        return "action_give_exhibit_location"
+
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: DomainDict,
+    ) -> List[Dict[Text, Any]]:
+        exhibit_id = tracker.get_slot("exhibit")
+        exhibit_name = exhibits.alias_id_lookup.get(exhibit_id, ["the exhibit"])[0]
+        if not exhibit_id:
+            dispatcher.utter_message(response="utter_which_exhibit")
+            return []
+        else:
+            location, location_code = scripts.get_exhibit_location(exhibit_id)
+            if location == "NOT ON VIEW":
+                msg = f"{exhibit_name} is not currently on view."
+            else:
+                msg = f"{exhibit_name} is located in {location}."
+            dispatcher.utter_message(text=msg)
+            return[]
 
 
 class ActionResetExplanationSlots(Action):

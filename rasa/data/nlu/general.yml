@@ -1,0 +1,134 @@
+version: "3.1"
+
+nlu:
+
+- intent: affirm
+  examples: |
+    - "yes"
+    - yep
+    - yes, that's right
+    - yeppers
+    - yup
+    - exactly
+    - precisely
+    - that's correct
+    - yeah
+    - yea
+    - that's exactly right
+    - y
+    - indeed
+    - of course
+    - that's right
+    - that sounds good
+    - you know it
+    - correct
+    - yip
+    - affirm
+    - confirm
+    - affirmative
+    - i guess so
+    - i think so
+    - i guess
+    - sure
+
+- intent: affirm+thanks
+  examples: |
+    - that's right, thanks
+    - yep, thank you
+    - thanks, that's correct
+    - yes, thanks
+    - indeed, and I appreciate it
+    - indeed, excellent!
+    - that's exactly what i'm looking for
+    - yes indeed, thank you so much
+    - sure, thanks
+    - yes and thanks
+
+- intent: deny
+  examples: |
+    - "no"
+    - nope
+    - n
+    - never
+    - I don't think so
+    - I doubt it
+    - not even close
+    - don't like that
+    - no way
+    - that's a no
+    - not really
+    - not remotely close
+    - that's not what I'm looking for
+    - that's not what I asked for
+    - not it
+    - not even
+    - far from the truth
+    - negative
+    - deny
+    - that's a negative, ghost rider
+    - nooooo
+    - i'm not so sure about that
+    - i don't like the idea of that
+    - not at all
+    - absolutely not
+
+- intent: deny+thanks
+  examples: |
+    - no thank you
+    - no thanks
+    - no but thank you anyway
+    - nah, thanks
+    - that's a negative, thanks
+    - nope, but thanks
+    - no, but I appreciate your effort
+    - thanks, but that's not correct
+    - thanks but no
+
+- intent: stop
+  examples: |
+    - please stop
+    - quit please
+    - quit
+    - abort mission
+    - please go back
+    - stop
+    - stop now
+    - stop it
+    - i'd like to quit
+    - abort
+    - nevermind
+    - never mind
+    - nm
+    - quit asking
+    - stop asking
+    - I don't need help anymore
+    - I figured it out
+    - I changed my mind
+    - quit asking that
+    - I don't have a question anymore
+    - I'd like to stop
+    - please quit
+
+- intent: out_of_scope
+  examples: |
+    - what time is it?
+    - what's 2+2?
+    - knock knock
+    - tell me a joke
+    - are you a dog person or a cat person?
+    - what's the weather like?
+    - what languages do you speak?
+    - who trained you?
+    - where do you live?
+    - what's the captial of France?
+    - how many bits are in a byte?
+    - do you like pizza?
+    - what do you look like?
+    - what's your sign?
+    - how old are you?
+    - how many licks does it take to get to the center of a tootsie pop?
+    - is there a god?
+    - what kind of music do you like?
+    - what languages do you speak?
+    - what is your favorite season?
+    - who is the president of the US?
