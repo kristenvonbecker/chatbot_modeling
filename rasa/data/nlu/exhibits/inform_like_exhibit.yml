@@ -9,19 +9,333 @@ nlu:
     - I'm a big fan of it
     - I really like the exhibit
     - it's one of my favorite parts of the museum
-    - my favorite exhibit is [Big Tuning Fork](exhibit)
-    - the exhibit that I like best is [Chicken Eggs](exhibit)
-    - I prefer [Bacteria Wall](exhibit)
-    - the exhibit I like best is [Café Wall Illusion](exhibit)
-    - you should know that I like [Drinking Fountain](exhibit) the best
-    - I'm particularly fond of the exhibit [Bronze Hand](exhibit)
-    - I happen to really enjoy [Toothpick Roller Coaster](exhibit)
-    - '[Fog Bridge #72494](exhibit) is the most awesome exhibit'
-    - the exhibit [Disappearing Rings](exhibit) is pretty cool
-    - I absolutely love [The Edge Makes the Difference](exhibit)
-    - the best exhibit at the museum is [RayLights](exhibit)
-    - I really like the [Bubble Sheet](exhibit)
-    - a really fun exhibit at the Exploratorium is [Rolling Through the Bay](exhibit)
-    - '[Are Your Cells You?](exhibit) was really fun!'
-    - we really enjoyed [Small Monatomic Molecules](exhibit) exhibit
-    - '[Sun Swarm](exhibit) is my favorite!'
+    - my favorite exhibit is [water evaporation](exhibit)
+    - the exhibit that I like best is [zephyr trio](exhibit)
+    - I prefer [pi marker](exhibit)
+    - the exhibit I like best is [the atmosphere a guide](exhibit)
+    - you should know that I like [sip or squirt](exhibit) the best
+    - I'm particularly fond of the exhibit [a sip of conflict](exhibit)
+    - I happen to really enjoy [braided stream](exhibit)
+    - '[animation tower](exhibit) is the most awesome exhibit'
+    - the exhibit [buffon 's needles](exhibit) is pretty cool
+    - I absolutely love [balancing ball](exhibit)
+    - the best exhibit at the museum is [blood o meter](exhibit)
+    - I really like the [archimedes](exhibit)
+    - a really fun exhibit at the Exploratorium is [bicycle chain](exhibit)
+    - '[digital footprints](exhibit) was really fun!'
+    - we really enjoyed [red phone](exhibit) exhibit
+    - '[disappearing glass rods](exhibit) is my favorite!'
+    - my favorite exhibit is [giant mirror](exhibit)
+    - the exhibit that I like best is [aromas y recuerdos](exhibit)
+    - I prefer [seeing scientifically](exhibit)
+    - the exhibit I like best is [what 's hot what 's not](exhibit)
+    - you should know that I like [rotting carcass](exhibit) the best
+    - I'm particularly fond of the exhibit [career criminal](exhibit)
+    - I happen to really enjoy [coupled pendulums](exhibit)
+    - '[sun painting](exhibit) is the most awesome exhibit'
+    - the exhibit [whispering dishes](exhibit) is pretty cool
+    - I absolutely love [live chicken embryos](exhibit)
+    - the best exhibit at the museum is [diffraction shadows](exhibit)
+    - I really like the [touch the teapot](exhibit)
+    - a really fun exhibit at the Exploratorium is [aeolian landscape](exhibit)
+    - '[toilet water fountain](exhibit) was really fun!'
+    - we really enjoyed [cooperative red phone](exhibit) exhibit
+    - '[time to think](exhibit) is my favorite!'
+    - my favorite exhibit is [walking on gravel](exhibit)
+    - the exhibit that I like best is [toilet bowl drinking fountain](exhibit)
+    - I prefer [colored words](exhibit)
+    - the exhibit I like best is [cloud chamber](exhibit)
+    - you should know that I like [bay bridge model](exhibit) the best
+    - I'm particularly fond of the exhibit [big magnifier](exhibit)
+    - I happen to really enjoy [rock box](exhibit)
+    - '[ames chairs](exhibit) is the most awesome exhibit'
+    - the exhibit [disagreeing about color](exhibit) is pretty cool
+    - I absolutely love [is it genetic](exhibit)
+    - the best exhibit at the museum is [timepieces solar system](exhibit)
+    - I really like the [lab illustrations](exhibit)
+    - a really fun exhibit at the Exploratorium is [beach ball blower](exhibit)
+    - '[colored circles](exhibit) was really fun!'
+    - we really enjoyed [galaxy03](exhibit) exhibit
+    - '[entangled attraction](exhibit) is my favorite!'
+    - my favorite exhibit is [fluorescent tube](exhibit)
+    - the exhibit that I like best is [out quiet yourself](exhibit)
+    - I prefer [adapting to color](exhibit)
+    - the exhibit I like best is [plankton rainbow](exhibit)
+    - you should know that I like [too slow to notice](exhibit) the best
+    - I'm particularly fond of the exhibit [confused sea](exhibit)
+    - I happen to really enjoy [tactile dome](exhibit)
+    - '[the last ocean](exhibit) is the most awesome exhibit'
+    - the exhibit [toilet drinking fountain](exhibit) is pretty cool
+    - I absolutely love [mapping migrations](exhibit)
+    - the best exhibit at the museum is [ir camera](exhibit)
+    - I really like the [energy from death](exhibit)
+    - a really fun exhibit at the Exploratorium is [bulbs and batteries](exhibit)
+    - '[anti - gravity mirror](exhibit) was really fun!'
+    - we really enjoyed [scream into sand](exhibit) exhibit
+    - '[pier piling pivot](exhibit) is my favorite!'
+    - my favorite exhibit is [unseen stories](exhibit)
+    - the exhibit that I like best is [rift zone](exhibit)
+    - I prefer [developing chick embryos](exhibit)
+    - the exhibit I like best is [heat camera](exhibit)
+    - you should know that I like [creatures from the sea settling plate](exhibit) the
+      best
+    - I'm particularly fond of the exhibit [small monatomic molecules](exhibit)
+    - I happen to really enjoy [soap film painting](exhibit)
+    - '[the edge makes the difference](exhibit) is the most awesome exhibit'
+    - the exhibit [color conflicts](exhibit) is pretty cool
+    - I absolutely love [spacetime](exhibit)
+    - the best exhibit at the museum is [ice window](exhibit)
+    - I really like the [bacteriopolis wall](exhibit)
+    - a really fun exhibit at the Exploratorium is [saltscapes](exhibit)
+    - '[the enchanted tree](exhibit) was really fun!'
+    - we really enjoyed [mirrorly a window](exhibit) exhibit
+    - "[horse 's tail](exhibit) is my favorite!"
+    - my favorite exhibit is [circles of magnetism](exhibit)
+    - the exhibit that I like best is [scent memories](exhibit)
+    - I prefer [fox walking](exhibit)
+    - the exhibit I like best is [drawing board](exhibit)
+    - you should know that I like [disappearing act](exhibit) the best
+    - I'm particularly fond of the exhibit [a pendulum clock](exhibit)
+    - I happen to really enjoy [ocean tracks](exhibit)
+    - '[giant chair](exhibit) is the most awesome exhibit'
+    - the exhibit [pedal generator](exhibit) is pretty cool
+    - I absolutely love [square wheel](exhibit)
+    - the best exhibit at the museum is [all the light you see infinity](exhibit)
+    - I really like the [the cow game](exhibit)
+    - a really fun exhibit at the Exploratorium is [mood lighting](exhibit)
+    - '[bicycle wheel gyro](exhibit) was really fun!'
+    - we really enjoyed [water tornado](exhibit) exhibit
+    - '[trust fountain](exhibit) is my favorite!'
+    - my favorite exhibit is [time shift](exhibit)
+    - the exhibit that I like best is [vortex](exhibit)
+    - I prefer [throw pi](exhibit)
+    - the exhibit I like best is [oculus table](exhibit)
+    - you should know that I like [tactile harp](exhibit) the best
+    - I'm particularly fond of the exhibit [cattle game](exhibit)
+    - I happen to really enjoy [dice](exhibit)
+    - '[magnetic sand](exhibit) is the most awesome exhibit'
+    - the exhibit [coupled resonant pendulums](exhibit) is pretty cool
+    - I absolutely love [two ways of seeing yellow](exhibit)
+    - the best exhibit at the museum is [ames room](exhibit)
+    - I really like the [living colors](exhibit)
+    - a really fun exhibit at the Exploratorium is [prelinger library](exhibit)
+    - '[human phenomena explainer station](exhibit) was really fun!'
+    - we really enjoyed [elastotron](exhibit) exhibit
+    - '[noaa buoy](exhibit) is my favorite!'
+    - my favorite exhibit is [fluttering silk](exhibit)
+    - the exhibit that I like best is [too slow to see](exhibit)
+    - I prefer [sweeper 's clock](exhibit)
+    - the exhibit I like best is [tinkerer 's clock](exhibit)
+    - you should know that I like [blood cells in your eye](exhibit) the best
+    - I'm particularly fond of the exhibit [chicken eggs](exhibit)
+    - I happen to really enjoy [corpuscles in the eye](exhibit)
+    - '[lariat chain](exhibit) is the most awesome exhibit'
+    - the exhibit [sky theater](exhibit) is pretty cool
+    - I absolutely love [look inside a developing fish](exhibit)
+    - the best exhibit at the museum is [colored shadows](exhibit)
+    - I really like the [disagreement about color](exhibit)
+    - a really fun exhibit at the Exploratorium is [sun swarm](exhibit)
+    - '[wall watching bench](exhibit) was really fun!'
+    - we really enjoyed [duck into a kaleidoscope](exhibit) exhibit
+    - '[albert](exhibit) is my favorite!'
+    - my favorite exhibit is [tornado](exhibit)
+    - the exhibit that I like best is [turntable](exhibit)
+    - I prefer [ice crystals](exhibit)
+    - the exhibit I like best is [pinscreen](exhibit)
+    - you should know that I like [touch the spring](exhibit) the best
+    - I'm particularly fond of the exhibit [colored venn diagram](exhibit)
+    - I happen to really enjoy [all eyes on me](exhibit)
+    - '[listening vessels](exhibit) is the most awesome exhibit'
+    - the exhibit [genetic inheritance](exhibit) is pretty cool
+    - I absolutely love [water spinner](exhibit)
+    - the best exhibit at the museum is [capture a moment in time](exhibit)
+    - I really like the [community garden](exhibit)
+    - a really fun exhibit at the Exploratorium is [circling wave umbrella](exhibit)
+    - '[can you believe your eyes](exhibit) was really fun!'
+    - we really enjoyed [still life](exhibit) exhibit
+    - '[the dome](exhibit) is my favorite!'
+    - my favorite exhibit is [pitch slider](exhibit)
+    - the exhibit that I like best is [a cell in motion](exhibit)
+    - I prefer [seeing and listening explainer station](exhibit)
+    - the exhibit I like best is [recollections](exhibit)
+    - you should know that I like [chicken wire](exhibit) the best
+    - I'm particularly fond of the exhibit [museum of the moon](exhibit)
+    - I happen to really enjoy [toothpick sculpture](exhibit)
+    - '[interpreting the living systems lab](exhibit) is the most awesome exhibit'
+    - the exhibit [living on death](exhibit) is pretty cool
+    - I absolutely love [pi has your number](exhibit)
+    - the best exhibit at the museum is [library of earth anatomy](exhibit)
+    - I really like the [kalanchoe](exhibit)
+    - a really fun exhibit at the Exploratorium is [snake pendulum](exhibit)
+    - '[lumen illusion](exhibit) was really fun!'
+    - we really enjoyed [cubatron core](exhibit) exhibit
+    - '[3d cell zoetrope](exhibit) is my favorite!'
+    - my favorite exhibit is [sound bite](exhibit)
+    - the exhibit that I like best is [bubble well](exhibit)
+    - I prefer [bubble sheet](exhibit)
+    - the exhibit I like best is [are your cells you](exhibit)
+    - you should know that I like [frozen water drop](exhibit) the best
+    - I'm particularly fond of the exhibit [red blue](exhibit)
+    - I happen to really enjoy [illuminated fog](exhibit)
+    - '[aurora](exhibit) is the most awesome exhibit'
+    - the exhibit [land water](exhibit) is pretty cool
+    - I absolutely love [venn diagram](exhibit)
+    - the best exhibit at the museum is [downhill race](exhibit)
+    - I really like the [washer game](exhibit)
+    - a really fun exhibit at the Exploratorium is [hela cells](exhibit)
+    - '[velvet hands](exhibit) was really fun!'
+    - we really enjoyed [bicycle rope squirter](exhibit) exhibit
+    - '[fog bridge](exhibit) is my favorite!'
+    - my favorite exhibit is [flock](exhibit)
+    - the exhibit that I like best is [twins photos](exhibit)
+    - I prefer [bite o - phone](exhibit)
+    - the exhibit I like best is [cardiac myocytes](exhibit)
+    - you should know that I like [circuit workbench](exhibit) the best
+    - I'm particularly fond of the exhibit [spectral meadow](exhibit)
+    - I happen to really enjoy [turbulent sea](exhibit)
+    - '[cloud rings](exhibit) is the most awesome exhibit'
+    - the exhibit [bay lexicon](exhibit) is pretty cool
+    - I absolutely love [big little chair](exhibit)
+    - the best exhibit at the museum is [golden gate bridge](exhibit)
+    - I really like the [watch water freeze](exhibit)
+    - a really fun exhibit at the Exploratorium is [plant tunes](exhibit)
+    - '[solar hour benches](exhibit) was really fun!'
+    - we really enjoyed [chick embryos](exhibit) exhibit
+    - '[heliorama](exhibit) is my favorite!'
+    - my favorite exhibit is [bacteriopolis](exhibit)
+    - the exhibit that I like best is [chaotic pendulum](exhibit)
+    - I prefer [survival game](exhibit)
+    - the exhibit I like best is [animation station](exhibit)
+    - you should know that I like [green lips](exhibit) the best
+    - I'm particularly fond of the exhibit [all the flowers are for me turquoise](exhibit)
+    - I happen to really enjoy [red green goggles](exhibit)
+    - '[rolling through the bay](exhibit) is the most awesome exhibit'
+    - the exhibit [albert 's watching](exhibit) is pretty cool
+    - I absolutely love [jardín comunitario](exhibit)
+    - the best exhibit at the museum is [café wall illusion](exhibit)
+    - I really like the [pendulum snake](exhibit)
+    - a really fun exhibit at the Exploratorium is [magnetic labyrinth](exhibit)
+    - '[tinkering clock](exhibit) was really fun!'
+    - we really enjoyed [gray step](exhibit) exhibit
+    - '[glass settling plate](exhibit) is my favorite!'
+    - my favorite exhibit is [uroborus a snake chasing its tail](exhibit)
+    - the exhibit that I like best is [your turn counts](exhibit)
+    - I prefer [fluttering](exhibit)
+    - the exhibit I like best is [reaction time 2](exhibit)
+    - you should know that I like [magnetic fluid patterns](exhibit) the best
+    - I'm particularly fond of the exhibit [melodías de plantas](exhibit)
+    - I happen to really enjoy [bird in a cage](exhibit)
+    - '[bronze hand](exhibit) is the most awesome exhibit'
+    - the exhibit [blood cell scale](exhibit) is pretty cool
+    - I absolutely love [zebrafish embryos](exhibit)
+    - the best exhibit at the museum is [button game](exhibit)
+    - I really like the [everyone is you and me](exhibit)
+    - a really fun exhibit at the Exploratorium is [golden gate bridge motion](exhibit)
+    - '[big tuning fork](exhibit) was really fun!'
+    - we really enjoyed [give heart cells a beat](exhibit) exhibit
+    - '[disorted bench](exhibit) is my favorite!'
+    - my favorite exhibit is [the tree experience](exhibit)
+    - the exhibit that I like best is [tactile gallery](exhibit)
+    - I prefer [a drop to drink](exhibit)
+    - the exhibit I like best is [spherical reflections](exhibit)
+    - you should know that I like [sharing faces](exhibit) the best
+    - I'm particularly fond of the exhibit [color ball](exhibit)
+    - I happen to really enjoy [look into infinity](exhibit)
+    - '[cows](exhibit) is the most awesome exhibit'
+    - the exhibit [icy bodies](exhibit) is pretty cool
+    - I absolutely love [chromoscope](exhibit)
+    - the best exhibit at the museum is [drinking fountain](exhibit)
+    - I really like the [pi toss](exhibit)
+    - a really fun exhibit at the Exploratorium is [rotating light](exhibit)
+    - '[sophisticated shadows](exhibit) was really fun!'
+    - we really enjoyed [observatory library](exhibit) exhibit
+    - '[coupled resonant pendula](exhibit) is my favorite!'
+    - my favorite exhibit is [freeloader](exhibit)
+    - the exhibit that I like best is [becoming horizon](exhibit)
+    - I prefer [pi search](exhibit)
+    - the exhibit I like best is [triple aye lightstick](exhibit)
+    - you should know that I like [bacteria wall](exhibit) the best
+    - I'm particularly fond of the exhibit [moving objects](exhibit)
+    - I happen to really enjoy [color splitter](exhibit)
+    - '[long path diffraction](exhibit) is the most awesome exhibit'
+    - the exhibit [emotion tracer](exhibit) is pretty cool
+    - I absolutely love [christmas tree balls](exhibit)
+    - the best exhibit at the museum is [big chair little chair](exhibit)
+    - I really like the [drip chamber](exhibit)
+    - a really fun exhibit at the Exploratorium is [dioximoirekinesis](exhibit)
+    - '[buckyball](exhibit) was really fun!'
+    - we really enjoyed [aeolian harp](exhibit) exhibit
+    - '[try pi](exhibit) is my favorite!'
+    - my favorite exhibit is [echo tube](exhibit)
+    - the exhibit that I like best is [bernoulli blower](exhibit)
+    - I prefer [velvet harp](exhibit)
+    - the exhibit I like best is [sun benches](exhibit)
+    - you should know that I like [they 're identical or are they](exhibit) the best
+    - I'm particularly fond of the exhibit [bay windows](exhibit)
+    - I happen to really enjoy [water drop photography](exhibit)
+    - '[giant clock](exhibit) is the most awesome exhibit'
+    - the exhibit [jellybean room](exhibit) is pretty cool
+    - I absolutely love [raylights](exhibit)
+    - the best exhibit at the museum is [distorted room](exhibit)
+    - I really like the [blood vessels in your eye](exhibit)
+    - a really fun exhibit at the Exploratorium is [black sand](exhibit)
+    - '[visitor pulse](exhibit) was really fun!'
+    - we really enjoyed [bridge light](exhibit) exhibit
+    - '[shaking](exhibit) is my favorite!'
+    - my favorite exhibit is [machine with concrete](exhibit)
+    - the exhibit that I like best is [compare yellow leds](exhibit)
+    - I prefer [pi shrine](exhibit)
+    - the exhibit I like best is [glow ball](exhibit)
+    - you should know that I like [prisoner 's dilemma](exhibit) the best
+    - I'm particularly fond of the exhibit [within 15 minutes](exhibit)
+    - I happen to really enjoy [pulling together](exhibit)
+    - '[disappearing rings](exhibit) is the most awesome exhibit'
+    - the exhibit [teardrop after robert irwin](exhibit) is pretty cool
+    - I absolutely love [ice painting](exhibit)
+    - the best exhibit at the museum is [monochromatic room](exhibit)
+    - I really like the [oscylinderscope](exhibit)
+    - a really fun exhibit at the Exploratorium is [liquid litmus](exhibit)
+    - '[toothpick roller coaster](exhibit) was really fun!'
+    - we really enjoyed [bay lexicon columns](exhibit) exhibit
+    - '[prelinger map archive and library](exhibit) is my favorite!'
+    - my favorite exhibit is [seismograph](exhibit)
+    - the exhibit that I like best is [bike rope squirter](exhibit)
+    - I prefer [leaves that sprout plants](exhibit)
+    - the exhibit I like best is [creating life with just one parent](exhibit)
+    - you should know that I like [black card white card](exhibit) the best
+    - I'm particularly fond of the exhibit [need based transfer economy](exhibit)
+    - I happen to really enjoy [shifting time](exhibit)
+    - '[chladni singing](exhibit) is the most awesome exhibit'
+    - the exhibit [giant tuning fork](exhibit) is pretty cool
+    - I absolutely love [peacemaker](exhibit)
+    - the best exhibit at the museum is [wave organ](exhibit)
+    - I really like the [triple aye stick](exhibit)
+    - a really fun exhibit at the Exploratorium is [yellow room](exhibit)
+    - '[light box](exhibit) was really fun!'
+    - we really enjoyed [harmonograms](exhibit) exhibit
+    - '[time 2 think](exhibit) is my favorite!'
+    - my favorite exhibit is [countless colors](exhibit)
+    - the exhibit that I like best is [flourish bloom](exhibit)
+    - I prefer [research buoy](exhibit)
+    - the exhibit I like best is [praxinoscope tower](exhibit)
+    - you should know that I like [stop and start](exhibit) the best
+    - I'm particularly fond of the exhibit [as one](exhibit)
+    - I happen to really enjoy [leaves that sprout](exhibit)
+    - '[fog bridge 72494](exhibit) is the most awesome exhibit'
+    - the exhibit [probably chelsea](exhibit) is pretty cool
+    - I absolutely love [big wood 300 years of photosynthesis](exhibit)
+    - the best exhibit at the museum is [winogradsky column](exhibit)
+    - I really like the [pitch twanger](exhibit)
+    - a really fun exhibit at the Exploratorium is [the art of neon](exhibit)
+    - '[scrapple](exhibit) was really fun!'
+    - we really enjoyed [responsive heart cells](exhibit) exhibit
+    - '[gray step 1](exhibit) is my favorite!'
+    - my favorite exhibit is [shadow box](exhibit)
+    - the exhibit that I like best is [bright black](exhibit)
+    - I prefer [turbulent orb](exhibit)
+    - the exhibit I like best is [anamorphic bench](exhibit)
+    - you should know that I like [colored lights](exhibit) the best
+    - I'm particularly fond of the exhibit [gas model](exhibit)
+    - I happen to really enjoy [sky panorama](exhibit)
+    - '[salt ponds from the sky](exhibit) is the most awesome exhibit'
+    - the exhibit [giant spherical mirror](exhibit) is pretty cool

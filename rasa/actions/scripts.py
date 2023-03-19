@@ -1,13 +1,14 @@
-from fuzzywuzzy import fuzz, process
 from actions.knowledgebase import articles, exhibits
 import random
+from fuzzywuzzy import fuzz, process
 
 from importlib import reload
+
 reload(articles)
 reload(exhibits)
 
 
-def get_article_title_matches(subject, threshold=90, scorer=fuzz.WRatio):
+def get_article_title_matches(subject, threshold=75, scorer=fuzz.WRatio):
     matches = process.extract(subject, articles.title_aliases, scorer=scorer, limit=5)
     matches.sort(key=lambda item: item[1], reverse=True)
     good_matches = [match for (match, score) in matches if score >= threshold]
@@ -19,13 +20,24 @@ def get_article_text(article_id):
     return text
 
 
-def get_exhibit_id(alias):
-    matches = []
-    for exhibit in exhibits:
-        if alias in exhibit["aliases"]:
-            matches.append(exhibit["id"])
-    matches = list(set(matches))
-    return matches
+def get_exhibit_alias_matches(alias, threshold=75, scorer=fuzz.WRatio):
+    matches = process.extract(alias, exhibits.name_aliases, scorer=scorer, limit=3)
+    matches.sort(key=lambda item: item[1], reverse=True)
+    good_matches = [match for (match, score) in matches if score >= threshold]
+    return good_matches
+
+
+def get_exhibit_ids(alias):
+    ids = []
+    for exhibit_id, aliases in exhibits.alias_id_lookup.items():
+        if alias in aliases:
+            ids.append(exhibit_id)
+    return ids
+
+
+def get_exhibit_name(exhibit_id):
+    exhibit_name = exhibits.alias_id_lookup[exhibit_id][0]
+    return exhibit_name
 
 
 location_dict = {
@@ -45,10 +57,32 @@ location_dict = {
 }
 
 
-def get_exhibit_location(id):
-    location_code = [exhibit["location"] for exhibit in exhibits.exhibits if exhibit["id"] == id][0]
+def get_exhibit_location(exhibit_id):
+    location_code = [exhibit["location"] for exhibit in exhibits.exhibits if exhibit["id"] == exhibit_id][0]
     location = location_dict.get(location_code)
     return location, location_code
+
+
+def get_exhibit_creator(exhibit_id):
+    names = [exhibit["creators"] for exhibit in exhibits.exhibits if exhibit["id"] == exhibit_id][0]
+    return names
+
+
+def get_exhibit_date(exhibit_id):
+    year = [exhibit["year"] for exhibit in exhibits.exhibits if exhibit["id"] == exhibit_id][0]
+    return year
+
+
+def get_about_exhibit(exhibit_id):
+    short_sum = [exhibit["short-summary"] for exhibit in exhibits.exhibits if exhibit["id"] == exhibit_id][0]
+    medium_sum = [exhibit["medium-summary"] for exhibit in exhibits.exhibits if exhibit["id"] == exhibit_id][0]
+    fun_facts = [exhibit["fun-facts"] for exhibit in exhibits.exhibits if exhibit["id"] == exhibit_id][0]
+    return short_sum, medium_sum, fun_facts
+
+
+def get_related_exhibit(exhibit_id):
+    related_ids = [exhibit["related_exhibits"] for exhibit in exhibits.exhibits if exhibit["id"] == exhibit_id][0]
+    return related_ids
 
 
 def get_fave_exhibit():

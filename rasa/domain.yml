@@ -15,7 +15,8 @@ intents:
 - ask_for_explanation:
     use_entities:
     - subject
-- ask_fave_exhibit
+- ask_fave_exhibit:
+    use_entities: []
 - inform_like_exhibit:
     use_entities:
     - exhibit
@@ -31,6 +32,7 @@ intents:
 - ask_related_exhibit:
     use_entities:
     - exhibit
+    - subject
 - ask_where_exhibit:
     use_entities:
     - exhibit
@@ -46,6 +48,9 @@ slots:
     - type: from_entity
       entity: subject
       intent: ask_for_explanation
+    - type: from_entity
+      entity: subject
+      intent: ask_related_exhibit
     influence_conversation: true
   match_ids:
     type: list
@@ -56,7 +61,7 @@ slots:
   num_tries:
     type: float
     min_value: 0
-    max_value: 5
+    max_value: 10
     initial_value: 0
     mappings:
     - type: custom
@@ -67,18 +72,28 @@ slots:
     mappings:
     - type: custom
     influence_conversation: true
-  exhibit:
+  exhibit_alias:
     type: text
     mappings:
     - type: from_entity
       entity: exhibit
-      intent: |
-        - inform_like_exhibit
-        - ask_about_exhibit
-        - ask_exhibit_creator
-        - ask_exhibit_date
-        - ask_related_exhibit
-        - ask_where_exhibit
+      intent: ask_where_exhibit
+    - type: from_entity
+      entity: exhibit
+      intent: ask_about_exhibit
+    - type: from_entity
+      entity: exhibit
+      intent: ask_exhibit_creator
+    - type: from_entity
+      entity: exhibit
+      intent: ask_exhibit_date
+    - type: from_entity
+      entity: exhibit
+      intent: ask_related_exhibit
+  exhibit_id:
+    type: text
+    mappings:
+    - type: custom
     influence_conversation: true
 
 responses:
@@ -99,9 +114,13 @@ responses:
   - text: Thanks; I'm still learning.
   - text: Okay, good to know.
   utter_how_help:
-  - text: What information can I provide?
+  - text: How can I help you?
+  - text: What would you like to know?
+  - text: How can I be of assistance?
   utter_how_else_help:
   - text: What other information can I provide?
+  - text: How else can I be of assistance?
+  - text: What else would you like to know?
   utter_what_subject:
   - text: About which subject?
   utter_which_exhibit:
@@ -110,23 +129,32 @@ responses:
   - text: Sorry, but I wasn't able to find any information about {subject}.
   utter_found_nothing_else:
   - text: Sorry, but I wasn't able to find any more information about {subject}.
+  utter_unknown_exhibit:
+  - text: I'm sorry, but I don't recognize an exhibit called {exhibit_alias}.
   utter_found_something:
   - text: Here's something I found in the Encyclopedia Britannica.
   utter_found_something_else:
-  - text: Here's something else I found in the Encyclopedia Britannica.
+  - text: Here's something else I found.
   utter_confirm_explanation:
   - text: Does that answer your question?
   utter_try_this:
   - text: I don't know how to respond to that. Try something like 'Tell me about electricity.'
+  - text: I'm not sure how to respond to that. Try something like 'What's your favorite exhibit at the Exploratorium?'
+  - text: I can't respond to that. Try something like 'Where I can find the Giant Mirror?'
   utter_default:
   - text: Sorry, I don't understand. Could you please rephrase that?
 
 actions:
-#- action_session_start
-#- action_validate_slot_mappings
-- action_get_match_ids
+- action_session_start
+- action_get_article_match_ids
+- action_get_exhibit_match_ids
 - action_give_explanation
 - action_reset_explanation_slots
+- action_reset_exhibit_slots
+- action_reset_exhibit_alias
 - action_reset_subject
-- action_give_fave_exhibit
-- action_give_exhibit_location
+- action_reset_exhibit
+- action_verify_exhibit
+- action_utter_fave_exhibit
+- action_utter_exhibit_response
+- action_map_exhibit_id

@@ -1,14 +1,31 @@
-what else is like it?
 related exhibit, please
-something similar
+something similar, please
+i'd like to see an exhibit similar to this one
+what's a related exhibit?
+please recommend a similar exhibit
 can you recommend a related exhibit?
 which other exhibits at the exploratorium are like this one?
 can you recommend something similar?
 that was fun, what should I visit next?
+i really like this exhibit, which ones are similar to it?
 what other exhibits are similar to this?
 please recommend something similar
 please tell me which other exhibits are like [](exhibit)
 I'd like to visit an exhibit like [](exhibit)
 which exhibits are similar to [](exhibit)?
 I'm looking for an exhibit like [](exhibit)
+what's an exhibit that's sort of like [](exhibit)?
+can you plese recommend to me another exhibit like [](exhibit)?
 what else at the Exploratorium is similar to [](exhibit)?
+similar exhibit to [](exhibit)
+exhibit related to [](exhibit)
+which exhibits are about [](subject)?
+i'd like to find an exhibit that involves [](subject)
+can you please point me toward an exhibit about [](subject)?
+please, which exhibit illustrates the concept of [](subject)?
+i'm looking for an exhibit that demonstrates [](subject)
+is there an exhibit about [](subject)?
+show me an exhibit regarding [](subject)
+tell me which exhibit is related to [](subject)
+are there any exhibits about [](subject)?
+is there anything at the exploratorium about [](subject)?

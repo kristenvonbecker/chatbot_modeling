@@ -5,6 +5,9 @@ I can't find the exhibit
 can you tell me where I can find it?
 where's it at?
 where?
+in which gallery?
+which location?
+where can i find it?
 where is the exhibit located?
 where is [](exhibit)?
 where can I find [](exhibit)?
@@ -13,4 +16,6 @@ I can't seem to locate [](exhibit)
 where can [](exhibit) be found?
 I'm trying to locate [](exhibit)
 what is the location of [](exhibit)?
-which gallery has [](exhibit)?  
+which gallery has [](exhibit)?
+where should i go to find [](exhibit)?
+can you please help me find [](exhibit)?

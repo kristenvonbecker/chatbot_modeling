@@ -2,703 +2,703 @@ version: '3.1'
 nlu:
 - synonym: a-drop-to-drink
   examples: |
-    - A Drop to Drink
+    - a drop to drink
 - synonym: career-criminal
   examples: |
-    - Career Criminal
-    - Prisoner's Dilemma
+    - career criminal
+    - prisoner 's dilemma
 - synonym: a-cell-in-motion
   examples: |
-    - A Cell in Motion
-    - 3D Cell Zoetrope
+    - a cell in motion
+    - 3d cell zoetrope
 - synonym: community-garden
   examples: |
-    - Community Garden,
-    - Jardín comunitario,
+    - community garden
+    - jardín comunitario
 - synonym: scent-memories
   examples: |
-    - Aromas y recuerdos
-    - Scent Memories
+    - aromas y recuerdos
+    - scent memories
 - synonym: cafe-wall-illusion
   examples: |
-    - Café Wall Illusion
+    - café wall illusion
 - synonym: chladni-singing
   examples: |
-    - Chladni Singing
-    - Scream into Sand
+    - chladni singing
+    - scream into sand
 - synonym: buckyball
   examples: |
-    - Buckyball
+    - buckyball
 - synonym: christmas-tree-balls
   examples: |
-    - Christmas Tree Balls
-    - Spherical Reflections
+    - christmas tree balls
+    - spherical reflections
 - synonym: bronze-hand
   examples: |
-    - Bronze Hand
+    - bronze hand
 - synonym: chaotic-pendulum
   examples: |
-    - Chaotic Pendulum
+    - chaotic pendulum
 - synonym: braided-stream
   examples: |
-    - Braided Stream
+    - braided stream
 - synonym: bright-black
   examples: |
-    - Bright Black
-    - Black Card/White Card
+    - bright black
+    - black card white card
 - synonym: blood-o-meter
   examples: |
-    - Blood-o-Meter
-    - Blood Cell Scale
+    - blood o meter
+    - blood cell scale
 - synonym: blood-cells-in-your-eye
   examples: |
-    - Blood Cells in Your Eye
-    - Corpuscles in the Eye
-    - Blood Vessels in Your Eye
+    - blood cells in your eye
+    - corpuscles in the eye
+    - blood vessels in your eye
 - synonym: black-sand
   examples: |
-    - Black Sand
-    - Magnetic Sand
+    - black sand
+    - magnetic sand
 - synonym: bird-in-a-cage
   examples: |
-    - Bird in a Cage
+    - bird in a cage
 - synonym: bike-rope-squirter
   examples: |
-    - Bike Rope Squirter
-    - Bicycle Rope Squirter
+    - bike rope squirter
+    - bicycle rope squirter
 - synonym: big-wood-300-years-of-photosynthesis
   examples: |
-    - 'Big Wood: 300 Years of Photosynthesis'
-    - The Tree Experience
+    - big wood 300 years of photosynthesis
+    - the tree experience
 - synonym: big-tuning-fork
   examples: |
-    - Big Tuning Fork
-    - Giant Tuning Fork
+    - big tuning fork
+    - giant tuning fork
 - synonym: bicycle-wheel-gyro
   examples: |
-    - Bicycle Wheel Gyro
+    - bicycle wheel gyro
 - synonym: big-chair-little-chair
   examples: |
-    - Big Chair, Little Chair
-    - Big/Little Chair
-    - Big Chair/Little Chair
-    - Giant Chair
+    - big chair little chair
+    - big little chair
+    - big chair little chair
+    - giant chair
 - synonym: balancing-ball
   examples: |
-    - Balancing Ball
-    - Beach Ball Blower
-    - Bernoulli Blower
+    - balancing ball
+    - beach ball blower
+    - bernoulli blower
 - synonym: bay-bridge-model
   examples: |
-    - Bay Bridge Model
+    - bay bridge model
 - synonym: bay-lexicon
   examples: |
-    - Bay Lexicon
-    - Bay Lexicon Columns
-    - Land/Water
+    - bay lexicon
+    - bay lexicon columns
+    - land water
 - synonym: bay-windows
   examples: |
-    - Bay Windows
+    - bay windows
 - synonym: bacteriopolis
   examples: |
-    - Bacteriopolis
-    - Bacteria Wall
-    - Bacteriopolis Wall
-    - Living Colors
-    - Winogradsky Column
+    - bacteriopolis
+    - bacteria wall
+    - bacteriopolis wall
+    - living colors
+    - winogradsky column
 - synonym: aurora
   examples: |
-    - Aurora
+    - aurora
 - synonym: as-one
   examples: |
-    - As One
+    - as one
 - synonym: are-your-cells-you
   examples: |
-    - Are Your Cells You?
-    - HeLa Cells
+    - are your cells you
+    - hela cells
 - synonym: archimedes
   examples: |
-    - Archimedes
+    - archimedes
 - synonym: animation-station
   examples: |
-    - Animation Station
+    - animation station
 - synonym: anti-gravity-mirror
   examples: |
-    - Anti-Gravity Mirror
+    - anti - gravity mirror
 - synonym: animation-tower
   examples: |
-    - Animation Tower
-    - Praxinoscope Tower
+    - animation tower
+    - praxinoscope tower
 - synonym: anamorphic-bench
   examples: |
-    - Anamorphic Bench
-    - Disorted Bench
+    - anamorphic bench
+    - disorted bench
 - synonym: all-flowers-me
   examples: |
-    - All the Flowers Are for Me (Turquoise)
+    - all the flowers are for me turquoise
 - synonym: museum-of-the-moon
   examples: |
-    - Museum of the Moon
+    - museum of the moon
 - synonym: entangled-attraction
   examples: |
-    - Entangled Attraction
+    - entangled attraction
 - synonym: enchanted-tree
   examples: |
-    - The Enchanted Tree
+    - the enchanted tree
 - synonym: ames-chairs
   examples: |
-    - Ames Chairs
+    - ames chairs
 - synonym: spacetime
   examples: |
-    - Spacetime
+    - spacetime
 - synonym: neon-works
   examples: |
-    - The Art of Neon
+    - the art of neon
 - synonym: galaxy01
   examples: |
-    - GALAXY03
+    - galaxy03
 - synonym: all-the-light
   examples: |
-    - All the Light You See (Infinity)
+    - all the light you see infinity
 - synonym: peacemaker
   examples: |
-    - Peacemaker
+    - peacemaker
 - synonym: becoming-horizon
   examples: |
-    - Becoming Horizon
+    - becoming horizon
 - synonym: glass-settling-plate
   examples: |
-    - Glass Settling Plate
-    - Big Magnifier
-    - Creatures from the Sea Settling Plate
+    - glass settling plate
+    - big magnifier
+    - creatures from the sea settling plate
 - synonym: giant-mirror
   examples: |
-    - Giant Mirror
-    - Giant Spherical Mirror
+    - giant mirror
+    - giant spherical mirror
 - synonym: freeloader
   examples: |
-    - Freeloader
-    - Washer Game
-    - Button Game
+    - freeloader
+    - washer game
+    - button game
 - synonym: fog-bridge-72494
   examples: |
-    - 'Fog Bridge #72494'
-    - Fog Bridge
+    - fog bridge 72494
+    - fog bridge
 - synonym: give-heart-cells-a-beat
   examples: |
-    - Give Heart Cells a Beat
-    - Cardiac Myocytes
-    - Visitor Pulse
-    - Responsive Heart Cells
+    - give heart cells a beat
+    - cardiac myocytes
+    - visitor pulse
+    - responsive heart cells
 - synonym: gas-model
   examples: |
-    - Gas Model
-    - Small Monatomic Molecules
+    - gas model
+    - small monatomic molecules
 - synonym: fluttering
   examples: |
-    - Fluttering
-    - Fluttering Silk
+    - fluttering
+    - fluttering silk
 - synonym: flock
   examples: |
-    - Flock
+    - flock
 - synonym: fluorescent-tube
   examples: |
-    - Fluorescent Tube
+    - fluorescent tube
 - synonym: everyone-is-you-and-me
   examples: |
-    - Everyone Is You and Me
+    - everyone is you and me
 - synonym: flourish-bloom
   examples: |
-    - Flourish (Bloom)
+    - flourish bloom
 - synonym: energy-from-death
   examples: |
-    - Energy from Death
-    - Living on Death
-    - Rotting Carcass
+    - energy from death
+    - living on death
+    - rotting carcass
 - synonym: emotion-tracer
   examples: |
-    - Emotion Tracer
+    - emotion tracer
 - synonym: echo-tube
   examples: |
-    - Echo Tube
+    - echo tube
 - synonym: elastotron
   examples: |
-    - Elastotron
+    - elastotron
 - synonym: drawing-board
   examples: |
-    - Drawing Board
+    - drawing board
 - synonym: drip-chamber
   examples: |
-    - Drip Chamber
+    - drip chamber
 - synonym: duck-into-a-kaleidescope
   examples: |
-    - Duck Into a Kaleidoscope
+    - duck into a kaleidoscope
 - synonym: pulling-together
   examples: |
-    - Pulling Together
+    - pulling together
 - synonym: downhill-race
   examples: |
-    - Downhill Race
+    - downhill race
 - synonym: distorted-room
   examples: |
-    - Distorted Room
-    - Ames Room
+    - distorted room
+    - ames room
 - synonym: probably-chelsea
   examples: |
-    - Probably Chelsea
+    - probably chelsea
 - synonym: recollections
   examples: |
-    - Recollections
+    - recollections
 - synonym: plankton-rainbow
   examples: |
-    - Plankton Rainbow
+    - plankton rainbow
 - synonym: pinscreen
   examples: |
-    - Pinscreen
+    - pinscreen
 - synonym: pitch-slider
   examples: |
-    - Pitch Slider
-    - Pitch Twanger
+    - pitch slider
+    - pitch twanger
 - synonym: pier-piling-pivot
   examples: |
-    - Pier Piling Pivot
+    - pier piling pivot
 - synonym: pi-shrine
   examples: |
-    - Pi Shrine
-    - Pi Marker
+    - pi shrine
+    - pi marker
 - synonym: pi-toss
   examples: |
-    - Pi Toss
-    - Buffon's Needles
-    - Throw Pi
-    - Try Pi
+    - pi toss
+    - buffon 's needles
+    - throw pi
+    - try pi
 - synonym: pi-has-your-number
   examples: |
-    - Pi Has Your Number
-    - Pi Search
+    - pi has your number
+    - pi search
 - synonym: pendulum-snake
   examples: |
-    - Pendulum Snake
-    - Snake Pendulum
+    - pendulum snake
+    - snake pendulum
 - synonym: observatory-library
   examples: |
-    - Observatory Library
-    - Prelinger Map Archive and Library
-    - Prelinger Library
+    - observatory library
+    - prelinger map archive and library
+    - prelinger library
 - synonym: oscylinderscope
   examples: |
-    - Oscylinderscope
+    - oscylinderscope
 - synonym: pedal-generator
   examples: |
-    - Pedal Generator
+    - pedal generator
 - synonym: out-quiet-yourself
   examples: |
-    - Out Quiet Yourself
-    - Fox Walking
-    - Rock Box
-    - Shaking
-    - Walking on Gravel
+    - out quiet yourself
+    - fox walking
+    - rock box
+    - shaking
+    - walking on gravel
 - synonym: oculus-table
   examples: |
-    - Oculus Table
+    - oculus table
 - synonym: moving-objects
   examples: |
-    - Moving Objects
+    - moving objects
 - synonym: mirrorly-a-window
   examples: |
-    - Mirrorly a Window
+    - mirrorly a window
 - synonym: mood-lighting
   examples: |
-    - Mood Lighting
-    - Color Ball
-    - Glow Ball
+    - mood lighting
+    - color ball
+    - glow ball
 - synonym: mapping-migrations
   examples: |
-    - Mapping Migrations
-    - Ocean Tracks
+    - mapping migrations
+    - ocean tracks
 - synonym: monochromatic-room
   examples: |
-    - Monochromatic Room
-    - Bridge Light
-    - Yellow Room
-    - Jellybean Room
+    - monochromatic room
+    - bridge light
+    - yellow room
+    - jellybean room
 - synonym: magnetic-fluid-patterns
   examples: |
-    - Magnetic Fluid Patterns
-    - Magnetic Labyrinth
+    - magnetic fluid patterns
+    - magnetic labyrinth
 - synonym: zephyr-trio
   examples: |
-    - Zephyr Trio
+    - zephyr trio
 - synonym: your-turn-counts
   examples: |
-    - Your Turn Counts
+    - your turn counts
 - synonym: water-drop-photography
   examples: |
-    - Water-Drop Photography
-    - Frozen Water Drop
+    - water drop photography
+    - frozen water drop
 - synonym: within-15-minutes
   examples: |
-    - Within 15 Minutes
+    - within 15 minutes
 - synonym: the-wave-organ
   examples: |
-    - Wave Organ
+    - wave organ
 - synonym: whats-hot-whats-not
   examples: |
-    - What's Hot, What's Not?
-    - Heat Camera
-    - IR Camera
+    - what 's hot what 's not
+    - heat camera
+    - ir camera
 - synonym: water-spinner
   examples: |
-    - Water Spinner
+    - water spinner
 - synonym: watch-water-freeze
   examples: |
-    - Watch Water Freeze
-    - Ice Crystals
-    - Ice Painting
-    - Ice Window
+    - watch water freeze
+    - ice crystals
+    - ice painting
+    - ice window
 - synonym: vortex
   examples: |
-    - Vortex
-    - Water Tornado
+    - vortex
+    - water tornado
 - synonym: velvet-hands
   examples: |
-    - Velvet Hands
-    - Chicken Wire
-    - Tactile Harp
-    - Velvet Harp
+    - velvet hands
+    - chicken wire
+    - tactile harp
+    - velvet harp
 - synonym: unseen-stories
   examples: |
-    - Unseen Stories
+    - unseen stories
 - synonym: uroborus
   examples: |
-    - 'Uroborus: A Snake Chasing Its Tail'
+    - uroborus a snake chasing its tail
 - synonym: turntable
   examples: |
-    - Turntable
+    - turntable
 - synonym: turbulent-orb
   examples: |
-    - Turbulent Orb
+    - turbulent orb
 - synonym: touch-the-spring
   examples: |
-    - Touch the Spring
-    - Can You Believe Your Eyes?
-    - Touch the Teapot
+    - touch the spring
+    - can you believe your eyes
+    - touch the teapot
 - synonym: tinkerers-clock
   examples: |
-    - Tinkerer's Clock
-    - Tinkering Clock
+    - tinkerer 's clock
+    - tinkering clock
 - synonym: timepieces
   examples: |
-    - Timepieces (Solar System)
+    - timepieces solar system
 - synonym: tornado
   examples: |
-    - Tornado
+    - tornado
 - synonym: too-slow-to-notice
   examples: |
-    - Too Slow to Notice
-    - Water Evaporation
-    - Too Slow to See
+    - too slow to notice
+    - water evaporation
+    - too slow to see
 - synonym: triple-aye-lightstick
   examples: |
-    - Triple-Aye Lightstick
-    - Triple Aye Stick
+    - triple aye lightstick
+    - triple aye stick
 - synonym: time-to-think
   examples: |
-    - Time to Think
-    - Reaction Time 2
-    - Time 2 Think
+    - time to think
+    - reaction time 2
+    - time 2 think
 - synonym: theyre-identical-or-are-they
   examples: |
-    - They're Identical . . . Or Are They?
+    - they 're identical or are they
     - twins photos
 - synonym: time-shift
   examples: |
-    - Time Shift
-    - Shifting Time
+    - time shift
+    - shifting time
 - synonym: the-atmosphere-a-guide
   examples: |
-    - 'The Atmosphere: A Guide'
+    - the atmosphere a guide
 - synonym: tactile-dome
   examples: |
-    - Tactile Dome
-    - Tactile Gallery
-    - The Dome
+    - tactile dome
+    - tactile gallery
+    - the dome
 - synonym: sweepers-clock
   examples: |
-    - Sweeper's Clock
+    - sweeper 's clock
 - synonym: survival-game
   examples: |
-    - Survival Game
-    - Cattle Game
-    - Cows
-    - Need-Based Transfer Economy
-    - The Cow Game
+    - survival game
+    - cattle game
+    - cows
+    - need based transfer economy
+    - the cow game
 - synonym: sun-swarm
   examples: |
-    - Sun Swarm
-    - Rotating Light
+    - sun swarm
+    - rotating light
 - synonym: plant-tunes
   examples: |
-    - Plant Tunes
-    - Melodías de plantas
+    - plant tunes
+    - melodías de plantas
 - synonym: sun-painting
   examples: |
-    - Sun Painting
+    - sun painting
 - synonym: still-life
   examples: |
-    - Still Life
+    - still life
 - synonym: spectral-meadow
   examples: |
-    - Spectral Meadow
+    - spectral meadow
 - synonym: sound-bite
   examples: |
-    - Sound Bite
-    - Bite-O-Phone
+    - sound bite
+    - bite o - phone
 - synonym: square-wheel
   examples: |
-    - Square Wheel
+    - square wheel
 - synonym: sophisticated-shadows
   examples: |
-    - Sophisticated Shadows
+    - sophisticated shadows
 - synonym: solar-hour-benches
   examples: |
-    - Solar Hour Benches
-    - Sun Benches
+    - solar hour benches
+    - sun benches
 - synonym: sip-or-squirt
   examples: |
-    - Sip or Squirt
-    - Drinking Fountain
-    - Trust Fountain
+    - sip or squirt
+    - drinking fountain
+    - trust fountain
 - synonym: soap-film-painting
   examples: |
-    - Soap Film Painting
-    - Bubble Well
-    - Bubble Sheet
+    - soap film painting
+    - bubble well
+    - bubble sheet
 - synonym: shadow-box
   examples: |
-    - Shadow Box
-    - Capture a Moment in Time
-    - Light Box
+    - shadow box
+    - capture a moment in time
+    - light box
 - synonym: sharing-faces
   examples: |
-    - Sharing Faces
+    - sharing faces
 - synonym: sky-theater
   examples: |
-    - Sky Theater
-    - Heliorama
-    - Sky Panorama
+    - sky theater
+    - heliorama
+    - sky panorama
 - synonym: seismograph
   examples: |
-    - Seismograph
+    - seismograph
 - synonym: seeing-and-listening-explainer-station
   examples: |
-    - Seeing and Listening Explainer Station
+    - seeing and listening explainer station
 - synonym: scrapple
   examples: |
-    - Scrapple
+    - scrapple
 - synonym: saltscapes
   examples: |
-    - Saltscapes
-    - Salt Ponds from the Sky
+    - saltscapes
+    - salt ponds from the sky
 - synonym: rift-zone
   examples: |
-    - Rift Zone
+    - rift zone
 - synonym: research-buoy
   examples: |
-    - Research Buoy
-    - NOAA Buoy
+    - research buoy
+    - noaa buoy
 - synonym: rolling-through-the-bay
   examples: |
-    - Rolling Through the Bay
-    - Toothpick Roller Coaster
-    - Toothpick Sculpture
+    - rolling through the bay
+    - toothpick roller coaster
+    - toothpick sculpture
 - synonym: redblue
   examples: |
-    - Red/Blue
+    - red blue
 - synonym: red-phone
   examples: |
-    - Red Phone
-    - Cooperative Red Phone
+    - red phone
+    - cooperative red phone
 - synonym: lumen-illusion
   examples: |
-    - Lumen-Illusion
+    - lumen illusion
 - synonym: machine-with-concrete
   examples: |
-    - Machine with Concrete
+    - machine with concrete
 - synonym: look-into-infinity
   examples: |
-    - Look Into Infinity
+    - look into infinity
 - synonym: live-chicken-embryos
   examples: |
-    - Live Chicken Embryos
-    - Chick Embryos
-    - Chicken Eggs
-    - Developing Chick Embryos
+    - live chicken embryos
+    - chick embryos
+    - chicken eggs
+    - developing chick embryos
 - synonym: look-inside-developing-fish
   examples: |
-    - Look Inside a Developing Fish
-    - DICE
-    - Seeing Scientifically
-    - Zebrafish Embryos
+    - look inside a developing fish
+    - dice
+    - seeing scientifically
+    - zebrafish embryos
 - synonym: listening-vessels
   examples: |
-    - Listening Vessels
-    - Whispering Dishes
+    - listening vessels
+    - whispering dishes
 - synonym: leaves-sprout-plants
   examples: |
-    - Leaves that Sprout Plants
-    - Creating Life With Just One Parent
-    - Kalanchoe
-    - Leaves That Sprout
+    - leaves that sprout plants
+    - creating life with just one parent
+    - kalanchoe
+    - leaves that sprout
 - synonym: lariat-chain
   examples: |
-    - Lariat Chain
-    - Bicycle Chain
+    - lariat chain
+    - bicycle chain
 - synonym: library-of-earth-anatomy
   examples: |
-    - Library of Earth Anatomy
+    - library of earth anatomy
 - synonym: liquid-litmus
   examples: |
-    - Liquid Litmus
+    - liquid litmus
 - synonym: lab-illustrations
   examples: |
-    - Lab Illustrations
-    - Interpreting the Living Systems Lab
+    - lab illustrations
+    - interpreting the living systems lab
 - synonym: is-it-genetic
   examples: |
-    - Is It Genetic?
-    - Genetic Inheritance
+    - is it genetic
+    - genetic inheritance
 - synonym: icy-bodies
   examples: |
-    - Icy Bodies
+    - icy bodies
 - synonym: illuminated-fog
   examples: |
-    - Illuminated Fog
+    - illuminated fog
 - synonym: human-phenomena-explainer-station
   examples: |
-    - Human Phenomena Explainer Station
+    - human phenomena explainer station
 - synonym: harmonograms
   examples: |
-    - Harmonograms
+    - harmonograms
 - synonym: golden-gate-bridge
   examples: |
-    - Golden Gate Bridge
-    - Golden Gate Bridge Motion
+    - golden gate bridge
+    - golden gate bridge motion
 - synonym: last-ocean
   examples: |
-    - The Last Ocean
+    - the last ocean
 - synonym: gray-step
   examples: |
-    - Gray Step
-    - The Edge Makes the Difference
-    - Gray Step 1
-    - Horse's Tail
+    - gray step
+    - the edge makes the difference
+    - gray step 1
+    - horse 's tail
 - synonym: disappearing-act
   examples: |
-    - Disappearing Act
+    - disappearing act
 - synonym: teardrop
   examples: |
-    - Teardrop (after Robert Irwin)
+    - teardrop after robert irwin
 - synonym: raylights
   examples: |
-    - RayLights
+    - raylights
 - synonym: disappearing-rings
   examples: |
-    - Disappearing Rings
+    - disappearing rings
 - synonym: disappearing-glass-rods
   examples: |
-    - Disappearing Glass Rods
+    - disappearing glass rods
 - synonym: disagreeing-about-color
   examples: |
-    - Disagreeing About Color
-    - Compare Yellow (LEDs)
-    - Disagreement About Color
-    - Two Ways of Seeing Yellow
+    - disagreeing about color
+    - compare yellow leds
+    - disagreement about color
+    - two ways of seeing yellow
 - synonym: dioximoirekinesis
   examples: |
-    - Dioximoirekinesis
+    - dioximoirekinesis
 - synonym: diffraction-shadows
   examples: |
-    - Diffraction Shadows
-    - Long-Path Diffraction
+    - diffraction shadows
+    - long path diffraction
 - synonym: cubatron-core
   examples: |
-    - Cubatron Core
+    - cubatron core
 - synonym: digital-footprints
   examples: |
-    - Digital Footprints
+    - digital footprints
 - synonym: countless-colors
   examples: |
-    - Countless Colors
+    - countless colors
 - synonym: confused-sea
   examples: |
-    - Confused Sea
-    - Turbulent Sea
+    - confused sea
+    - turbulent sea
 - synonym: colored-shadows
   examples: |
-    - Colored Shadows
-    - Color Splitter
-    - Wall Watching Bench
+    - colored shadows
+    - color splitter
+    - wall watching bench
 - synonym: coupled-pendulums
   examples: |
-    - Coupled Pendulums
-    - Coupled Resonant Pendula
-    - Coupled Resonant Pendulums
-    - Stop and Start
+    - coupled pendulums
+    - coupled resonant pendula
+    - coupled resonant pendulums
+    - stop and start
 - synonym: colored-circles
   examples: |
-    - Colored Circles
-    - Colored Lights
-    - Colored Venn diagram
-    - Venn Diagram
+    - colored circles
+    - colored lights
+    - colored venn diagram
+    - venn diagram
 - synonym: cloud-rings
   examples: |
-    - Cloud Rings
+    - cloud rings
 - synonym: color-conflicts
   examples: |
-    - Color Conflicts
-    - Colored Words
+    - color conflicts
+    - colored words
 - synonym: chromoscope
   examples: |
-    - Chromoscope
-    - Green Lips
+    - chromoscope
+    - green lips
 - synonym: circuit-workbench
   examples: |
-    - Circuit Workbench
-    - Bulbs and Batteries
+    - circuit workbench
+    - bulbs and batteries
 - synonym: cloud-chamber
   examples: |
-    - Cloud Chamber
+    - cloud chamber
 - synonym: circling-wave-umbrella
   examples: |
-    - Circling Wave Umbrella
+    - circling wave umbrella
 - synonym: circles-of-magnetism
   examples: |
-    - Circles of Magnetism
+    - circles of magnetism
 - synonym: albert
   examples: |
-    - Albert
-    - Albert's Watching
+    - albert
+    - albert 's watching
 - synonym: aeolian-landscape
   examples: |
-    - Aeolian Landscape
+    - aeolian landscape
 - synonym: aeolian-harp
   examples: |
-    - Aeolian Harp
+    - aeolian harp
 - synonym: pendulum-clock
   examples: |
-    - A Pendulum Clock
-    - Giant Clock
+    - a pendulum clock
+    - giant clock
 - synonym: all-eyes-on-me
   examples: |
-    - All Eyes on Me
+    - all eyes on me
 - synonym: a-sip-of-conflict
   examples: |
-    - A Sip of Conflict
-    - Toilet Bowl Drinking Fountain
-    - Toilet Drinking Fountain
-    - Toilet Water Fountain
+    - a sip of conflict
+    - toilet bowl drinking fountain
+    - toilet drinking fountain
+    - toilet water fountain
 - synonym: adapting-to-color
   examples: |
-    - Adapting to Color
-    - Red-Green Goggles
+    - adapting to color
+    - red green goggles

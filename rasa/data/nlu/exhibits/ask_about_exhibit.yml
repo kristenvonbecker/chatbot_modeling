@@ -4,6 +4,11 @@ nlu:
   examples: |
     - what is this exhibit all about?
     - how does it work?
+    - what's up with that exhibit?
+    - what can you tell me about it?
+    - what can i expect when i visit the exhibit?
+    - what's the exhibit like?
+    - what is it?
     - please summarize this exhibit for me
     - can you describe the exhibit?
     - tell me about this exhibit
@@ -12,11 +17,332 @@ nlu:
     - tell me a little about it
     - explain the concept behind the exhibit
     - can you tell me what this exhibit is about?
-    - what is going on in [Genetic Inheritance](exhibit)?
-    - please explain the theme of [Interpreting the Living Systems Lab](exhibit)
-    - how does [Colored Words](exhibit) work?
-    - do you know how [Lumen-Illusion](exhibit) works?
-    - what is [Library of Earth Anatomy](exhibit) all about?
-    - tell me a little about [Ice Painting](exhibit)
-    - explain [Color Ball](exhibit) to me
-    - how would you explain [Velvet Harp](exhibit)?
+    - what is going on in [water evaporation](exhibit)?
+    - tell me what i can expect from [zephyr trio](exhibit)
+    - can you please give me some information about [pi marker](exhibit)?
+    - can you tell me how [the atmosphere a guide](exhibit) works?
+    - what's going on with [sip or squirt](exhibit)?
+    - i'd like to learn some more about the exhibit [a sip of conflict](exhibit)
+    - i'm trying to learn more about [braided stream](exhibit)
+    - how does [animation tower](exhibit) work, anyway?
+    - what is [buffon 's needles](exhibit) like?
+    - tell me about the exhibit [balancing ball](exhibit)
+    - how does it work [blood o meter](exhibit)?
+    - what is it made of [archimedes](exhibit)?
+    - please explain the theme of [bicycle chain](exhibit)
+    - how does [digital footprints](exhibit) work?
+    - do you know how [red phone](exhibit) works?
+    - what is [disappearing glass rods](exhibit) all about?
+    - tell me a little about [giant mirror](exhibit)
+    - explain [aromas y recuerdos](exhibit) to me
+    - how would you explain [seeing scientifically](exhibit)?
+    - what is going on in [what 's hot what 's not](exhibit)?
+    - tell me what i can expect from [rotting carcass](exhibit)
+    - can you please give me some information about [career criminal](exhibit)?
+    - can you tell me how [coupled pendulums](exhibit) works?
+    - what's going on with [sun painting](exhibit)?
+    - i'd like to learn some more about the exhibit [whispering dishes](exhibit)
+    - i'm trying to learn more about [live chicken embryos](exhibit)
+    - how does [diffraction shadows](exhibit) work, anyway?
+    - what is [touch the teapot](exhibit) like?
+    - tell me about the exhibit [aeolian landscape](exhibit)
+    - how does it work [toilet water fountain](exhibit)?
+    - what is it made of [cooperative red phone](exhibit)?
+    - please explain the theme of [time to think](exhibit)
+    - how does [walking on gravel](exhibit) work?
+    - do you know how [toilet bowl drinking fountain](exhibit) works?
+    - what is [colored words](exhibit) all about?
+    - tell me a little about [cloud chamber](exhibit)
+    - explain [bay bridge model](exhibit) to me
+    - how would you explain [big magnifier](exhibit)?
+    - what is going on in [rock box](exhibit)?
+    - tell me what i can expect from [ames chairs](exhibit)
+    - can you please give me some information about [disagreeing about color](exhibit)?
+    - can you tell me how [is it genetic](exhibit) works?
+    - what's going on with [timepieces solar system](exhibit)?
+    - i'd like to learn some more about the exhibit [lab illustrations](exhibit)
+    - i'm trying to learn more about [beach ball blower](exhibit)
+    - how does [colored circles](exhibit) work, anyway?
+    - what is [galaxy03](exhibit) like?
+    - tell me about the exhibit [entangled attraction](exhibit)
+    - how does it work [fluorescent tube](exhibit)?
+    - what is it made of [out quiet yourself](exhibit)?
+    - please explain the theme of [adapting to color](exhibit)
+    - how does [plankton rainbow](exhibit) work?
+    - do you know how [too slow to notice](exhibit) works?
+    - what is [confused sea](exhibit) all about?
+    - tell me a little about [tactile dome](exhibit)
+    - explain [the last ocean](exhibit) to me
+    - how would you explain [toilet drinking fountain](exhibit)?
+    - what is going on in [mapping migrations](exhibit)?
+    - tell me what i can expect from [ir camera](exhibit)
+    - can you please give me some information about [energy from death](exhibit)?
+    - can you tell me how [bulbs and batteries](exhibit) works?
+    - what's going on with [anti - gravity mirror](exhibit)?
+    - i'd like to learn some more about the exhibit [scream into sand](exhibit)
+    - i'm trying to learn more about [pier piling pivot](exhibit)
+    - how does [unseen stories](exhibit) work, anyway?
+    - what is [rift zone](exhibit) like?
+    - tell me about the exhibit [developing chick embryos](exhibit)
+    - how does it work [heat camera](exhibit)?
+    - what is it made of [creatures from the sea settling plate](exhibit)?
+    - please explain the theme of [small monatomic molecules](exhibit)
+    - how does [soap film painting](exhibit) work?
+    - do you know how [the edge makes the difference](exhibit) works?
+    - what is [color conflicts](exhibit) all about?
+    - tell me a little about [spacetime](exhibit)
+    - explain [ice window](exhibit) to me
+    - how would you explain [bacteriopolis wall](exhibit)?
+    - what is going on in [saltscapes](exhibit)?
+    - tell me what i can expect from [the enchanted tree](exhibit)
+    - can you please give me some information about [mirrorly a window](exhibit)?
+    - can you tell me how [horse 's tail](exhibit) works?
+    - what's going on with [circles of magnetism](exhibit)?
+    - i'd like to learn some more about the exhibit [scent memories](exhibit)
+    - i'm trying to learn more about [fox walking](exhibit)
+    - how does [drawing board](exhibit) work, anyway?
+    - what is [disappearing act](exhibit) like?
+    - tell me about the exhibit [a pendulum clock](exhibit)
+    - how does it work [ocean tracks](exhibit)?
+    - what is it made of [giant chair](exhibit)?
+    - please explain the theme of [pedal generator](exhibit)
+    - how does [square wheel](exhibit) work?
+    - do you know how [all the light you see infinity](exhibit) works?
+    - what is [the cow game](exhibit) all about?
+    - tell me a little about [mood lighting](exhibit)
+    - explain [bicycle wheel gyro](exhibit) to me
+    - how would you explain [water tornado](exhibit)?
+    - what is going on in [trust fountain](exhibit)?
+    - tell me what i can expect from [time shift](exhibit)
+    - can you please give me some information about [vortex](exhibit)?
+    - can you tell me how [throw pi](exhibit) works?
+    - what's going on with [oculus table](exhibit)?
+    - i'd like to learn some more about the exhibit [tactile harp](exhibit)
+    - i'm trying to learn more about [cattle game](exhibit)
+    - how does [dice](exhibit) work, anyway?
+    - what is [magnetic sand](exhibit) like?
+    - tell me about the exhibit [coupled resonant pendulums](exhibit)
+    - how does it work [two ways of seeing yellow](exhibit)?
+    - what is it made of [ames room](exhibit)?
+    - please explain the theme of [living colors](exhibit)
+    - how does [prelinger library](exhibit) work?
+    - do you know how [human phenomena explainer station](exhibit) works?
+    - what is [elastotron](exhibit) all about?
+    - tell me a little about [noaa buoy](exhibit)
+    - explain [fluttering silk](exhibit) to me
+    - how would you explain [too slow to see](exhibit)?
+    - what is going on in [sweeper 's clock](exhibit)?
+    - tell me what i can expect from [tinkerer 's clock](exhibit)
+    - can you please give me some information about [blood cells in your eye](exhibit)?
+    - can you tell me how [chicken eggs](exhibit) works?
+    - what's going on with [corpuscles in the eye](exhibit)?
+    - i'd like to learn some more about the exhibit [lariat chain](exhibit)
+    - i'm trying to learn more about [sky theater](exhibit)
+    - how does [look inside a developing fish](exhibit) work, anyway?
+    - what is [colored shadows](exhibit) like?
+    - tell me about the exhibit [disagreement about color](exhibit)
+    - how does it work [sun swarm](exhibit)?
+    - what is it made of [wall watching bench](exhibit)?
+    - please explain the theme of [duck into a kaleidoscope](exhibit)
+    - how does [albert](exhibit) work?
+    - do you know how [tornado](exhibit) works?
+    - what is [turntable](exhibit) all about?
+    - tell me a little about [ice crystals](exhibit)
+    - explain [pinscreen](exhibit) to me
+    - how would you explain [touch the spring](exhibit)?
+    - what is going on in [colored venn diagram](exhibit)?
+    - tell me what i can expect from [all eyes on me](exhibit)
+    - can you please give me some information about [listening vessels](exhibit)?
+    - can you tell me how [genetic inheritance](exhibit) works?
+    - what's going on with [water spinner](exhibit)?
+    - i'd like to learn some more about the exhibit [capture a moment in time](exhibit)
+    - i'm trying to learn more about [community garden](exhibit)
+    - how does [circling wave umbrella](exhibit) work, anyway?
+    - what is [can you believe your eyes](exhibit) like?
+    - tell me about the exhibit [still life](exhibit)
+    - how does it work [the dome](exhibit)?
+    - what is it made of [pitch slider](exhibit)?
+    - please explain the theme of [a cell in motion](exhibit)
+    - how does [seeing and listening explainer station](exhibit) work?
+    - do you know how [recollections](exhibit) works?
+    - what is [chicken wire](exhibit) all about?
+    - tell me a little about [museum of the moon](exhibit)
+    - explain [toothpick sculpture](exhibit) to me
+    - how would you explain [interpreting the living systems lab](exhibit)?
+    - what is going on in [living on death](exhibit)?
+    - tell me what i can expect from [pi has your number](exhibit)
+    - can you please give me some information about [library of earth anatomy](exhibit)?
+    - can you tell me how [kalanchoe](exhibit) works?
+    - what's going on with [snake pendulum](exhibit)?
+    - i'd like to learn some more about the exhibit [lumen illusion](exhibit)
+    - i'm trying to learn more about [cubatron core](exhibit)
+    - how does [3d cell zoetrope](exhibit) work, anyway?
+    - what is [sound bite](exhibit) like?
+    - tell me about the exhibit [bubble well](exhibit)
+    - how does it work [bubble sheet](exhibit)?
+    - what is it made of [are your cells you](exhibit)?
+    - please explain the theme of [frozen water drop](exhibit)
+    - how does [red blue](exhibit) work?
+    - do you know how [illuminated fog](exhibit) works?
+    - what is [aurora](exhibit) all about?
+    - tell me a little about [land water](exhibit)
+    - explain [venn diagram](exhibit) to me
+    - how would you explain [downhill race](exhibit)?
+    - what is going on in [washer game](exhibit)?
+    - tell me what i can expect from [hela cells](exhibit)
+    - can you please give me some information about [velvet hands](exhibit)?
+    - can you tell me how [bicycle rope squirter](exhibit) works?
+    - what's going on with [fog bridge](exhibit)?
+    - i'd like to learn some more about the exhibit [flock](exhibit)
+    - i'm trying to learn more about [twins photos](exhibit)
+    - how does [bite o - phone](exhibit) work, anyway?
+    - what is [cardiac myocytes](exhibit) like?
+    - tell me about the exhibit [circuit workbench](exhibit)
+    - how does it work [spectral meadow](exhibit)?
+    - what is it made of [turbulent sea](exhibit)?
+    - please explain the theme of [cloud rings](exhibit)
+    - how does [bay lexicon](exhibit) work?
+    - do you know how [big little chair](exhibit) works?
+    - what is [golden gate bridge](exhibit) all about?
+    - tell me a little about [watch water freeze](exhibit)
+    - explain [plant tunes](exhibit) to me
+    - how would you explain [solar hour benches](exhibit)?
+    - what is going on in [chick embryos](exhibit)?
+    - tell me what i can expect from [heliorama](exhibit)
+    - can you please give me some information about [bacteriopolis](exhibit)?
+    - can you tell me how [chaotic pendulum](exhibit) works?
+    - what's going on with [survival game](exhibit)?
+    - i'd like to learn some more about the exhibit [animation station](exhibit)
+    - i'm trying to learn more about [green lips](exhibit)
+    - how does [all the flowers are for me turquoise](exhibit) work, anyway?
+    - what is [red green goggles](exhibit) like?
+    - tell me about the exhibit [rolling through the bay](exhibit)
+    - how does it work [albert 's watching](exhibit)?
+    - what is it made of [jardín comunitario](exhibit)?
+    - please explain the theme of [café wall illusion](exhibit)
+    - how does [pendulum snake](exhibit) work?
+    - do you know how [magnetic labyrinth](exhibit) works?
+    - what is [tinkering clock](exhibit) all about?
+    - tell me a little about [gray step](exhibit)
+    - explain [glass settling plate](exhibit) to me
+    - how would you explain [uroborus a snake chasing its tail](exhibit)?
+    - what is going on in [your turn counts](exhibit)?
+    - tell me what i can expect from [fluttering](exhibit)
+    - can you please give me some information about [reaction time 2](exhibit)?
+    - can you tell me how [magnetic fluid patterns](exhibit) works?
+    - what's going on with [melodías de plantas](exhibit)?
+    - i'd like to learn some more about the exhibit [bird in a cage](exhibit)
+    - i'm trying to learn more about [bronze hand](exhibit)
+    - how does [blood cell scale](exhibit) work, anyway?
+    - what is [zebrafish embryos](exhibit) like?
+    - tell me about the exhibit [button game](exhibit)
+    - how does it work [everyone is you and me](exhibit)?
+    - what is it made of [golden gate bridge motion](exhibit)?
+    - please explain the theme of [big tuning fork](exhibit)
+    - how does [give heart cells a beat](exhibit) work?
+    - do you know how [disorted bench](exhibit) works?
+    - what is [the tree experience](exhibit) all about?
+    - tell me a little about [tactile gallery](exhibit)
+    - explain [a drop to drink](exhibit) to me
+    - how would you explain [spherical reflections](exhibit)?
+    - what is going on in [sharing faces](exhibit)?
+    - tell me what i can expect from [color ball](exhibit)
+    - can you please give me some information about [look into infinity](exhibit)?
+    - can you tell me how [cows](exhibit) works?
+    - what's going on with [icy bodies](exhibit)?
+    - i'd like to learn some more about the exhibit [chromoscope](exhibit)
+    - i'm trying to learn more about [drinking fountain](exhibit)
+    - how does [pi toss](exhibit) work, anyway?
+    - what is [rotating light](exhibit) like?
+    - tell me about the exhibit [sophisticated shadows](exhibit)
+    - how does it work [observatory library](exhibit)?
+    - what is it made of [coupled resonant pendula](exhibit)?
+    - please explain the theme of [freeloader](exhibit)
+    - how does [becoming horizon](exhibit) work?
+    - do you know how [pi search](exhibit) works?
+    - what is [triple aye lightstick](exhibit) all about?
+    - tell me a little about [bacteria wall](exhibit)
+    - explain [moving objects](exhibit) to me
+    - how would you explain [color splitter](exhibit)?
+    - what is going on in [long path diffraction](exhibit)?
+    - tell me what i can expect from [emotion tracer](exhibit)
+    - can you please give me some information about [christmas tree balls](exhibit)?
+    - can you tell me how [big chair little chair](exhibit) works?
+    - what's going on with [drip chamber](exhibit)?
+    - i'd like to learn some more about the exhibit [dioximoirekinesis](exhibit)
+    - i'm trying to learn more about [buckyball](exhibit)
+    - how does [aeolian harp](exhibit) work, anyway?
+    - what is [try pi](exhibit) like?
+    - tell me about the exhibit [echo tube](exhibit)
+    - how does it work [bernoulli blower](exhibit)?
+    - what is it made of [velvet harp](exhibit)?
+    - please explain the theme of [sun benches](exhibit)
+    - how does [they 're identical or are they](exhibit) work?
+    - do you know how [bay windows](exhibit) works?
+    - what is [water drop photography](exhibit) all about?
+    - tell me a little about [giant clock](exhibit)
+    - explain [jellybean room](exhibit) to me
+    - how would you explain [raylights](exhibit)?
+    - what is going on in [distorted room](exhibit)?
+    - tell me what i can expect from [blood vessels in your eye](exhibit)
+    - can you please give me some information about [black sand](exhibit)?
+    - can you tell me how [visitor pulse](exhibit) works?
+    - what's going on with [bridge light](exhibit)?
+    - i'd like to learn some more about the exhibit [shaking](exhibit)
+    - i'm trying to learn more about [machine with concrete](exhibit)
+    - how does [compare yellow leds](exhibit) work, anyway?
+    - what is [pi shrine](exhibit) like?
+    - tell me about the exhibit [glow ball](exhibit)
+    - how does it work [prisoner 's dilemma](exhibit)?
+    - what is it made of [within 15 minutes](exhibit)?
+    - please explain the theme of [pulling together](exhibit)
+    - how does [disappearing rings](exhibit) work?
+    - do you know how [teardrop after robert irwin](exhibit) works?
+    - what is [ice painting](exhibit) all about?
+    - tell me a little about [monochromatic room](exhibit)
+    - explain [oscylinderscope](exhibit) to me
+    - how would you explain [liquid litmus](exhibit)?
+    - what is going on in [toothpick roller coaster](exhibit)?
+    - tell me what i can expect from [bay lexicon columns](exhibit)
+    - can you please give me some information about [prelinger map archive and library](exhibit)?
+    - can you tell me how [seismograph](exhibit) works?
+    - what's going on with [bike rope squirter](exhibit)?
+    - i'd like to learn some more about the exhibit [leaves that sprout plants](exhibit)
+    - i'm trying to learn more about [creating life with just one parent](exhibit)
+    - how does [black card white card](exhibit) work, anyway?
+    - what is [need based transfer economy](exhibit) like?
+    - tell me about the exhibit [shifting time](exhibit)
+    - how does it work [chladni singing](exhibit)?
+    - what is it made of [giant tuning fork](exhibit)?
+    - please explain the theme of [peacemaker](exhibit)
+    - how does [wave organ](exhibit) work?
+    - do you know how [triple aye stick](exhibit) works?
+    - what is [yellow room](exhibit) all about?
+    - tell me a little about [light box](exhibit)
+    - explain [harmonograms](exhibit) to me
+    - how would you explain [time 2 think](exhibit)?
+    - what is going on in [countless colors](exhibit)?
+    - tell me what i can expect from [flourish bloom](exhibit)
+    - can you please give me some information about [research buoy](exhibit)?
+    - can you tell me how [praxinoscope tower](exhibit) works?
+    - what's going on with [stop and start](exhibit)?
+    - i'd like to learn some more about the exhibit [as one](exhibit)
+    - i'm trying to learn more about [leaves that sprout](exhibit)
+    - how does [fog bridge 72494](exhibit) work, anyway?
+    - what is [probably chelsea](exhibit) like?
+    - tell me about the exhibit [big wood 300 years of photosynthesis](exhibit)
+    - how does it work [winogradsky column](exhibit)?
+    - what is it made of [pitch twanger](exhibit)?
+    - please explain the theme of [the art of neon](exhibit)
+    - how does [scrapple](exhibit) work?
+    - do you know how [responsive heart cells](exhibit) works?
+    - what is [gray step 1](exhibit) all about?
+    - tell me a little about [shadow box](exhibit)
+    - explain [bright black](exhibit) to me
+    - how would you explain [turbulent orb](exhibit)?
+    - what is going on in [anamorphic bench](exhibit)?
+    - tell me what i can expect from [colored lights](exhibit)
+    - can you please give me some information about [gas model](exhibit)?
+    - can you tell me how [sky panorama](exhibit) works?
+    - what's going on with [salt ponds from the sky](exhibit)?
+    - i'd like to learn some more about the exhibit [giant spherical mirror](exhibit)

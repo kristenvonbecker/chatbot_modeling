@@ -2,17 +2,345 @@ version: '3.1'
 nlu:
 - intent: ask_related_exhibit
   examples: |
-    - what else is like it?
     - related exhibit, please
-    - something similar
+    - something similar, please
+    - i'd like to see an exhibit similar to this one
+    - what's a related exhibit?
+    - please recommend a similar exhibit
     - can you recommend a related exhibit?
     - which other exhibits at the exploratorium are like this one?
     - can you recommend something similar?
     - that was fun, what should I visit next?
+    - i really like this exhibit, which ones are similar to it?
     - what other exhibits are similar to this?
     - please recommend something similar
-    - please tell me which other exhibits are like [Chicken Wire](exhibit)
-    - I'd like to visit an exhibit like [Giant Spherical Mirror](exhibit)
-    - which exhibits are similar to [Anamorphic Bench](exhibit)?
-    - I'm looking for an exhibit like [Magnetic Sand](exhibit)
-    - what else at the Exploratorium is similar to [Praxinoscope Tower](exhibit)?
+    - please tell me which other exhibits are like [water evaporation](exhibit)
+    - I'd like to visit an exhibit like [zephyr trio](exhibit)
+    - which exhibits are similar to [pi marker](exhibit)?
+    - I'm looking for an exhibit like [the atmosphere a guide](exhibit)
+    - what's an exhibit that's sort of like [sip or squirt](exhibit)?
+    - can you plese recommend to me another exhibit like [a sip of conflict](exhibit)?
+    - what else at the Exploratorium is similar to [braided stream](exhibit)?
+    - similar exhibit to [animation tower](exhibit)
+    - exhibit related to [buffon 's needles](exhibit)
+    - please tell me which other exhibits are like [balancing ball](exhibit)
+    - I'd like to visit an exhibit like [blood o meter](exhibit)
+    - which exhibits are similar to [archimedes](exhibit)?
+    - I'm looking for an exhibit like [bicycle chain](exhibit)
+    - what's an exhibit that's sort of like [digital footprints](exhibit)?
+    - can you plese recommend to me another exhibit like [red phone](exhibit)?
+    - what else at the Exploratorium is similar to [disappearing glass rods](exhibit)?
+    - similar exhibit to [giant mirror](exhibit)
+    - exhibit related to [aromas y recuerdos](exhibit)
+    - please tell me which other exhibits are like [seeing scientifically](exhibit)
+    - I'd like to visit an exhibit like [what 's hot what 's not](exhibit)
+    - which exhibits are similar to [rotting carcass](exhibit)?
+    - I'm looking for an exhibit like [career criminal](exhibit)
+    - what's an exhibit that's sort of like [coupled pendulums](exhibit)?
+    - can you plese recommend to me another exhibit like [sun painting](exhibit)?
+    - what else at the Exploratorium is similar to [whispering dishes](exhibit)?
+    - similar exhibit to [live chicken embryos](exhibit)
+    - exhibit related to [diffraction shadows](exhibit)
+    - please tell me which other exhibits are like [touch the teapot](exhibit)
+    - I'd like to visit an exhibit like [aeolian landscape](exhibit)
+    - which exhibits are similar to [toilet water fountain](exhibit)?
+    - I'm looking for an exhibit like [cooperative red phone](exhibit)
+    - what's an exhibit that's sort of like [time to think](exhibit)?
+    - can you plese recommend to me another exhibit like [walking on gravel](exhibit)?
+    - what else at the Exploratorium is similar to [toilet bowl drinking fountain](exhibit)?
+    - similar exhibit to [colored words](exhibit)
+    - exhibit related to [cloud chamber](exhibit)
+    - please tell me which other exhibits are like [bay bridge model](exhibit)
+    - I'd like to visit an exhibit like [big magnifier](exhibit)
+    - which exhibits are similar to [rock box](exhibit)?
+    - I'm looking for an exhibit like [ames chairs](exhibit)
+    - what's an exhibit that's sort of like [disagreeing about color](exhibit)?
+    - can you plese recommend to me another exhibit like [is it genetic](exhibit)?
+    - what else at the Exploratorium is similar to [timepieces solar system](exhibit)?
+    - similar exhibit to [lab illustrations](exhibit)
+    - exhibit related to [beach ball blower](exhibit)
+    - please tell me which other exhibits are like [colored circles](exhibit)
+    - I'd like to visit an exhibit like [galaxy03](exhibit)
+    - which exhibits are similar to [entangled attraction](exhibit)?
+    - I'm looking for an exhibit like [fluorescent tube](exhibit)
+    - what's an exhibit that's sort of like [out quiet yourself](exhibit)?
+    - can you plese recommend to me another exhibit like [adapting to color](exhibit)?
+    - what else at the Exploratorium is similar to [plankton rainbow](exhibit)?
+    - similar exhibit to [too slow to notice](exhibit)
+    - exhibit related to [confused sea](exhibit)
+    - please tell me which other exhibits are like [tactile dome](exhibit)
+    - I'd like to visit an exhibit like [the last ocean](exhibit)
+    - which exhibits are similar to [toilet drinking fountain](exhibit)?
+    - I'm looking for an exhibit like [mapping migrations](exhibit)
+    - what's an exhibit that's sort of like [ir camera](exhibit)?
+    - can you plese recommend to me another exhibit like [energy from death](exhibit)?
+    - what else at the Exploratorium is similar to [bulbs and batteries](exhibit)?
+    - similar exhibit to [anti - gravity mirror](exhibit)
+    - exhibit related to [scream into sand](exhibit)
+    - please tell me which other exhibits are like [pier piling pivot](exhibit)
+    - I'd like to visit an exhibit like [unseen stories](exhibit)
+    - which exhibits are similar to [rift zone](exhibit)?
+    - I'm looking for an exhibit like [developing chick embryos](exhibit)
+    - what's an exhibit that's sort of like [heat camera](exhibit)?
+    - can you plese recommend to me another exhibit like [creatures from the sea settling
+      plate](exhibit)?
+    - what else at the Exploratorium is similar to [small monatomic molecules](exhibit)?
+    - similar exhibit to [soap film painting](exhibit)
+    - exhibit related to [the edge makes the difference](exhibit)
+    - please tell me which other exhibits are like [color conflicts](exhibit)
+    - I'd like to visit an exhibit like [spacetime](exhibit)
+    - which exhibits are similar to [ice window](exhibit)?
+    - I'm looking for an exhibit like [bacteriopolis wall](exhibit)
+    - what's an exhibit that's sort of like [saltscapes](exhibit)?
+    - can you plese recommend to me another exhibit like [the enchanted tree](exhibit)?
+    - what else at the Exploratorium is similar to [mirrorly a window](exhibit)?
+    - similar exhibit to [horse 's tail](exhibit)
+    - exhibit related to [circles of magnetism](exhibit)
+    - please tell me which other exhibits are like [scent memories](exhibit)
+    - I'd like to visit an exhibit like [fox walking](exhibit)
+    - which exhibits are similar to [drawing board](exhibit)?
+    - I'm looking for an exhibit like [disappearing act](exhibit)
+    - what's an exhibit that's sort of like [a pendulum clock](exhibit)?
+    - can you plese recommend to me another exhibit like [ocean tracks](exhibit)?
+    - what else at the Exploratorium is similar to [giant chair](exhibit)?
+    - similar exhibit to [pedal generator](exhibit)
+    - exhibit related to [square wheel](exhibit)
+    - please tell me which other exhibits are like [all the light you see infinity](exhibit)
+    - I'd like to visit an exhibit like [the cow game](exhibit)
+    - which exhibits are similar to [mood lighting](exhibit)?
+    - I'm looking for an exhibit like [bicycle wheel gyro](exhibit)
+    - what's an exhibit that's sort of like [water tornado](exhibit)?
+    - can you plese recommend to me another exhibit like [trust fountain](exhibit)?
+    - what else at the Exploratorium is similar to [time shift](exhibit)?
+    - similar exhibit to [vortex](exhibit)
+    - exhibit related to [throw pi](exhibit)
+    - please tell me which other exhibits are like [oculus table](exhibit)
+    - I'd like to visit an exhibit like [tactile harp](exhibit)
+    - which exhibits are similar to [cattle game](exhibit)?
+    - I'm looking for an exhibit like [dice](exhibit)
+    - what's an exhibit that's sort of like [magnetic sand](exhibit)?
+    - can you plese recommend to me another exhibit like [coupled resonant pendulums](exhibit)?
+    - what else at the Exploratorium is similar to [two ways of seeing yellow](exhibit)?
+    - similar exhibit to [ames room](exhibit)
+    - exhibit related to [living colors](exhibit)
+    - please tell me which other exhibits are like [prelinger library](exhibit)
+    - I'd like to visit an exhibit like [human phenomena explainer station](exhibit)
+    - which exhibits are similar to [elastotron](exhibit)?
+    - I'm looking for an exhibit like [noaa buoy](exhibit)
+    - what's an exhibit that's sort of like [fluttering silk](exhibit)?
+    - can you plese recommend to me another exhibit like [too slow to see](exhibit)?
+    - what else at the Exploratorium is similar to [sweeper 's clock](exhibit)?
+    - similar exhibit to [tinkerer 's clock](exhibit)
+    - exhibit related to [blood cells in your eye](exhibit)
+    - please tell me which other exhibits are like [chicken eggs](exhibit)
+    - I'd like to visit an exhibit like [corpuscles in the eye](exhibit)
+    - which exhibits are similar to [lariat chain](exhibit)?
+    - I'm looking for an exhibit like [sky theater](exhibit)
+    - what's an exhibit that's sort of like [look inside a developing fish](exhibit)?
+    - can you plese recommend to me another exhibit like [colored shadows](exhibit)?
+    - what else at the Exploratorium is similar to [disagreement about color](exhibit)?
+    - similar exhibit to [sun swarm](exhibit)
+    - exhibit related to [wall watching bench](exhibit)
+    - please tell me which other exhibits are like [duck into a kaleidoscope](exhibit)
+    - I'd like to visit an exhibit like [albert](exhibit)
+    - which exhibits are similar to [tornado](exhibit)?
+    - I'm looking for an exhibit like [turntable](exhibit)
+    - what's an exhibit that's sort of like [ice crystals](exhibit)?
+    - can you plese recommend to me another exhibit like [pinscreen](exhibit)?
+    - what else at the Exploratorium is similar to [touch the spring](exhibit)?
+    - similar exhibit to [colored venn diagram](exhibit)
+    - exhibit related to [all eyes on me](exhibit)
+    - please tell me which other exhibits are like [listening vessels](exhibit)
+    - I'd like to visit an exhibit like [genetic inheritance](exhibit)
+    - which exhibits are similar to [water spinner](exhibit)?
+    - I'm looking for an exhibit like [capture a moment in time](exhibit)
+    - what's an exhibit that's sort of like [community garden](exhibit)?
+    - can you plese recommend to me another exhibit like [circling wave umbrella](exhibit)?
+    - what else at the Exploratorium is similar to [can you believe your eyes](exhibit)?
+    - similar exhibit to [still life](exhibit)
+    - exhibit related to [the dome](exhibit)
+    - please tell me which other exhibits are like [pitch slider](exhibit)
+    - I'd like to visit an exhibit like [a cell in motion](exhibit)
+    - which exhibits are similar to [seeing and listening explainer station](exhibit)?
+    - I'm looking for an exhibit like [recollections](exhibit)
+    - what's an exhibit that's sort of like [chicken wire](exhibit)?
+    - can you plese recommend to me another exhibit like [museum of the moon](exhibit)?
+    - what else at the Exploratorium is similar to [toothpick sculpture](exhibit)?
+    - similar exhibit to [interpreting the living systems lab](exhibit)
+    - exhibit related to [living on death](exhibit)
+    - please tell me which other exhibits are like [pi has your number](exhibit)
+    - I'd like to visit an exhibit like [library of earth anatomy](exhibit)
+    - which exhibits are similar to [kalanchoe](exhibit)?
+    - I'm looking for an exhibit like [snake pendulum](exhibit)
+    - what's an exhibit that's sort of like [lumen illusion](exhibit)?
+    - can you plese recommend to me another exhibit like [cubatron core](exhibit)?
+    - what else at the Exploratorium is similar to [3d cell zoetrope](exhibit)?
+    - similar exhibit to [sound bite](exhibit)
+    - exhibit related to [bubble well](exhibit)
+    - please tell me which other exhibits are like [bubble sheet](exhibit)
+    - I'd like to visit an exhibit like [are your cells you](exhibit)
+    - which exhibits are similar to [frozen water drop](exhibit)?
+    - I'm looking for an exhibit like [red blue](exhibit)
+    - what's an exhibit that's sort of like [illuminated fog](exhibit)?
+    - can you plese recommend to me another exhibit like [aurora](exhibit)?
+    - what else at the Exploratorium is similar to [land water](exhibit)?
+    - similar exhibit to [venn diagram](exhibit)
+    - exhibit related to [downhill race](exhibit)
+    - please tell me which other exhibits are like [washer game](exhibit)
+    - I'd like to visit an exhibit like [hela cells](exhibit)
+    - which exhibits are similar to [velvet hands](exhibit)?
+    - I'm looking for an exhibit like [bicycle rope squirter](exhibit)
+    - what's an exhibit that's sort of like [fog bridge](exhibit)?
+    - can you plese recommend to me another exhibit like [flock](exhibit)?
+    - what else at the Exploratorium is similar to [twins photos](exhibit)?
+    - similar exhibit to [bite o - phone](exhibit)
+    - exhibit related to [cardiac myocytes](exhibit)
+    - please tell me which other exhibits are like [circuit workbench](exhibit)
+    - I'd like to visit an exhibit like [spectral meadow](exhibit)
+    - which exhibits are similar to [turbulent sea](exhibit)?
+    - I'm looking for an exhibit like [cloud rings](exhibit)
+    - what's an exhibit that's sort of like [bay lexicon](exhibit)?
+    - can you plese recommend to me another exhibit like [big little chair](exhibit)?
+    - what else at the Exploratorium is similar to [golden gate bridge](exhibit)?
+    - similar exhibit to [watch water freeze](exhibit)
+    - exhibit related to [plant tunes](exhibit)
+    - please tell me which other exhibits are like [solar hour benches](exhibit)
+    - I'd like to visit an exhibit like [chick embryos](exhibit)
+    - which exhibits are similar to [heliorama](exhibit)?
+    - I'm looking for an exhibit like [bacteriopolis](exhibit)
+    - what's an exhibit that's sort of like [chaotic pendulum](exhibit)?
+    - can you plese recommend to me another exhibit like [survival game](exhibit)?
+    - what else at the Exploratorium is similar to [animation station](exhibit)?
+    - similar exhibit to [green lips](exhibit)
+    - exhibit related to [all the flowers are for me turquoise](exhibit)
+    - please tell me which other exhibits are like [red green goggles](exhibit)
+    - I'd like to visit an exhibit like [rolling through the bay](exhibit)
+    - which exhibits are similar to [albert 's watching](exhibit)?
+    - I'm looking for an exhibit like [jardín comunitario](exhibit)
+    - what's an exhibit that's sort of like [café wall illusion](exhibit)?
+    - can you plese recommend to me another exhibit like [pendulum snake](exhibit)?
+    - what else at the Exploratorium is similar to [magnetic labyrinth](exhibit)?
+    - similar exhibit to [tinkering clock](exhibit)
+    - exhibit related to [gray step](exhibit)
+    - please tell me which other exhibits are like [glass settling plate](exhibit)
+    - I'd like to visit an exhibit like [uroborus a snake chasing its tail](exhibit)
+    - which exhibits are similar to [your turn counts](exhibit)?
+    - I'm looking for an exhibit like [fluttering](exhibit)
+    - what's an exhibit that's sort of like [reaction time 2](exhibit)?
+    - can you plese recommend to me another exhibit like [magnetic fluid patterns](exhibit)?
+    - what else at the Exploratorium is similar to [melodías de plantas](exhibit)?
+    - similar exhibit to [bird in a cage](exhibit)
+    - exhibit related to [bronze hand](exhibit)
+    - please tell me which other exhibits are like [blood cell scale](exhibit)
+    - I'd like to visit an exhibit like [zebrafish embryos](exhibit)
+    - which exhibits are similar to [button game](exhibit)?
+    - I'm looking for an exhibit like [everyone is you and me](exhibit)
+    - what's an exhibit that's sort of like [golden gate bridge motion](exhibit)?
+    - can you plese recommend to me another exhibit like [big tuning fork](exhibit)?
+    - what else at the Exploratorium is similar to [give heart cells a beat](exhibit)?
+    - similar exhibit to [disorted bench](exhibit)
+    - exhibit related to [the tree experience](exhibit)
+    - please tell me which other exhibits are like [tactile gallery](exhibit)
+    - I'd like to visit an exhibit like [a drop to drink](exhibit)
+    - which exhibits are similar to [spherical reflections](exhibit)?
+    - I'm looking for an exhibit like [sharing faces](exhibit)
+    - what's an exhibit that's sort of like [color ball](exhibit)?
+    - can you plese recommend to me another exhibit like [look into infinity](exhibit)?
+    - what else at the Exploratorium is similar to [cows](exhibit)?
+    - similar exhibit to [icy bodies](exhibit)
+    - exhibit related to [chromoscope](exhibit)
+    - please tell me which other exhibits are like [drinking fountain](exhibit)
+    - I'd like to visit an exhibit like [pi toss](exhibit)
+    - which exhibits are similar to [rotating light](exhibit)?
+    - I'm looking for an exhibit like [sophisticated shadows](exhibit)
+    - what's an exhibit that's sort of like [observatory library](exhibit)?
+    - can you plese recommend to me another exhibit like [coupled resonant pendula](exhibit)?
+    - what else at the Exploratorium is similar to [freeloader](exhibit)?
+    - similar exhibit to [becoming horizon](exhibit)
+    - exhibit related to [pi search](exhibit)
+    - please tell me which other exhibits are like [triple aye lightstick](exhibit)
+    - I'd like to visit an exhibit like [bacteria wall](exhibit)
+    - which exhibits are similar to [moving objects](exhibit)?
+    - I'm looking for an exhibit like [color splitter](exhibit)
+    - what's an exhibit that's sort of like [long path diffraction](exhibit)?
+    - can you plese recommend to me another exhibit like [emotion tracer](exhibit)?
+    - what else at the Exploratorium is similar to [christmas tree balls](exhibit)?
+    - similar exhibit to [big chair little chair](exhibit)
+    - exhibit related to [drip chamber](exhibit)
+    - please tell me which other exhibits are like [dioximoirekinesis](exhibit)
+    - I'd like to visit an exhibit like [buckyball](exhibit)
+    - which exhibits are similar to [aeolian harp](exhibit)?
+    - I'm looking for an exhibit like [try pi](exhibit)
+    - what's an exhibit that's sort of like [echo tube](exhibit)?
+    - can you plese recommend to me another exhibit like [bernoulli blower](exhibit)?
+    - what else at the Exploratorium is similar to [velvet harp](exhibit)?
+    - similar exhibit to [sun benches](exhibit)
+    - exhibit related to [they 're identical or are they](exhibit)
+    - please tell me which other exhibits are like [bay windows](exhibit)
+    - I'd like to visit an exhibit like [water drop photography](exhibit)
+    - which exhibits are similar to [giant clock](exhibit)?
+    - I'm looking for an exhibit like [jellybean room](exhibit)
+    - what's an exhibit that's sort of like [raylights](exhibit)?
+    - can you plese recommend to me another exhibit like [distorted room](exhibit)?
+    - what else at the Exploratorium is similar to [blood vessels in your eye](exhibit)?
+    - similar exhibit to [black sand](exhibit)
+    - exhibit related to [visitor pulse](exhibit)
+    - please tell me which other exhibits are like [bridge light](exhibit)
+    - I'd like to visit an exhibit like [shaking](exhibit)
+    - which exhibits are similar to [machine with concrete](exhibit)?
+    - I'm looking for an exhibit like [compare yellow leds](exhibit)
+    - what's an exhibit that's sort of like [pi shrine](exhibit)?
+    - can you plese recommend to me another exhibit like [glow ball](exhibit)?
+    - what else at the Exploratorium is similar to [prisoner 's dilemma](exhibit)?
+    - similar exhibit to [within 15 minutes](exhibit)
+    - exhibit related to [pulling together](exhibit)
+    - please tell me which other exhibits are like [disappearing rings](exhibit)
+    - I'd like to visit an exhibit like [teardrop after robert irwin](exhibit)
+    - which exhibits are similar to [ice painting](exhibit)?
+    - I'm looking for an exhibit like [monochromatic room](exhibit)
+    - what's an exhibit that's sort of like [oscylinderscope](exhibit)?
+    - can you plese recommend to me another exhibit like [liquid litmus](exhibit)?
+    - what else at the Exploratorium is similar to [toothpick roller coaster](exhibit)?
+    - similar exhibit to [bay lexicon columns](exhibit)
+    - exhibit related to [prelinger map archive and library](exhibit)
+    - please tell me which other exhibits are like [seismograph](exhibit)
+    - I'd like to visit an exhibit like [bike rope squirter](exhibit)
+    - which exhibits are similar to [leaves that sprout plants](exhibit)?
+    - I'm looking for an exhibit like [creating life with just one parent](exhibit)
+    - what's an exhibit that's sort of like [black card white card](exhibit)?
+    - can you plese recommend to me another exhibit like [need based transfer economy](exhibit)?
+    - what else at the Exploratorium is similar to [shifting time](exhibit)?
+    - similar exhibit to [chladni singing](exhibit)
+    - exhibit related to [giant tuning fork](exhibit)
+    - please tell me which other exhibits are like [peacemaker](exhibit)
+    - I'd like to visit an exhibit like [wave organ](exhibit)
+    - which exhibits are similar to [triple aye stick](exhibit)?
+    - I'm looking for an exhibit like [yellow room](exhibit)
+    - what's an exhibit that's sort of like [light box](exhibit)?
+    - can you plese recommend to me another exhibit like [harmonograms](exhibit)?
+    - what else at the Exploratorium is similar to [time 2 think](exhibit)?
+    - similar exhibit to [countless colors](exhibit)
+    - exhibit related to [flourish bloom](exhibit)
+    - please tell me which other exhibits are like [research buoy](exhibit)
+    - I'd like to visit an exhibit like [praxinoscope tower](exhibit)
+    - which exhibits are similar to [stop and start](exhibit)?
+    - I'm looking for an exhibit like [as one](exhibit)
+    - what's an exhibit that's sort of like [leaves that sprout](exhibit)?
+    - can you plese recommend to me another exhibit like [fog bridge 72494](exhibit)?
+    - what else at the Exploratorium is similar to [probably chelsea](exhibit)?
+    - similar exhibit to [big wood 300 years of photosynthesis](exhibit)
+    - exhibit related to [winogradsky column](exhibit)
+    - please tell me which other exhibits are like [pitch twanger](exhibit)
+    - I'd like to visit an exhibit like [the art of neon](exhibit)
+    - which exhibits are similar to [scrapple](exhibit)?
+    - I'm looking for an exhibit like [responsive heart cells](exhibit)
+    - what's an exhibit that's sort of like [gray step 1](exhibit)?
+    - can you plese recommend to me another exhibit like [shadow box](exhibit)?
+    - what else at the Exploratorium is similar to [bright black](exhibit)?
+    - similar exhibit to [turbulent orb](exhibit)
+    - exhibit related to [anamorphic bench](exhibit)
+    - please tell me which other exhibits are like [colored lights](exhibit)
+    - I'd like to visit an exhibit like [gas model](exhibit)
+    - which exhibits are similar to [sky panorama](exhibit)?
+    - I'm looking for an exhibit like [salt ponds from the sky](exhibit)
+    - what's an exhibit that's sort of like [giant spherical mirror](exhibit)?

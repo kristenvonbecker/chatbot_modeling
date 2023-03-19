@@ -92,6 +92,10 @@ nlu:
     - abort mission
     - please go back
     - stop
+    - actually, don't worry about it
+    - nvmd
+    - no, stop
+    - stop please
     - stop now
     - stop it
     - i'd like to quit

@@ -177,3 +177,31 @@ nlu:
     - where do you get your knowledge?
     - where do you get your information?
     - what are your sources of knowledge?
+
+- intent: chitchat/very_cool
+  examples: |
+    - that's so cool!
+    - I really like that fact
+    - I think that's awesome
+    - wow, I had no idea, so cool
+    - that's awesome
+    - neato!
+    - i just love that
+    - how cool is that?
+    - wow, super rad
+    - totally groovy
+    - that's sick
+    - absolutely interesting
+    - i just learned something new
+    - very informative
+    - super cool
+    - wow, that's fascinating
+    - that is so amazing
+    - very awesome
+    - i think that's so neat
+    - love that
+    - love it
+    - i really like that idea
+    - that's a great concept
+    - I just love the idea
+    - I'm a big fan

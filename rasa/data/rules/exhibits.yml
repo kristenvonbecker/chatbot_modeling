@@ -1,0 +1,71 @@
+version: "3.1"
+
+rules:
+
+- rule: user asks what my favorite exhibit is
+  steps:
+    - intent: ask_fave_exhibit
+    - action: action_reset_exhibit_alias
+    - action: action_utter_fave_exhibit
+
+- rule: user asks an exhibit-related question, but doesn't specify the exhibit/there's no existing slotted exhibit
+  condition:
+    - slot_was_set:
+        - exhibit_alias: null
+    - slot_was_set:
+        - exhibit_id: null
+  steps:
+    - or:
+      - intent: ask_where_exhibit
+      - intent: ask_about_exhibit
+      - intent: ask_exhibit_creator
+      - intent: ask_exhibit_date
+      - intent: inform_like_exhibit
+      - intent: ask_related_exhibit
+    - action: utter_which_exhibit
+
+- rule: user asks a question about a new (unslotted) exhibit
+  condition:
+    - slot_was_set:
+        - exhibit_alias: alias
+  steps:
+    - or:
+      - intent: ask_where_exhibit
+      - intent: ask_about_exhibit
+      - intent: ask_exhibit_creator
+      - intent: ask_exhibit_date
+      - intent: ask_related_exhibit
+    - action: action_get_exhibit_match_ids
+    - action: action_verify_exhibit
+
+- rule: user asks a question about the slotted exhibit
+  condition:
+    - slot_was_set:
+        - exhibit_alias: null
+    - slot_was_set:
+        - exhibit_id: exhibit_id
+  steps:
+    - or:
+      - intent: ask_where_exhibit
+      - intent: ask_about_exhibit
+      - intent: ask_exhibit_creator
+      - intent: ask_exhibit_date
+      - intent: ask_related_exhibit
+    - action: action_utter_exhibit_response
+
+- rule: when the user affirms an exhibit, resume answering their question
+  steps:
+    - action: action_verify_exhibit
+    - or:
+      - intent: affirm
+      - intent: affirm+thanks
+      - intent: thanks
+    - action: action_map_exhibit_id
+    - action: action_reset_exhibit_alias
+    - action: action_utter_exhibit_response
+
+- rule: when the user rejects an exhibit, give the next one
+  steps:
+    - action: action_verify_exhibit
+    - intent: deny
+    - action: action_verify_exhibit

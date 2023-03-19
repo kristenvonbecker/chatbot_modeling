@@ -4,6 +4,10 @@ nlu:
 
 - intent: ask_fave_exhibit
   examples: |
+    - can you recommend an exhibit?
+    - which exhibit should I check out?
+    - what's a really neat exhibit to visit?
+    - which exhibit should i definitely not miss?
     - what is your favorite exhibit?
     - which exhibit do you like best?
     - which exhibit is the best?

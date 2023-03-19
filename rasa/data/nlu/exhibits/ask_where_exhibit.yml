@@ -9,12 +9,336 @@ nlu:
     - can you tell me where I can find it?
     - where's it at?
     - where?
+    - in which gallery?
+    - which location?
+    - where can i find it?
     - where is the exhibit located?
-    - where is [Research Buoy](exhibit)?
-    - where can I find [Pi Has Your Number](exhibit)?
-    - in which gallery can I find [Giant Spherical Mirror](exhibit)?
-    - I can't seem to locate [Sharing Faces](exhibit)
-    - where can [Fluttering](exhibit) be found?
-    - I'm trying to locate [Disagreeing About Color](exhibit)
-    - what is the location of [Is It Genetic?](exhibit)?
-    - 'which gallery has [Rock Box](exhibit)?  '
+    - where is [water evaporation](exhibit)?
+    - where can I find [zephyr trio](exhibit)?
+    - in which gallery can I find [pi marker](exhibit)?
+    - I can't seem to locate [the atmosphere a guide](exhibit)
+    - where can [sip or squirt](exhibit) be found?
+    - I'm trying to locate [a sip of conflict](exhibit)
+    - what is the location of [braided stream](exhibit)?
+    - which gallery has [animation tower](exhibit)?
+    - where should i go to find [buffon 's needles](exhibit)?
+    - can you please help me find [balancing ball](exhibit)?
+    - where is [blood o meter](exhibit)?
+    - where can I find [archimedes](exhibit)?
+    - in which gallery can I find [bicycle chain](exhibit)?
+    - I can't seem to locate [digital footprints](exhibit)
+    - where can [red phone](exhibit) be found?
+    - I'm trying to locate [disappearing glass rods](exhibit)
+    - what is the location of [giant mirror](exhibit)?
+    - which gallery has [aromas y recuerdos](exhibit)?
+    - where should i go to find [seeing scientifically](exhibit)?
+    - can you please help me find [what 's hot what 's not](exhibit)?
+    - where is [rotting carcass](exhibit)?
+    - where can I find [career criminal](exhibit)?
+    - in which gallery can I find [coupled pendulums](exhibit)?
+    - I can't seem to locate [sun painting](exhibit)
+    - where can [whispering dishes](exhibit) be found?
+    - I'm trying to locate [live chicken embryos](exhibit)
+    - what is the location of [diffraction shadows](exhibit)?
+    - which gallery has [touch the teapot](exhibit)?
+    - where should i go to find [aeolian landscape](exhibit)?
+    - can you please help me find [toilet water fountain](exhibit)?
+    - where is [cooperative red phone](exhibit)?
+    - where can I find [time to think](exhibit)?
+    - in which gallery can I find [walking on gravel](exhibit)?
+    - I can't seem to locate [toilet bowl drinking fountain](exhibit)
+    - where can [colored words](exhibit) be found?
+    - I'm trying to locate [cloud chamber](exhibit)
+    - what is the location of [bay bridge model](exhibit)?
+    - which gallery has [big magnifier](exhibit)?
+    - where should i go to find [rock box](exhibit)?
+    - can you please help me find [ames chairs](exhibit)?
+    - where is [disagreeing about color](exhibit)?
+    - where can I find [is it genetic](exhibit)?
+    - in which gallery can I find [timepieces solar system](exhibit)?
+    - I can't seem to locate [lab illustrations](exhibit)
+    - where can [beach ball blower](exhibit) be found?
+    - I'm trying to locate [colored circles](exhibit)
+    - what is the location of [galaxy03](exhibit)?
+    - which gallery has [entangled attraction](exhibit)?
+    - where should i go to find [fluorescent tube](exhibit)?
+    - can you please help me find [out quiet yourself](exhibit)?
+    - where is [adapting to color](exhibit)?
+    - where can I find [plankton rainbow](exhibit)?
+    - in which gallery can I find [too slow to notice](exhibit)?
+    - I can't seem to locate [confused sea](exhibit)
+    - where can [tactile dome](exhibit) be found?
+    - I'm trying to locate [the last ocean](exhibit)
+    - what is the location of [toilet drinking fountain](exhibit)?
+    - which gallery has [mapping migrations](exhibit)?
+    - where should i go to find [ir camera](exhibit)?
+    - can you please help me find [energy from death](exhibit)?
+    - where is [bulbs and batteries](exhibit)?
+    - where can I find [anti - gravity mirror](exhibit)?
+    - in which gallery can I find [scream into sand](exhibit)?
+    - I can't seem to locate [pier piling pivot](exhibit)
+    - where can [unseen stories](exhibit) be found?
+    - I'm trying to locate [rift zone](exhibit)
+    - what is the location of [developing chick embryos](exhibit)?
+    - which gallery has [heat camera](exhibit)?
+    - where should i go to find [creatures from the sea settling plate](exhibit)?
+    - can you please help me find [small monatomic molecules](exhibit)?
+    - where is [soap film painting](exhibit)?
+    - where can I find [the edge makes the difference](exhibit)?
+    - in which gallery can I find [color conflicts](exhibit)?
+    - I can't seem to locate [spacetime](exhibit)
+    - where can [ice window](exhibit) be found?
+    - I'm trying to locate [bacteriopolis wall](exhibit)
+    - what is the location of [saltscapes](exhibit)?
+    - which gallery has [the enchanted tree](exhibit)?
+    - where should i go to find [mirrorly a window](exhibit)?
+    - can you please help me find [horse 's tail](exhibit)?
+    - where is [circles of magnetism](exhibit)?
+    - where can I find [scent memories](exhibit)?
+    - in which gallery can I find [fox walking](exhibit)?
+    - I can't seem to locate [drawing board](exhibit)
+    - where can [disappearing act](exhibit) be found?
+    - I'm trying to locate [a pendulum clock](exhibit)
+    - what is the location of [ocean tracks](exhibit)?
+    - which gallery has [giant chair](exhibit)?
+    - where should i go to find [pedal generator](exhibit)?
+    - can you please help me find [square wheel](exhibit)?
+    - where is [all the light you see infinity](exhibit)?
+    - where can I find [the cow game](exhibit)?
+    - in which gallery can I find [mood lighting](exhibit)?
+    - I can't seem to locate [bicycle wheel gyro](exhibit)
+    - where can [water tornado](exhibit) be found?
+    - I'm trying to locate [trust fountain](exhibit)
+    - what is the location of [time shift](exhibit)?
+    - which gallery has [vortex](exhibit)?
+    - where should i go to find [throw pi](exhibit)?
+    - can you please help me find [oculus table](exhibit)?
+    - where is [tactile harp](exhibit)?
+    - where can I find [cattle game](exhibit)?
+    - in which gallery can I find [dice](exhibit)?
+    - I can't seem to locate [magnetic sand](exhibit)
+    - where can [coupled resonant pendulums](exhibit) be found?
+    - I'm trying to locate [two ways of seeing yellow](exhibit)
+    - what is the location of [ames room](exhibit)?
+    - which gallery has [living colors](exhibit)?
+    - where should i go to find [prelinger library](exhibit)?
+    - can you please help me find [human phenomena explainer station](exhibit)?
+    - where is [elastotron](exhibit)?
+    - where can I find [noaa buoy](exhibit)?
+    - in which gallery can I find [fluttering silk](exhibit)?
+    - I can't seem to locate [too slow to see](exhibit)
+    - where can [sweeper 's clock](exhibit) be found?
+    - I'm trying to locate [tinkerer 's clock](exhibit)
+    - what is the location of [blood cells in your eye](exhibit)?
+    - which gallery has [chicken eggs](exhibit)?
+    - where should i go to find [corpuscles in the eye](exhibit)?
+    - can you please help me find [lariat chain](exhibit)?
+    - where is [sky theater](exhibit)?
+    - where can I find [look inside a developing fish](exhibit)?
+    - in which gallery can I find [colored shadows](exhibit)?
+    - I can't seem to locate [disagreement about color](exhibit)
+    - where can [sun swarm](exhibit) be found?
+    - I'm trying to locate [wall watching bench](exhibit)
+    - what is the location of [duck into a kaleidoscope](exhibit)?
+    - which gallery has [albert](exhibit)?
+    - where should i go to find [tornado](exhibit)?
+    - can you please help me find [turntable](exhibit)?
+    - where is [ice crystals](exhibit)?
+    - where can I find [pinscreen](exhibit)?
+    - in which gallery can I find [touch the spring](exhibit)?
+    - I can't seem to locate [colored venn diagram](exhibit)
+    - where can [all eyes on me](exhibit) be found?
+    - I'm trying to locate [listening vessels](exhibit)
+    - what is the location of [genetic inheritance](exhibit)?
+    - which gallery has [water spinner](exhibit)?
+    - where should i go to find [capture a moment in time](exhibit)?
+    - can you please help me find [community garden](exhibit)?
+    - where is [circling wave umbrella](exhibit)?
+    - where can I find [can you believe your eyes](exhibit)?
+    - in which gallery can I find [still life](exhibit)?
+    - I can't seem to locate [the dome](exhibit)
+    - where can [pitch slider](exhibit) be found?
+    - I'm trying to locate [a cell in motion](exhibit)
+    - what is the location of [seeing and listening explainer station](exhibit)?
+    - which gallery has [recollections](exhibit)?
+    - where should i go to find [chicken wire](exhibit)?
+    - can you please help me find [museum of the moon](exhibit)?
+    - where is [toothpick sculpture](exhibit)?
+    - where can I find [interpreting the living systems lab](exhibit)?
+    - in which gallery can I find [living on death](exhibit)?
+    - I can't seem to locate [pi has your number](exhibit)
+    - where can [library of earth anatomy](exhibit) be found?
+    - I'm trying to locate [kalanchoe](exhibit)
+    - what is the location of [snake pendulum](exhibit)?
+    - which gallery has [lumen illusion](exhibit)?
+    - where should i go to find [cubatron core](exhibit)?
+    - can you please help me find [3d cell zoetrope](exhibit)?
+    - where is [sound bite](exhibit)?
+    - where can I find [bubble well](exhibit)?
+    - in which gallery can I find [bubble sheet](exhibit)?
+    - I can't seem to locate [are your cells you](exhibit)
+    - where can [frozen water drop](exhibit) be found?
+    - I'm trying to locate [red blue](exhibit)
+    - what is the location of [illuminated fog](exhibit)?
+    - which gallery has [aurora](exhibit)?
+    - where should i go to find [land water](exhibit)?
+    - can you please help me find [venn diagram](exhibit)?
+    - where is [downhill race](exhibit)?
+    - where can I find [washer game](exhibit)?
+    - in which gallery can I find [hela cells](exhibit)?
+    - I can't seem to locate [velvet hands](exhibit)
+    - where can [bicycle rope squirter](exhibit) be found?
+    - I'm trying to locate [fog bridge](exhibit)
+    - what is the location of [flock](exhibit)?
+    - which gallery has [twins photos](exhibit)?
+    - where should i go to find [bite o - phone](exhibit)?
+    - can you please help me find [cardiac myocytes](exhibit)?
+    - where is [circuit workbench](exhibit)?
+    - where can I find [spectral meadow](exhibit)?
+    - in which gallery can I find [turbulent sea](exhibit)?
+    - I can't seem to locate [cloud rings](exhibit)
+    - where can [bay lexicon](exhibit) be found?
+    - I'm trying to locate [big little chair](exhibit)
+    - what is the location of [golden gate bridge](exhibit)?
+    - which gallery has [watch water freeze](exhibit)?
+    - where should i go to find [plant tunes](exhibit)?
+    - can you please help me find [solar hour benches](exhibit)?
+    - where is [chick embryos](exhibit)?
+    - where can I find [heliorama](exhibit)?
+    - in which gallery can I find [bacteriopolis](exhibit)?
+    - I can't seem to locate [chaotic pendulum](exhibit)
+    - where can [survival game](exhibit) be found?
+    - I'm trying to locate [animation station](exhibit)
+    - what is the location of [green lips](exhibit)?
+    - which gallery has [all the flowers are for me turquoise](exhibit)?
+    - where should i go to find [red green goggles](exhibit)?
+    - can you please help me find [rolling through the bay](exhibit)?
+    - where is [albert 's watching](exhibit)?
+    - where can I find [jardín comunitario](exhibit)?
+    - in which gallery can I find [café wall illusion](exhibit)?
+    - I can't seem to locate [pendulum snake](exhibit)
+    - where can [magnetic labyrinth](exhibit) be found?
+    - I'm trying to locate [tinkering clock](exhibit)
+    - what is the location of [gray step](exhibit)?
+    - which gallery has [glass settling plate](exhibit)?
+    - where should i go to find [uroborus a snake chasing its tail](exhibit)?
+    - can you please help me find [your turn counts](exhibit)?
+    - where is [fluttering](exhibit)?
+    - where can I find [reaction time 2](exhibit)?
+    - in which gallery can I find [magnetic fluid patterns](exhibit)?
+    - I can't seem to locate [melodías de plantas](exhibit)
+    - where can [bird in a cage](exhibit) be found?
+    - I'm trying to locate [bronze hand](exhibit)
+    - what is the location of [blood cell scale](exhibit)?
+    - which gallery has [zebrafish embryos](exhibit)?
+    - where should i go to find [button game](exhibit)?
+    - can you please help me find [everyone is you and me](exhibit)?
+    - where is [golden gate bridge motion](exhibit)?
+    - where can I find [big tuning fork](exhibit)?
+    - in which gallery can I find [give heart cells a beat](exhibit)?
+    - I can't seem to locate [disorted bench](exhibit)
+    - where can [the tree experience](exhibit) be found?
+    - I'm trying to locate [tactile gallery](exhibit)
+    - what is the location of [a drop to drink](exhibit)?
+    - which gallery has [spherical reflections](exhibit)?
+    - where should i go to find [sharing faces](exhibit)?
+    - can you please help me find [color ball](exhibit)?
+    - where is [look into infinity](exhibit)?
+    - where can I find [cows](exhibit)?
+    - in which gallery can I find [icy bodies](exhibit)?
+    - I can't seem to locate [chromoscope](exhibit)
+    - where can [drinking fountain](exhibit) be found?
+    - I'm trying to locate [pi toss](exhibit)
+    - what is the location of [rotating light](exhibit)?
+    - which gallery has [sophisticated shadows](exhibit)?
+    - where should i go to find [observatory library](exhibit)?
+    - can you please help me find [coupled resonant pendula](exhibit)?
+    - where is [freeloader](exhibit)?
+    - where can I find [becoming horizon](exhibit)?
+    - in which gallery can I find [pi search](exhibit)?
+    - I can't seem to locate [triple aye lightstick](exhibit)
+    - where can [bacteria wall](exhibit) be found?
+    - I'm trying to locate [moving objects](exhibit)
+    - what is the location of [color splitter](exhibit)?
+    - which gallery has [long path diffraction](exhibit)?
+    - where should i go to find [emotion tracer](exhibit)?
+    - can you please help me find [christmas tree balls](exhibit)?
+    - where is [big chair little chair](exhibit)?
+    - where can I find [drip chamber](exhibit)?
+    - in which gallery can I find [dioximoirekinesis](exhibit)?
+    - I can't seem to locate [buckyball](exhibit)
+    - where can [aeolian harp](exhibit) be found?
+    - I'm trying to locate [try pi](exhibit)
+    - what is the location of [echo tube](exhibit)?
+    - which gallery has [bernoulli blower](exhibit)?
+    - where should i go to find [velvet harp](exhibit)?
+    - can you please help me find [sun benches](exhibit)?
+    - where is [they 're identical or are they](exhibit)?
+    - where can I find [bay windows](exhibit)?
+    - in which gallery can I find [water drop photography](exhibit)?
+    - I can't seem to locate [giant clock](exhibit)
+    - where can [jellybean room](exhibit) be found?
+    - I'm trying to locate [raylights](exhibit)
+    - what is the location of [distorted room](exhibit)?
+    - which gallery has [blood vessels in your eye](exhibit)?
+    - where should i go to find [black sand](exhibit)?
+    - can you please help me find [visitor pulse](exhibit)?
+    - where is [bridge light](exhibit)?
+    - where can I find [shaking](exhibit)?
+    - in which gallery can I find [machine with concrete](exhibit)?
+    - I can't seem to locate [compare yellow leds](exhibit)
+    - where can [pi shrine](exhibit) be found?
+    - I'm trying to locate [glow ball](exhibit)
+    - what is the location of [prisoner 's dilemma](exhibit)?
+    - which gallery has [within 15 minutes](exhibit)?
+    - where should i go to find [pulling together](exhibit)?
+    - can you please help me find [disappearing rings](exhibit)?
+    - where is [teardrop after robert irwin](exhibit)?
+    - where can I find [ice painting](exhibit)?
+    - in which gallery can I find [monochromatic room](exhibit)?
+    - I can't seem to locate [oscylinderscope](exhibit)
+    - where can [liquid litmus](exhibit) be found?
+    - I'm trying to locate [toothpick roller coaster](exhibit)
+    - what is the location of [bay lexicon columns](exhibit)?
+    - which gallery has [prelinger map archive and library](exhibit)?
+    - where should i go to find [seismograph](exhibit)?
+    - can you please help me find [bike rope squirter](exhibit)?
+    - where is [leaves that sprout plants](exhibit)?
+    - where can I find [creating life with just one parent](exhibit)?
+    - in which gallery can I find [black card white card](exhibit)?
+    - I can't seem to locate [need based transfer economy](exhibit)
+    - where can [shifting time](exhibit) be found?
+    - I'm trying to locate [chladni singing](exhibit)
+    - what is the location of [giant tuning fork](exhibit)?
+    - which gallery has [peacemaker](exhibit)?
+    - where should i go to find [wave organ](exhibit)?
+    - can you please help me find [triple aye stick](exhibit)?
+    - where is [yellow room](exhibit)?
+    - where can I find [light box](exhibit)?
+    - in which gallery can I find [harmonograms](exhibit)?
+    - I can't seem to locate [time 2 think](exhibit)
+    - where can [countless colors](exhibit) be found?
+    - I'm trying to locate [flourish bloom](exhibit)
+    - what is the location of [research buoy](exhibit)?
+    - which gallery has [praxinoscope tower](exhibit)?
+    - where should i go to find [stop and start](exhibit)?
+    - can you please help me find [as one](exhibit)?
+    - where is [leaves that sprout](exhibit)?
+    - where can I find [fog bridge 72494](exhibit)?
+    - in which gallery can I find [probably chelsea](exhibit)?
+    - I can't seem to locate [big wood 300 years of photosynthesis](exhibit)
+    - where can [winogradsky column](exhibit) be found?
+    - I'm trying to locate [pitch twanger](exhibit)
+    - what is the location of [the art of neon](exhibit)?
+    - which gallery has [scrapple](exhibit)?
+    - where should i go to find [responsive heart cells](exhibit)?
+    - can you please help me find [gray step 1](exhibit)?
+    - where is [shadow box](exhibit)?
+    - where can I find [bright black](exhibit)?
+    - in which gallery can I find [turbulent orb](exhibit)?
+    - I can't seem to locate [anamorphic bench](exhibit)
+    - where can [colored lights](exhibit) be found?
+    - I'm trying to locate [gas model](exhibit)
+    - what is the location of [sky panorama](exhibit)?
+    - which gallery has [salt ponds from the sky](exhibit)?
+    - where should i go to find [giant spherical mirror](exhibit)?

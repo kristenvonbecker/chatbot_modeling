@@ -1,0 +1,79 @@
+version: "3.1"
+
+rules:
+
+- rule: when user requests an explanation, ask for the subject (if not given)
+  condition:
+    - slot_was_set:
+        - subject: null
+  steps:
+    - intent: ask_for_explanation
+    - action: utter_what_subject
+
+- rule: when user requests an explanation of a subject, get matches
+  condition:
+    - slot_was_set:
+        - subject: subject
+  steps:
+    - intent: ask_for_explanation
+    - action: action_get_article_match_ids
+  wait_for_user_input: false
+
+- rule: when no matches are found, inform user and ask what's next
+  steps:
+    - action: action_get_article_match_ids
+    - slot_was_set:
+        - matches_available: false
+    - action: utter_found_nothing
+    - action: action_reset_subject
+    - action: utter_how_else_help
+
+- rule: when matches are found, give explanation and ask for confirmation
+  steps:
+    - action: action_get_article_match_ids
+    - slot_was_set:
+        - matches_available: true
+    - action: action_give_explanation
+    - slot_was_set:
+        - subject: subject
+    - or:
+        - slot_was_set:
+            - matches_available: true
+        - slot_was_set:
+            - matches_available: false
+    - action: utter_confirm_explanation
+
+- rule: when user affirms explanation, ask what's next
+  steps:
+    - action: utter_confirm_explanation
+    - or:
+      - intent: affirm
+      - intent: affirm+thanks
+      - intent: thanks
+    - action: action_reset_explanation_slots
+    - action: utter_great
+    - action: utter_how_else_help
+
+- rule: when user rejects explanation, give the next result
+  steps:
+    - action: utter_confirm_explanation
+    - or:
+      - intent: deny
+      - intent: deny+thanks
+    - action: utter_thanks_for_feedback
+    - action: action_give_explanation
+    - slot_was_set:
+        - subject: subject
+    - action: utter_confirm_explanation
+
+- rule: when user rejects final explanation, inform and ask what's next
+  steps:
+    - action: utter_confirm_explanation
+    - or:
+      - intent: deny
+      - intent: deny+thanks
+    - action: utter_thanks_for_feedback
+    - action: action_give_explanation
+    - slot_was_set:
+        - subject: null
+    - action: utter_how_else_help

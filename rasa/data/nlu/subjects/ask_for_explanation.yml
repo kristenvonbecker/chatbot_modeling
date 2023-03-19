@@ -17,43 +17,1035 @@ nlu:
     - is it possible to ask you questions?
     - Can you teach me about a subject?
     - I would like to know something
-    - can you tell me about [clouded leopard](subject)?
-    - what is [felsic and mafic rocks](subject)?
-    - please describe [teacher education](subject)
-    - what does it mean [Ragged Dick](subject)?
-    - what's [Ailsa Craig](subject) all about?
-    - what is the meaning of [The Artist](subject)?
-    - what is [significant digits](subject), if you please
-    - can you describe to me [Airspace](subject)
-    - can you give me a description of [The Mirror](subject)
-    - i'd like to know more about [metal](subject)
-    - what do you know about [transposing musical instrument](subject)?
-    - explain the concept of [embryology](subject)
-    - please explain [intertropical convergence zone](subject)
-    - i'd like information on [scientific visualization](subject)
-    - info about [universe](subject), please
-    - I don't understand [United Nations Research Institute for Social Development](subject)
-    - i'm confused about [Augustan History](subject)
-    - plz give info on [circuit breaker](subject)
-    - i want to become an expert about [telescope](subject), please
-    - i want to know more about [United Nations Research Institute for Social Development](subject)
-    - provide information about [Ocean](subject)
-    - plese help me understand [sand](subject)
-    - '[shingle](subject)'
-    - '[mortar](subject) definition'
-    - '[magnetic mirror](subject) information'
-    - '[sublimation](subject) explanation'
-    - '[ferret](subject) explain it'
-    - '[futhark](subject) what is it?'
-    - i don't know the first thing about [stringed instrument](subject)
-    - i'm tryng to learn about [Out of the Past](subject)
-    - teach me about [wheel lock](subject)
-    - i want to learn about [sunlight](subject)
-    - educate me on the topic of [Archimedes principle](subject)
-    - elaborate on [extrasensory perception](subject)
-    - i'd like an explanation about [bay](subject)
-    - who was [sexuality](subject)?
-    - who is [canvas](subject)?
-    - can you tell me who [The Way of the World](subject) is?
-    - please tell me a little bit about [antiangiogenic agent](subject)
-    - I was wondering if you could educate me on the subject of [parallax](subject)
+    - i really like [hour](subject). will you tell me about it?
+    - i'd like to know more about [Canterbury earthquakes](subject). can you teach me?
+    - can you tell me about [motion picture](subject)?
+    - what is [sign](subject)?
+    - please describe [development](subject)
+    - what does it mean [conservation of momentum](subject)?
+    - what's [Sea People](subject) all about?
+    - what is the meaning of [chromatography](subject)?
+    - what is [technology](subject), if you please
+    - can you describe to me [perpetual motion](subject)
+    - can you give me a description of [umbrella](subject)
+    - i'd like to know more about [pansy](subject)
+    - what do you know about [Berry](subject)?
+    - explain the concept of [deontological ethics](subject)
+    - please explain [afterimage](subject)
+    - i'd like information on [energy](subject)
+    - info about [magnet](subject), please
+    - I don't understand [creativity](subject)
+    - i'm confused about [shearing](subject)
+    - plz give info on [aleatory music](subject)
+    - i want to become an expert about [reference frame](subject), please
+    - i want to know more about [pi](subject)
+    - provide information about [armillary sphere](subject)
+    - plese help me understand [judgment](subject)
+    - '[bulb](subject)'
+    - '[absorption](subject) definition'
+    - '[Lobedu](subject) information'
+    - '[spinning](subject) explanation'
+    - '[Bar](subject) explain it'
+    - '[A Place in the Sun](subject) what is it?'
+    - i don't know the first thing about [bull snake](subject)
+    - i'm tryng to learn about [molecule](subject)
+    - teach me about [San Francisco Bay](subject)
+    - i want to learn about [dispensation](subject)
+    - educate me on the topic of [linear motion](subject)
+    - elaborate on [human ear](subject)
+    - i'd like an explanation about [The Sketch Book](subject)
+    - who was [human resources management](subject)?
+    - who is [symbol](subject)?
+    - can you tell me who [Pete Conrad](subject) is?
+    - please tell me a little bit about [frame of reference](subject)
+    - I was wondering if you could educate me on the subject of [water](subject)
+    - i really like [aerial photography](subject). will you tell me about it?
+    - i'd like to know more about [comet](subject). can you teach me?
+    - can you tell me about [Glass House Mountains](subject)?
+    - what is [Pacific Coast](subject)?
+    - please describe [Save the Children](subject)
+    - what does it mean [mechanical system](subject)?
+    - what's [Alicia Cockburn](subject) all about?
+    - what is the meaning of [photo-ionization](subject)?
+    - what is [physics](subject), if you please
+    - can you describe to me [Apollo Theater](subject)
+    - can you give me a description of [surface tension](subject)
+    - i'd like to know more about [E.B. White](subject)
+    - what do you know about [Lunsar](subject)?
+    - explain the concept of [Ocean](subject)
+    - please explain [moon](subject)
+    - i'd like information on [monatomic gas](subject)
+    - info about [throttle](subject), please
+    - I don't understand [high-pressure phenomena](subject)
+    - i'm confused about [Goona](subject)
+    - plz give info on [skip rope](subject)
+    - i want to become an expert about [the Turtles](subject), please
+    - i want to know more about [dilemma](subject)
+    - provide information about [Harold Edgerton](subject)
+    - plese help me understand [artificial intelligence, situated approach](subject)
+    - '[cycling](subject)'
+    - '[Stoicism](subject) definition'
+    - '[The Young Persons Guide to the Orchestra](subject) information'
+    - '[grinding machine](subject) explanation'
+    - '[spontaneous fission](subject) explain it'
+    - '[cave art](subject) what is it?'
+    - i don't know the first thing about [B-movie](subject)
+    - i'm tryng to learn about [sculpture](subject)
+    - teach me about [Bay Bridge](subject)
+    - i want to learn about [orthographic projection](subject)
+    - educate me on the topic of [embryology](subject)
+    - elaborate on [Arzamas society](subject)
+    - i'd like an explanation about [Frogs](subject)
+    - who was [Karl Mauch](subject)?
+    - who is [ocular accommodation](subject)?
+    - can you tell me who [rain](subject) is?
+    - please tell me a little bit about [mental disorder](subject)
+    - I was wondering if you could educate me on the subject of [Lissajous curve](subject)
+    - i really like [stainless steel](subject). will you tell me about it?
+    - i'd like to know more about [convection](subject). can you teach me?
+    - can you tell me about [tea](subject)?
+    - what is [the Green Book](subject)?
+    - please describe [Great Dividing Range](subject)
+    - what does it mean [artificial life](subject)?
+    - what's [data mining](subject) all about?
+    - what is the meaning of [ABO blood group system](subject)?
+    - what is [musical](subject), if you please
+    - can you describe to me [Web application](subject)
+    - can you give me a description of [sanctuary knocker](subject)
+    - i'd like to know more about [remanent magnetism](subject)
+    - what do you know about [A Shot in the Dark](subject)?
+    - explain the concept of [The Loved One](subject)
+    - please explain [time-sharing](subject)
+    - i'd like information on [pattern glass](subject)
+    - info about [nitrogen group element](subject), please
+    - I don't understand [Coffin Texts](subject)
+    - i'm confused about [gin](subject)
+    - plz give info on [R.C. Sherriff](subject)
+    - i want to become an expert about [sweet alison](subject), please
+    - i want to know more about [Alison Cockburn](subject)
+    - provide information about [building code](subject)
+    - plese help me understand [Angle](subject)
+    - '[fog](subject)'
+    - '[gateleg table](subject) definition'
+    - '[wheel](subject) information'
+    - '[Media](subject) explanation'
+    - '[anabatic wind](subject) explain it'
+    - '[conflict](subject) what is it?'
+    - i don't know the first thing about [Travelers Insurance](subject)
+    - i'm tryng to learn about [Lake Agassiz](subject)
+    - teach me about [The Beehive](subject)
+    - i want to learn about [order of architecture](subject)
+    - educate me on the topic of [human intelligence](subject)
+    - elaborate on [Unity](subject)
+    - i'd like an explanation about [visual Art](subject)
+    - who was [garden](subject)?
+    - who is [neon](subject)?
+    - can you tell me who [cybernetics](subject) is?
+    - please tell me a little bit about [time reversal](subject)
+    - I was wondering if you could educate me on the subject of [fore-edge painting](subject)
+    - i really like [low-temperature phenomena](subject). will you tell me about it?
+    - i'd like to know more about [ferret](subject). can you teach me?
+    - can you tell me about [perspective](subject)?
+    - what is [didactic](subject)?
+    - please describe [The Waste Land](subject)
+    - what does it mean [authigenic sediment](subject)?
+    - what's [Go Tell It on the Mountain](subject) all about?
+    - what is the meaning of [balance](subject)?
+    - what is [climate change](subject), if you please
+    - can you describe to me [harmony](subject)
+    - can you give me a description of [dominant](subject)
+    - i'd like to know more about [Charismatic](subject)
+    - what do you know about [Wales](subject)?
+    - explain the concept of [body politic](subject)
+    - please explain [ecology](subject)
+    - i'd like information on [Catskill Mountains](subject)
+    - info about [significant digits](subject), please
+    - I don't understand [prison](subject)
+    - i'm confused about [needle](subject)
+    - plz give info on [apoptosis](subject)
+    - i want to become an expert about [crystal gazing](subject), please
+    - i want to know more about [uplift](subject)
+    - provide information about [basic oxygen process](subject)
+    - plese help me understand [joking relationship](subject)
+    - '[genetics](subject)'
+    - '[Parallel Lives](subject) definition'
+    - '[Reading](subject) information'
+    - '[wave velocity](subject) explanation'
+    - '[Gutob language](subject) explain it'
+    - '[Aurora](subject) what is it?'
+    - i don't know the first thing about [delta](subject)
+    - i'm tryng to learn about [navigation chart](subject)
+    - teach me about [bike wagon](subject)
+    - i want to learn about [nerve fibre](subject)
+    - educate me on the topic of [fruit](subject)
+    - elaborate on [heliostat](subject)
+    - i'd like an explanation about [imagination](subject)
+    - who was [separation of variables](subject)?
+    - who is [bronze](subject)?
+    - can you tell me who [song](subject) is?
+    - please tell me a little bit about [wheel lock](subject)
+    - I was wondering if you could educate me on the subject of [frequency](subject)
+    - i really like [multicellular organism](subject). will you tell me about it?
+    - i'd like to know more about [permutations and combinations](subject). can you teach
+      me?
+    - can you tell me about [photon](subject)?
+    - what is [good-night](subject)?
+    - please describe [Abū Qīr Bay](subject)
+    - what does it mean [the Shadow](subject)?
+    - what's [Islamic arts](subject) all about?
+    - what is the meaning of [Widmanstätten figure](subject)?
+    - what is [amberina glass](subject), if you please
+    - can you describe to me [detection](subject)
+    - can you give me a description of [cluster of galaxies](subject)
+    - i'd like to know more about [packing](subject)
+    - what do you know about [salt glaze](subject)?
+    - explain the concept of [Poems, Chiefly Lyrical](subject)
+    - please explain [associative learning](subject)
+    - i'd like information on [chance music](subject)
+    - info about [I Know Why the Caged Bird Sings](subject), please
+    - I don't understand [magnetic-core storage](subject)
+    - i'm confused about [Christchurch earthquakes of 2010–11](subject)
+    - plz give info on [environmental engineering](subject)
+    - i want to become an expert about [heart urchin](subject), please
+    - i want to know more about [magnetic pole](subject)
+    - provide information about [Coriolis force](subject)
+    - plese help me understand [pier](subject)
+    - '[plankton](subject)'
+    - '[South San Francisco](subject) definition'
+    - '[Armas Järnefelt](subject) information'
+    - '[Transpacific Race](subject) explanation'
+    - '[Monotype](subject) explain it'
+    - '[the Shadows](subject) what is it?'
+    - i don't know the first thing about [electricity](subject)
+    - i'm tryng to learn about [teacher education](subject)
+    - teach me about [circle](subject)
+    - i want to learn about [hydrogen cyanide](subject)
+    - educate me on the topic of [Cleopatras Needle](subject)
+    - elaborate on [freezing](subject)
+    - i'd like an explanation about [gopher snake](subject)
+    - who was [curve](subject)?
+    - who is [gene doping](subject)?
+    - can you tell me who [lucid dreaming](subject) is?
+    - please tell me a little bit about [sunlight](subject)
+    - I was wondering if you could educate me on the subject of [complementary colour](subject)
+    - i really like [Shrine Shintō](subject). will you tell me about it?
+    - i'd like to know more about [decay constant](subject). can you teach me?
+    - can you tell me about [experience consciously created through an expression of skill](subject)?
+    - what is [Math](subject)?
+    - please describe [dynamical time](subject)
+    - what does it mean [solar system](subject)?
+    - what's [spin](subject) all about?
+    - what is the meaning of [regulating factor](subject)?
+    - what is [Ailsa Craig](subject), if you please
+    - can you describe to me [Ken Russell](subject)
+    - can you give me a description of [B-film](subject)
+    - i'd like to know more about [detergent](subject)
+    - what do you know about [divorce](subject)?
+    - explain the concept of [fluorescence](subject)
+    - please explain [Tell Halaf](subject)
+    - i'd like information on [Cosmos](subject)
+    - info about [transverse wave](subject), please
+    - I don't understand [dance](subject)
+    - i'm confused about [art](subject)
+    - plz give info on [science](subject)
+    - i want to become an expert about [franking](subject), please
+    - i want to know more about [sundial](subject)
+    - provide information about [linear accelerator](subject)
+    - plese help me understand [leaf fish](subject)
+    - '[sound-level meter](subject)'
+    - '[shingle](subject) definition'
+    - '[T.H. Green](subject) information'
+    - '[astronomy](subject) explanation'
+    - '[Mars](subject) explain it'
+    - '[Augustan History](subject) what is it?'
+    - i don't know the first thing about [environmentalism](subject)
+    - i'm tryng to learn about [North Bay](subject)
+    - teach me about [clock](subject)
+    - i want to learn about [Milwaukee Art Museum](subject)
+    - educate me on the topic of [Honolulu Race](subject)
+    - elaborate on [ghosts](subject)
+    - i'd like an explanation about [membrane](subject)
+    - who was [gravity](subject)?
+    - who is [evaporation](subject)?
+    - can you tell me who [Coopers Creek](subject) is?
+    - please tell me a little bit about [New York Philharmonic](subject)
+    - I was wondering if you could educate me on the subject of [region](subject)
+    - i really like [centre of gravity](subject). will you tell me about it?
+    - i'd like to know more about [transmutation](subject). can you teach me?
+    - can you tell me about [Styles Bridges](subject)?
+    - what is [thrombocyte](subject)?
+    - please describe [damping](subject)
+    - what does it mean [Burning of the Gaspee](subject)?
+    - what's [Patient Protection and Affordable Care Act](subject) all about?
+    - what is the meaning of [engineering](subject)?
+    - what is [art for arts sake](subject), if you please
+    - can you describe to me [Mark Aldanov](subject)
+    - can you give me a description of [refraction](subject)
+    - i'd like to know more about [light-frame construction](subject)
+    - what do you know about [table](subject)?
+    - explain the concept of [pressure](subject)
+    - please explain [conductor](subject)
+    - i'd like information on [futhark](subject)
+    - info about [sexual reproduction](subject), please
+    - I don't understand [eye colour](subject)
+    - i'm confused about [electromagnetic spectrum](subject)
+    - plz give info on [core memory](subject)
+    - i want to become an expert about [intellectual disability](subject), please
+    - i want to know more about [invention](subject)
+    - provide information about [periodic motion](subject)
+    - plese help me understand [round](subject)
+    - '[Paternò](subject)'
+    - '[whisper](subject) definition'
+    - '[research and development](subject) information'
+    - '[rocket and missile system](subject) explanation'
+    - '[power](subject) explain it'
+    - '[bitmap graphics](subject) what is it?'
+    - i don't know the first thing about [Our Lady of the Flowers](subject)
+    - i'm tryng to learn about [cups and balls trick](subject)
+    - teach me about [mood](subject)
+    - i want to learn about [laminar flow](subject)
+    - educate me on the topic of [Inland Sea](subject)
+    - elaborate on [knowledge discovery in databases](subject)
+    - i'd like an explanation about [motion sickness](subject)
+    - who was [Out of the Past](subject)?
+    - who is [endocrine modulator](subject)?
+    - can you tell me who [money order](subject) is?
+    - please tell me a little bit about [projection](subject)
+    - I was wondering if you could educate me on the subject of [flat Earth](subject)
+    - i really like [wave](subject). will you tell me about it?
+    - i'd like to know more about [Tower Hamlets](subject). can you teach me?
+    - can you tell me about [Seven Cities of Cíbola](subject)?
+    - what is [modern art](subject)?
+    - please describe [transposing musical instrument](subject)
+    - what does it mean [mental retardation](subject)?
+    - what's [rose](subject) all about?
+    - what is the meaning of [declaratory judgment](subject)?
+    - what is [Andersens disease](subject), if you please
+    - can you describe to me [feedback](subject)
+    - can you give me a description of [Archimedes principle](subject)
+    - i'd like to know more about [Sun](subject)
+    - what do you know about [60 Minutes](subject)?
+    - explain the concept of [community](subject)
+    - please explain [pebble mosaic](subject)
+    - i'd like information on [scattering](subject)
+    - info about [parabola](subject), please
+    - I don't understand [Archaic period](subject)
+    - i'm confused about [Peace](subject)
+    - plz give info on [Venn diagram](subject)
+    - i want to become an expert about [endocrine disruptor](subject), please
+    - i want to know more about [The Setting Sun](subject)
+    - provide information about [precession](subject)
+    - plese help me understand [human nature](subject)
+    - '[arc furnace](subject)'
+    - '[sound](subject) definition'
+    - '[Peter Balesius](subject) information'
+    - '[Henrietta Lacks](subject) explanation'
+    - '[Marine One](subject) explain it'
+    - '[standing wave](subject) what is it?'
+    - i don't know the first thing about [The Stars and Stripes](subject)
+    - i'm tryng to learn about [developmental disability](subject)
+    - teach me about [memento mori](subject)
+    - i want to learn about [plant breeding](subject)
+    - educate me on the topic of [24-hour clock](subject)
+    - elaborate on [Hypsographic Curve](subject)
+    - i'd like an explanation about [earthquake](subject)
+    - who was [Worksop](subject)?
+    - who is [Final Fantasy](subject)?
+    - can you tell me who [mechanism](subject) is?
+    - please tell me a little bit about [yellow toadflax](subject)
+    - I was wondering if you could educate me on the subject of [Deep Blue](subject)
+    - i really like [Froude number](subject). will you tell me about it?
+    - i'd like to know more about [number game](subject). can you teach me?
+    - can you tell me about [equation of motion](subject)?
+    - what is [landscape architecture](subject)?
+    - please describe [Diagnostic and Statistical Manual of Mental Disorders](subject)
+    - what does it mean [concept formation](subject)?
+    - what's [kakelaar](subject) all about?
+    - what is the meaning of [shaft coupling](subject)?
+    - what is [Apollinaris The Younger](subject), if you please
+    - can you describe to me [The Arabian Nights](subject)
+    - can you give me a description of [motion-picture camera](subject)
+    - i'd like to know more about [Nippon Hōsō Kyōkai](subject)
+    - what do you know about [metal](subject)?
+    - explain the concept of [pine](subject)
+    - please explain [Loyal Publication Society](subject)
+    - i'd like information on [resin](subject)
+    - info about [vestibulocochlear nerve](subject), please
+    - I don't understand [After Dark](subject)
+    - i'm confused about [methylene blue](subject)
+    - plz give info on [nationality](subject)
+    - i want to become an expert about [white cloud](subject), please
+    - i want to know more about [bioEcology](subject)
+    - provide information about [heliosphere](subject)
+    - plese help me understand [mortar](subject)
+    - '[Seyfert galaxy](subject)'
+    - '[LED](subject) definition'
+    - '[ability grouping](subject) information'
+    - '[tree](subject) explanation'
+    - '[fainting](subject) explain it'
+    - '[pitch](subject) what is it?'
+    - i don't know the first thing about [complexity](subject)
+    - i'm tryng to learn about [United Nations Research Institute for Social Development](subject)
+    - teach me about [salutary neglect](subject)
+    - i want to learn about [judgement](subject)
+    - educate me on the topic of [Memento Mori](subject)
+    - elaborate on [conditional probability](subject)
+    - i'd like an explanation about [settlement](subject)
+    - who was [simple harmonic motion](subject)?
+    - who is [circuit breaker](subject)?
+    - can you tell me who [R. Buckminster Fuller](subject) is?
+    - please tell me a little bit about [World Wide Web](subject)
+    - I was wondering if you could educate me on the subject of [Transformational-generative
+      Grammar](subject)
+    - i really like [Venus Express](subject). will you tell me about it?
+    - i'd like to know more about [hide-and-seek](subject). can you teach me?
+    - can you tell me about [To Build a Fire](subject)?
+    - what is [magic number](subject)?
+    - please describe [human sacrifice](subject)
+    - what does it mean [Chaos](subject)?
+    - what's [Zeeman effect](subject) all about?
+    - what is the meaning of [air force](subject)?
+    - what is [Ragged Dick](subject), if you please
+    - can you describe to me [acid-base catalysis](subject)
+    - can you give me a description of [still-life painting](subject)
+    - i'd like to know more about [simple machine](subject)
+    - what do you know about [sustainability](subject)?
+    - explain the concept of [graveyard school](subject)
+    - please explain [binoculars](subject)
+    - i'd like information on [cohort analysis](subject)
+    - info about [eolian sound](subject), please
+    - I don't understand [CARE](subject)
+    - i'm confused about [lumen](subject)
+    - plz give info on [In Search of Lost Time](subject)
+    - i want to become an expert about [language](subject), please
+    - i want to know more about [Forbes family](subject)
+    - provide information about [human migration](subject)
+    - plese help me understand [neural oscillation](subject)
+    - '[significant figures](subject)'
+    - '[cooperative](subject) definition'
+    - '[core](subject) information'
+    - '[relative density](subject) explanation'
+    - '[mode](subject) explain it'
+    - '[lymph](subject) what is it?'
+    - i don't know the first thing about [anamorphosis](subject)
+    - i'm tryng to learn about [cosmology](subject)
+    - teach me about [mechanical engineering](subject)
+    - i want to learn about [extrasensory perception](subject)
+    - educate me on the topic of [turtle](subject)
+    - elaborate on [sublimation](subject)
+    - i'd like an explanation about [galaxy](subject)
+    - who was [Breast Cancer Awareness Month](subject)?
+    - who is [materials processing](subject)?
+    - can you tell me who [color](subject) is?
+    - please tell me a little bit about [soap and detergent](subject)
+    - I was wondering if you could educate me on the subject of [focusing](subject)
+    - i really like [high-voltage electron microscope](subject). will you tell me about
+      it?
+    - i'd like to know more about [ferromagnetism](subject). can you teach me?
+    - can you tell me about [Sting](subject)?
+    - what is [separation and purification](subject)?
+    - please describe [Great Game](subject)
+    - what does it mean [air space](subject)?
+    - what's [learning disabilities](subject) all about?
+    - what is the meaning of [Sebastian Coe](subject)?
+    - what is [table of opposites](subject), if you please
+    - can you describe to me [search engine](subject)
+    - can you give me a description of [Syrian Catholic Church](subject)
+    - i'd like to know more about [The Way of the World](subject)
+    - what do you know about [gallery](subject)?
+    - explain the concept of [interference](subject)
+    - please explain [The Trees](subject)
+    - i'd like information on [Peace of Cateau-Cambrésis](subject)
+    - info about [electromagnetic radiation](subject), please
+    - I don't understand [optical crystallography](subject)
+    - i'm confused about [turntable](subject)
+    - plz give info on [music](subject)
+    - i want to become an expert about [Templar](subject), please
+    - i want to know more about [Aeolian](subject)
+    - provide information about [WAVES](subject)
+    - plese help me understand [Harmony](subject)
+    - '[animal social behaviour](subject)'
+    - '[inertia](subject) definition'
+    - '[prisoners dilemma](subject) information'
+    - '[Zen](subject) explanation'
+    - '[lunar eclipse](subject) explain it'
+    - '[two-state solution](subject) what is it?'
+    - i don't know the first thing about [sweet alyssum](subject)
+    - i'm tryng to learn about [microscope](subject)
+    - teach me about [criminal justice](subject)
+    - i want to learn about [Christabel](subject)
+    - educate me on the topic of [angiogenesis inhibitor](subject)
+    - elaborate on [Pictures from Brueghel](subject)
+    - i'd like an explanation about [Munsell colour system](subject)
+    - who was [electrolysis](subject)?
+    - who is [snake-eyed skink](subject)?
+    - can you tell me who [The Color Purple](subject) is?
+    - please tell me a little bit about [phosphorescence](subject)
+    - I was wondering if you could educate me on the subject of [Freer Gallery of Art](subject)
+    - i really like [French 75](subject). will you tell me about it?
+    - i'd like to know more about [butter-and-eggs](subject). can you teach me?
+    - can you tell me about [Rappaccinis Daughter](subject)?
+    - what is [air pollution](subject)?
+    - please describe [parallel](subject)
+    - what does it mean [Hundred Days](subject)?
+    - what's [Labé](subject) all about?
+    - what is the meaning of [kinetic sculpture](subject)?
+    - what is [Red Blaik](subject), if you please
+    - can you describe to me [Secchi disk](subject)
+    - can you give me a description of [kalanchoe](subject)
+    - i'd like to know more about [artificial intelligence](subject)
+    - what do you know about [perception](subject)?
+    - explain the concept of [transparency](subject)
+    - please explain [nerve](subject)
+    - i'd like information on [Brave New World](subject)
+    - info about [wood hoopoe](subject), please
+    - I don't understand [chicken](subject)
+    - i'm confused about [mean free path](subject)
+    - plz give info on [Tanglewood Tales for Girls and Boys](subject)
+    - i want to become an expert about [movie](subject), please
+    - i want to know more about [Vernon L](subject)
+    - provide information about [Fresnel lens](subject)
+    - plese help me understand [Abrasion Platform](subject)
+    - '[problem solving](subject)'
+    - '[normative measurement](subject) definition'
+    - '[pocket shark](subject) information'
+    - '[platelet](subject) explanation'
+    - '[Coriolis effect](subject) explain it'
+    - '[prism](subject) what is it?'
+    - i don't know the first thing about [The Thousand and One Nights](subject)
+    - i'm tryng to learn about [Baroque art and architecture](subject)
+    - teach me about [emotion](subject)
+    - i want to learn about [adaptation](subject)
+    - educate me on the topic of [magnetic-core memory](subject)
+    - elaborate on [Ivan Bunin](subject)
+    - i'd like an explanation about [density-dependent factor](subject)
+    - who was [sound production](subject)?
+    - who is [Arthur Rackham](subject)?
+    - can you tell me who [The Story of Ahikar](subject) is?
+    - please tell me a little bit about [phosphorous acid](subject)
+    - I was wondering if you could educate me on the subject of [diffraction](subject)
+    - i really like [weather](subject). will you tell me about it?
+    - i'd like to know more about [Blow-Up](subject). can you teach me?
+    - can you tell me about [whitewood](subject)?
+    - what is [canvas](subject)?
+    - please describe [field](subject)
+    - what does it mean [College Football Playoff](subject)?
+    - what's [aurora](subject) all about?
+    - what is the meaning of [marine](subject)?
+    - what is [colour](subject), if you please
+    - can you describe to me [Lovedu](subject)
+    - can you give me a description of [yellow poplar](subject)
+    - i'd like to know more about [transformational grammar](subject)
+    - what do you know about [specific gravity](subject)?
+    - explain the concept of [amyotrophic lateral sclerosis](subject)
+    - please explain [grateful dead](subject)
+    - i'd like information on [Tasmanian devil](subject)
+    - info about [telescope](subject), please
+    - I don't understand [Private Lives](subject)
+    - i'm confused about [ratio](subject)
+    - plz give info on [Gallery of Modern Art](subject)
+    - i want to become an expert about [Pittsburgh Penguins](subject), please
+    - i want to know more about [liquid](subject)
+    - provide information about [small solar system body](subject)
+    - plese help me understand [corn starch](subject)
+    - '[guided missile](subject)'
+    - '[attention](subject) definition'
+    - '[paint](subject) information'
+    - '[Košice government](subject) explanation'
+    - '[Pool](subject) explain it'
+    - '[cylinder](subject) what is it?'
+    - i don't know the first thing about [dancing plague of 1518](subject)
+    - i'm tryng to learn about [Tall Ḥalaf](subject)
+    - teach me about [appearance](subject)
+    - i want to learn about [guitar](subject)
+    - educate me on the topic of [geology](subject)
+    - elaborate on [Mars Science Laboratory](subject)
+    - i'd like an explanation about [Red Cloud](subject)
+    - who was [expert system](subject)?
+    - who is [scale](subject)?
+    - can you tell me who [chemical hydrology](subject) is?
+    - please tell me a little bit about [Nathan Clifford](subject)
+    - I was wondering if you could educate me on the subject of [potential energy](subject)
+    - i really like [cognition](subject). will you tell me about it?
+    - i'd like to know more about [universe](subject). can you teach me?
+    - can you tell me about [ocean](subject)?
+    - what is [oxygen cycle](subject)?
+    - please describe [juniper](subject)
+    - what does it mean [extraterrestrial intelligence](subject)?
+    - what's [Pong](subject) all about?
+    - what is the meaning of [Los Angeles](subject)?
+    - what is [Seven-note Scale](subject), if you please
+    - can you describe to me [wave-cut platform](subject)
+    - can you give me a description of [spatial disorientation](subject)
+    - i'd like to know more about [sibling rivalry](subject)
+    - what do you know about [dispersion](subject)?
+    - explain the concept of [polarization](subject)
+    - please explain [Tokyo Skytree](subject)
+    - i'd like information on [D region](subject)
+    - info about [Ray Stannard Baker](subject), please
+    - I don't understand [blood](subject)
+    - i'm confused about [wood](subject)
+    - plz give info on [Paleomagnetism](subject)
+    - i want to become an expert about [environment](subject), please
+    - i want to know more about [Action painting](subject)
+    - provide information about [settling](subject)
+    - plese help me understand [negative capability](subject)
+    - '[Bobbsey Twins](subject)'
+    - '[kippers](subject) definition'
+    - '[Council of Five Hundred](subject) information'
+    - '[psychological hedonism](subject) explanation'
+    - '[gear](subject) explain it'
+    - '[toreva block](subject) what is it?'
+    - i don't know the first thing about [optical image](subject)
+    - i'm tryng to learn about [umbilical cord](subject)
+    - teach me about [crop rotation](subject)
+    - i want to learn about [intertropical convergence zone](subject)
+    - educate me on the topic of [sphere of influence](subject)
+    - elaborate on [solar time](subject)
+    - i'd like an explanation about [city](subject)
+    - who was [formonitrile](subject)?
+    - who is [Bennington College](subject)?
+    - can you tell me who [philosophy of as if](subject) is?
+    - please tell me a little bit about [Abukir Bay](subject)
+    - I was wondering if you could educate me on the subject of [pulse](subject)
+    - i really like [reflection](subject). will you tell me about it?
+    - i'd like to know more about [Villarreal](subject). can you teach me?
+    - can you tell me about [Museum of Islamic Art](subject)?
+    - what is [common toadflax](subject)?
+    - please describe [Kidnapped](subject)
+    - what does it mean [harbours and sea works](subject)?
+    - what's [A Dance to the Music of Time](subject) all about?
+    - what is the meaning of [personality](subject)?
+    - what is [Citrus](subject), if you please
+    - can you describe to me [Isles of Scilly](subject)
+    - can you give me a description of [The Turn of the Screw](subject)
+    - i'd like to know more about [talent](subject)
+    - what do you know about [red](subject)?
+    - explain the concept of [The Skin of Our Teeth](subject)
+    - please explain [Tokyo Sky Tree](subject)
+    - i'd like information on [Eocene Series](subject)
+    - info about [Battle of Blenheim](subject), please
+    - I don't understand [Gadaba](subject)
+    - i'm confused about [fluid mechanics](subject)
+    - plz give info on [high-speed steel](subject)
+    - i want to become an expert about [mint](subject), please
+    - i want to know more about [periodic table](subject)
+    - provide information about [Lens](subject)
+    - plese help me understand [political culture](subject)
+    - '[pattern recognition](subject)'
+    - '[eustachian tube](subject) definition'
+    - '[Kieselguhr](subject) information'
+    - '[biomass](subject) explanation'
+    - '[wavelength](subject) explain it'
+    - '[streamline flow](subject) what is it?'
+    - i don't know the first thing about [process philosophy](subject)
+    - i'm tryng to learn about [Renaissance](subject)
+    - teach me about [self](subject)
+    - i want to learn about [infinity](subject)
+    - educate me on the topic of [bleeding heart](subject)
+    - elaborate on [Numbers](subject)
+    - i'd like an explanation about [Mogollon Mountains](subject)
+    - who was [conjuring](subject)?
+    - who is [motion](subject)?
+    - can you tell me who [temperature](subject) is?
+    - please tell me a little bit about [axon](subject)
+    - I was wondering if you could educate me on the subject of [museum](subject)
+    - i really like [break](subject). will you tell me about it?
+    - i'd like to know more about [reproduction](subject). can you teach me?
+    - can you tell me about [Faces](subject)?
+    - what is [statistics](subject)?
+    - please describe [runic alphabet](subject)
+    - what does it mean [hot flash](subject)?
+    - what's [light quantum](subject) all about?
+    - what is the meaning of [Gaspé Current](subject)?
+    - what is [Amratian culture](subject), if you please
+    - can you describe to me [small body](subject)
+    - can you give me a description of [Linear A and Linear B](subject)
+    - i'd like to know more about [Ashmolean Museum](subject)
+    - what do you know about [Charles Brockden Brown](subject)?
+    - explain the concept of [follicle-stimulating hormone](subject)
+    - please explain [The Day the Earth Stood Still](subject)
+    - i'd like information on [Great Divide](subject)
+    - info about [reciprocity](subject), please
+    - I don't understand [silk](subject)
+    - i'm confused about [number](subject)
+    - plz give info on [Pentagon](subject)
+    - i want to become an expert about [migration](subject), please
+    - i want to know more about [continuity](subject)
+    - provide information about [moral philosophy](subject)
+    - plese help me understand [reflection nebula](subject)
+    - '[conservation of energy](subject)'
+    - '[physiology](subject) definition'
+    - '[product cipher](subject) information'
+    - '[wind](subject) explanation'
+    - '[African American folktale](subject) explain it'
+    - '[Airspace](subject) what is it?'
+    - i don't know the first thing about [telex](subject)
+    - i'm tryng to learn about [Scilly Isles](subject)
+    - teach me about [illusion](subject)
+    - i want to learn about [space](subject)
+    - educate me on the topic of [budding bacterium](subject)
+    - elaborate on [symmetry](subject)
+    - i'd like an explanation about [People](subject)
+    - who was [Bob and Ray](subject)?
+    - who is [University of Utah](subject)?
+    - can you tell me who [centrifuge](subject) is?
+    - please tell me a little bit about [competition](subject)
+    - I was wondering if you could educate me on the subject of [hypsometric curve](subject)
+    - i really like [Muriel Rukeyser](subject). will you tell me about it?
+    - i'd like to know more about [bridge](subject). can you teach me?
+    - can you tell me about [magic](subject)?
+    - what is [Second Great Awakening](subject)?
+    - please describe [string quartet](subject)
+    - what does it mean [diffusion](subject)?
+    - what's [celestial sphere](subject) all about?
+    - what is the meaning of [information processing](subject)?
+    - what is [pocket billiards](subject), if you please
+    - can you describe to me [American Indian](subject)
+    - can you give me a description of [single nucleotide polymorphism](subject)
+    - i'd like to know more about [genetically modified organism](subject)
+    - what do you know about [Large Hadron Collider](subject)?
+    - explain the concept of [supply-side economics](subject)
+    - please explain [black](subject)
+    - i'd like information on [Widmanstätten pattern](subject)
+    - info about [composition](subject), please
+    - I don't understand [time perception](subject)
+    - i'm confused about [philosophy](subject)
+    - plz give info on [albedo](subject)
+    - i want to become an expert about [goldenrain tree](subject), please
+    - i want to know more about [Little America](subject)
+    - provide information about [podzolic soil](subject)
+    - plese help me understand [complex variable](subject)
+    - '[fitchet](subject)'
+    - '[race](subject) definition'
+    - '[Walk off the Earth](subject) information'
+    - '[Sarah Chauncey Woolsey](subject) explanation'
+    - '[Boundary Peak](subject) explain it'
+    - '[button](subject) what is it?'
+    - i don't know the first thing about [social structure](subject)
+    - i'm tryng to learn about [laser](subject)
+    - teach me about [augmentative and alternative communication](subject)
+    - i want to learn about [Time](subject)
+    - educate me on the topic of [biology](subject)
+    - elaborate on [bird](subject)
+    - i'd like an explanation about [memory](subject)
+    - who was [Curiosity](subject)?
+    - who is [film](subject)?
+    - can you tell me who [cornstarch](subject) is?
+    - please tell me a little bit about [Ronald Searle](subject)
+    - I was wondering if you could educate me on the subject of [Doric order](subject)
+    - i really like [blue](subject). will you tell me about it?
+    - i'd like to know more about [lake](subject). can you teach me?
+    - can you tell me about [form](subject)?
+    - what is [electric current](subject)?
+    - please describe [Arrábida Bridge](subject)
+    - what does it mean [antigenic drift](subject)?
+    - what's [small arm](subject) all about?
+    - what is the meaning of [protagonist](subject)?
+    - what is [acrylic](subject), if you please
+    - can you describe to me [heat transfer](subject)
+    - can you give me a description of [animation](subject)
+    - i'd like to know more about [The Diary of a Country Priest](subject)
+    - what do you know about [iPhone](subject)?
+    - explain the concept of [magnetism](subject)
+    - please explain [atomic clock](subject)
+    - i'd like information on [Tobacco Road](subject)
+    - info about [Selective Service System](subject), please
+    - I don't understand [human behaviour](subject)
+    - i'm confused about [oceanography](subject)
+    - plz give info on [incongruent melting](subject)
+    - i want to become an expert about [transportation](subject), please
+    - i want to know more about [A-life](subject)
+    - provide information about [Tasmanian Wilderness](subject)
+    - plese help me understand [plant](subject)
+    - '[pride-of-India](subject)'
+    - '[Reformation](subject) definition'
+    - '[Lives](subject) information'
+    - '[electromagnet](subject) explanation'
+    - '[tunny](subject) explain it'
+    - '[brightness](subject) what is it?'
+    - i don't know the first thing about [Delta](subject)
+    - i'm tryng to learn about [ethics](subject)
+    - teach me about [glass](subject)
+    - i want to learn about [game theory](subject)
+    - educate me on the topic of [melting](subject)
+    - elaborate on [molybdate and tungstate minerals](subject)
+    - i'd like an explanation about [Brownian motion](subject)
+    - who was [dendrochronology](subject)?
+    - who is [Thomas Godfrey](subject)?
+    - can you tell me who [kaleidoscope](subject) is?
+    - please tell me a little bit about [Our Bodies, Ourselves](subject)
+    - I was wondering if you could educate me on the subject of [turbulent flow](subject)
+    - i really like [Merovingian art](subject). will you tell me about it?
+    - i'd like to know more about [Japanese performing arts](subject). can you teach me?
+    - can you tell me about [heptatonic scale](subject)?
+    - what is [materialism](subject)?
+    - please describe [resonance](subject)
+    - what does it mean [Milan Kundera](subject)?
+    - what's [auditory tube](subject) all about?
+    - what is the meaning of [atmospheric turbulence](subject)?
+    - what is [Michael S](subject), if you please
+    - can you describe to me [Lissajous figure](subject)
+    - can you give me a description of [Jill Biden](subject)
+    - i'd like to know more about [She Done Him Wrong](subject)
+    - what do you know about [atmosphere](subject)?
+    - explain the concept of [phase](subject)
+    - please explain [Runabout](subject)
+    - i'd like information on [interior design](subject)
+    - info about [computer](subject), please
+    - I don't understand [Guna](subject)
+    - i'm confused about [organic compound](subject)
+    - plz give info on [Auditory Nerve](subject)
+    - i want to become an expert about [panorama](subject), please
+    - i want to know more about [order](subject)
+    - provide information about [flower](subject)
+    - plese help me understand [Iron Gate](subject)
+    - '[battery](subject)'
+    - '[Economy](subject) definition'
+    - '[mirror](subject) information'
+    - '[A Wrinkle in Time](subject) explanation'
+    - '[space frame](subject) explain it'
+    - '[equilibrium](subject) what is it?'
+    - i don't know the first thing about [continued fraction](subject)
+    - i'm tryng to learn about [tulip tree](subject)
+    - teach me about [January](subject)
+    - i want to learn about [atmospheric perspective](subject)
+    - educate me on the topic of [The Vision of Adamnán](subject)
+    - elaborate on [ionization](subject)
+    - i'd like an explanation about [biological Community](subject)
+    - who was [magnetic field](subject)?
+    - who is [natural fibre](subject)?
+    - can you tell me who [light](subject) is?
+    - please tell me a little bit about [electric motor](subject)
+    - I was wondering if you could educate me on the subject of [The Artist](subject)
+    - i really like [A Delicate Balance](subject). will you tell me about it?
+    - i'd like to know more about [mineral](subject). can you teach me?
+    - can you tell me about [tuna](subject)?
+    - what is [Khone Falls](subject)?
+    - please describe [marine biology](subject)
+    - what does it mean [light curve](subject)?
+    - what's [magnetic mirror](subject) all about?
+    - what is the meaning of [Leonardo da Vinci](subject)?
+    - what is [Bar Hebraeus](subject), if you please
+    - can you describe to me [pouncet-box](subject)
+    - can you give me a description of [control system](subject)
+    - i'd like to know more about [Tower of the Winds](subject)
+    - what do you know about [architecture](subject)?
+    - explain the concept of [reproductive system disease](subject)
+    - please explain [Asia Society Museum](subject)
+    - i'd like information on [Tim Burton](subject)
+    - info about [bathyal zone](subject), please
+    - I don't understand [Its a Wonderful Life](subject)
+    - i'm confused about [white](subject)
+    - plz give info on [Black Range](subject)
+    - i want to become an expert about [Peter Bales](subject), please
+    - i want to know more about [broken windows theory](subject)
+    - provide information about [sunshine](subject)
+    - plese help me understand [carbon dioxide](subject)
+    - '[Hydrochemistry](subject)'
+    - '[kinetic energy](subject) definition'
+    - '[felsic and mafic rocks](subject) information'
+    - '[Christmas](subject) explanation'
+    - '[public relations](subject) explain it'
+    - '[soil](subject) what is it?'
+    - i don't know the first thing about [Focus on the Family](subject)
+    - i'm tryng to learn about [Nashville Predators](subject)
+    - teach me about [crucifixion](subject)
+    - i want to learn about [gravitation](subject)
+    - educate me on the topic of [trust](subject)
+    - elaborate on [field-emission microscope](subject)
+    - i'd like an explanation about [sand](subject)
+    - who was [Rossby wave](subject)?
+    - who is [photosynthesis](subject)?
+    - can you tell me who [contrast medium](subject) is?
+    - please tell me a little bit about [Knight Templar](subject)
+    - I was wondering if you could educate me on the subject of [rainbow](subject)
+    - i really like [Days of Our Lives](subject). will you tell me about it?
+    - i'd like to know more about [pigment](subject). can you teach me?
+    - can you tell me about [alliteration](subject)?
+    - what is [HeLa cell](subject)?
+    - please describe [Discover](subject)
+    - what does it mean [gender](subject)?
+    - what's [strong force](subject) all about?
+    - what is the meaning of [futures](subject)?
+    - what is [Bend](subject), if you please
+    - can you describe to me [antiangiogenic agent](subject)
+    - can you give me a description of [levitation](subject)
+    - i'd like to know more about [clouded tiger](subject)
+    - what do you know about [minute](subject)?
+    - explain the concept of [magnification](subject)
+    - please explain [Henrician Articles](subject)
+    - i'd like information on [twin](subject)
+    - info about [Americans with Disabilities Act](subject), please
+    - I don't understand [design](subject)
+    - i'm confused about [military necessity](subject)
+    - plz give info on [psychology](subject)
+    - i want to become an expert about [heart](subject), please
+    - i want to know more about [shift work](subject)
+    - provide information about [codependency](subject)
+    - plese help me understand [bootlegging](subject)
+    - '[country music](subject)'
+    - '[emptiness](subject) definition'
+    - '[pendulum](subject) information'
+    - '[Protestant Reformation](subject) explanation'
+    - '[antiphonal singing](subject) explain it'
+    - '[sexuality](subject) what is it?'
+    - i don't know the first thing about [Canaanite religion](subject)
+    - i'm tryng to learn about [vision](subject)
+    - teach me about [alife](subject)
+    - i want to learn about [stringed instrument](subject)
+    - educate me on the topic of [sea turtle](subject)
+    - elaborate on [Pacific Ocean](subject)
+    - i'd like an explanation about [bristlecone pine](subject)
+    - who was [black sand](subject)?
+    - who is [tree-ring dating](subject)?
+    - can you tell me who [religion](subject) is?
+    - please tell me a little bit about [Moon](subject)
+    - I was wondering if you could educate me on the subject of [wait](subject)
+    - i really like [raster graphics](subject). will you tell me about it?
+    - i'd like to know more about [intergalactic medium](subject). can you teach me?
+    - can you tell me about [introverted quatrain](subject)?
+    - what is [hydrocarbon](subject)?
+    - please describe [augmented reality](subject)
+    - what does it mean [rhythm](subject)?
+    - what's [camouflage](subject) all about?
+    - what is the meaning of [lattice energy](subject)?
+    - what is [Nanking porcelain](subject), if you please
+    - can you describe to me [Friends](subject)
+    - can you give me a description of [stereotype](subject)
+    - i'd like to know more about [Oral](subject)
+    - what do you know about [bicycle](subject)?
+    - explain the concept of [white cloud mountain minnow](subject)
+    - please explain [musical instrument](subject)
+    - i'd like information on [Huygens principle](subject)
+    - info about [vertical integration](subject), please
+    - I don't understand [Straits Settlements](subject)
+    - i'm confused about [iridescence](subject)
+    - plz give info on [geography](subject)
+    - i want to become an expert about [stationary wave](subject), please
+    - i want to know more about [gas](subject)
+    - provide information about [topology](subject)
+    - plese help me understand [shaper](subject)
+    - '[crime](subject)'
+    - '[artificial organ](subject) definition'
+    - '[acoustics](subject) information'
+    - '[turbulence](subject) explanation'
+    - '[parallax](subject) explain it'
+    - '[country and western](subject) what is it?'
+    - i don't know the first thing about [privileged communication](subject)
+    - i'm tryng to learn about [Nothingness](subject)
+    - teach me about [gas meter](subject)
+    - i want to learn about [history](subject)
+    - educate me on the topic of [November](subject)
+    - elaborate on [self-determination](subject)
+    - i'd like an explanation about [Treatise on the Power and Primacy of the Pope](subject)
+    - who was [Google Workspace](subject)?
+    - who is [jump rope](subject)?
+    - can you tell me who [electric guitar](subject) is?
+    - please tell me a little bit about [Leaves of Grass](subject)
+    - I was wondering if you could educate me on the subject of [Twenty-five Articles
+      of Religion](subject)
+    - i really like [big-bang model](subject). will you tell me about it?
+    - i'd like to know more about [identity politics](subject). can you teach me?
+    - can you tell me about [condensation](subject)?
+    - what is [electric field](subject)?
+    - please describe [frequency meter](subject)
+    - what does it mean [torque](subject)?
+    - what's [yield point](subject) all about?
+    - what is the meaning of [Italic languages](subject)?
+    - what is [Cooper Creek](subject), if you please
+    - can you describe to me [radiation-damage dating](subject)
+    - can you give me a description of [seismograph](subject)
+    - i'd like to know more about [air](subject)
+    - what do you know about [Rain](subject)?
+    - explain the concept of [Fayum portrait](subject)
+    - please explain [ounce](subject)
+    - i'd like information on [human eye](subject)
+    - info about [dark energy](subject), please
+    - I don't understand [Flying Tigers](subject)
+    - i'm confused about [flight](subject)
+    - plz give info on [building](subject)
+    - i want to become an expert about [Appendix On The Papacy](subject), please
+    - i want to know more about [Horologium](subject)
+    - provide information about [electron scattering](subject)
+    - plese help me understand [habitat](subject)
+    - '[social equilibrium](subject)'
+    - '[DNA](subject) definition'
+    - '[information retrieval](subject) information'
+    - '[moment of a force](subject) explanation'
+    - '[potato](subject) explain it'
+    - '[buoy](subject) what is it?'
+    - i don't know the first thing about [green](subject)
+    - i'm tryng to learn about [economics](subject)
+    - teach me about [data structure](subject)
+    - i want to learn about [dimension](subject)
+    - educate me on the topic of [euphonium](subject)
+    - elaborate on [The Mirror](subject)
+    - i'd like an explanation about [identity of indiscernibles](subject)
+    - who was [aromatic compound](subject)?
+    - who is [recycling](subject)?
+    - can you tell me who [organizational culture](subject) is?
+    - please tell me a little bit about [Naqādah I culture](subject)
+    - I was wondering if you could educate me on the subject of [autokinetic effect](subject)
+    - i really like [bone conduction](subject). will you tell me about it?
+    - i'd like to know more about [Earth](subject). can you teach me?
+    - can you tell me about [self-fulfilling prophecy](subject)?
+    - what is [hand](subject)?
+    - please describe [digit](subject)
+    - what does it mean [tone](subject)?
+    - what's [mystery story](subject) all about?
+    - what is the meaning of [John Hersey](subject)?
+    - what is [upslope wind](subject), if you please
+    - can you describe to me [hexagon](subject)
+    - can you give me a description of [Sanctuary Ring](subject)
+    - i'd like to know more about [physicalism](subject)
+    - what do you know about [dark web](subject)?
+    - explain the concept of [Linac](subject)
+    - please explain [bike](subject)
+    - i'd like information on [historiography](subject)
+    - info about [optical storage](subject), please
+    - I don't understand [radio range](subject)
+    - i'm confused about [scrying](subject)
+    - plz give info on [environmental scanning electron microscope](subject)
+    - i want to become an expert about [azo dye](subject), please
+    - i want to know more about [Model T](subject)
+    - provide information about [library science](subject)
+    - plese help me understand [churning of the ocean of milk](subject)
+    - '[fatigue](subject)'
+    - '[Native American](subject) definition'
+    - '[scientific visualization](subject) information'
+    - '[Heart of Darkness](subject) explanation'
+    - '[clouded leopard](subject) explain it'
+    - '[San Francisco](subject) what is it?'
+    - i don't know the first thing about [lethargy](subject)
+    - i'm tryng to learn about [table talk](subject)
+    - teach me about [walking](subject)
+    - i want to learn about [Organization of the Islamic Cooperation](subject)
+    - educate me on the topic of [event](subject)
+    - elaborate on [prose poem](subject)
+    - i'd like an explanation about [rope](subject)
+    - who was [Tunguska event](subject)?
+    - who is [trickle-down economics](subject)?
+    - can you tell me who [navigation](subject) is?
+    - please tell me a little bit about [bay](subject)
+    - I was wondering if you could educate me on the subject of [Movie Camera](subject)
+    - i really like [vibration](subject). will you tell me about it?
+    - i'd like to know more about [friction](subject). can you teach me?
+    - can you tell me about [cardiac catheterization](subject)?
+    - what is [diatomaceous earth](subject)?
+    - please describe [New Economic Policy](subject)
+    - what does it mean [Golden Gate Bridge](subject)?
+    - what's [blending](subject) all about?
+    - what is the meaning of [cosmic ray](subject)?
+    - what is [musical comedy](subject), if you please
+    - can you describe to me [Brownian movement](subject)
+    - can you give me a description of [physical activity](subject)
+    - i'd like to know more about [Amarāvatī sculpture](subject)
+    - what do you know about [critical angle](subject)?
+    - explain the concept of [sports](subject)
+    - please explain [colour vision](subject)
+    - i'd like information on [shark](subject)
+    - info about [aerial perspective](subject), please
+    - I don't understand [electron microscopy](subject)
+    - i'm confused about [programmed cell death](subject)
+    - plz give info on [The Dead Lecturer](subject)

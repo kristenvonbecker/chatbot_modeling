@@ -13,12 +13,333 @@ nlu:
     - when was this exhibit created?
     - i'd like to know how old this exhibit is
     - do you know when this exhibit was created?
-    - what date was the [A Pendulum Clock](exhibit) exhibit first opened?
-    - when was [Need-Based Transfer Economy](exhibit) added to the museum?
-    - what year did [The Enchanted Tree](exhibit) debut?
-    - please tell me when the [Out Quiet Yourself](exhibit) exhibit was created
-    - can you tell me what year [The Dome](exhibit) was debuted?
-    - how long has [Energy from Death](exhibit) been at the exploratorium?
-    - when did [Sun Benches](exhibit) first show up?
-    - what date was [Rotting Carcass](exhibit) created?
-    - how old is [Ames Room](exhibit)?
+    - what date was the [water evaporation](exhibit) exhibit first opened?
+    - when was [zephyr trio](exhibit) added to the museum?
+    - what year did [pi marker](exhibit) debut?
+    - please tell me when the [the atmosphere a guide](exhibit) exhibit was created
+    - can you tell me what year [sip or squirt](exhibit) was debuted?
+    - how long has [a sip of conflict](exhibit) been at the exploratorium?
+    - when did [braided stream](exhibit) first show up?
+    - what date was [animation tower](exhibit) created?
+    - how old is [buffon 's needles](exhibit)?
+    - what year was [balancing ball](exhibit) invented?
+    - when did [blood o meter](exhibit) first appear at the exploratorium?
+    - how old [archimedes](exhibit)?
+    - what date was the [bicycle chain](exhibit) exhibit first opened?
+    - when was [digital footprints](exhibit) added to the museum?
+    - what year did [red phone](exhibit) debut?
+    - please tell me when the [disappearing glass rods](exhibit) exhibit was created
+    - can you tell me what year [giant mirror](exhibit) was debuted?
+    - how long has [aromas y recuerdos](exhibit) been at the exploratorium?
+    - when did [seeing scientifically](exhibit) first show up?
+    - what date was [what 's hot what 's not](exhibit) created?
+    - how old is [rotting carcass](exhibit)?
+    - what year was [career criminal](exhibit) invented?
+    - when did [coupled pendulums](exhibit) first appear at the exploratorium?
+    - how old [sun painting](exhibit)?
+    - what date was the [whispering dishes](exhibit) exhibit first opened?
+    - when was [live chicken embryos](exhibit) added to the museum?
+    - what year did [diffraction shadows](exhibit) debut?
+    - please tell me when the [touch the teapot](exhibit) exhibit was created
+    - can you tell me what year [aeolian landscape](exhibit) was debuted?
+    - how long has [toilet water fountain](exhibit) been at the exploratorium?
+    - when did [cooperative red phone](exhibit) first show up?
+    - what date was [time to think](exhibit) created?
+    - how old is [walking on gravel](exhibit)?
+    - what year was [toilet bowl drinking fountain](exhibit) invented?
+    - when did [colored words](exhibit) first appear at the exploratorium?
+    - how old [cloud chamber](exhibit)?
+    - what date was the [bay bridge model](exhibit) exhibit first opened?
+    - when was [big magnifier](exhibit) added to the museum?
+    - what year did [rock box](exhibit) debut?
+    - please tell me when the [ames chairs](exhibit) exhibit was created
+    - can you tell me what year [disagreeing about color](exhibit) was debuted?
+    - how long has [is it genetic](exhibit) been at the exploratorium?
+    - when did [timepieces solar system](exhibit) first show up?
+    - what date was [lab illustrations](exhibit) created?
+    - how old is [beach ball blower](exhibit)?
+    - what year was [colored circles](exhibit) invented?
+    - when did [galaxy03](exhibit) first appear at the exploratorium?
+    - how old [entangled attraction](exhibit)?
+    - what date was the [fluorescent tube](exhibit) exhibit first opened?
+    - when was [out quiet yourself](exhibit) added to the museum?
+    - what year did [adapting to color](exhibit) debut?
+    - please tell me when the [plankton rainbow](exhibit) exhibit was created
+    - can you tell me what year [too slow to notice](exhibit) was debuted?
+    - how long has [confused sea](exhibit) been at the exploratorium?
+    - when did [tactile dome](exhibit) first show up?
+    - what date was [the last ocean](exhibit) created?
+    - how old is [toilet drinking fountain](exhibit)?
+    - what year was [mapping migrations](exhibit) invented?
+    - when did [ir camera](exhibit) first appear at the exploratorium?
+    - how old [energy from death](exhibit)?
+    - what date was the [bulbs and batteries](exhibit) exhibit first opened?
+    - when was [anti - gravity mirror](exhibit) added to the museum?
+    - what year did [scream into sand](exhibit) debut?
+    - please tell me when the [pier piling pivot](exhibit) exhibit was created
+    - can you tell me what year [unseen stories](exhibit) was debuted?
+    - how long has [rift zone](exhibit) been at the exploratorium?
+    - when did [developing chick embryos](exhibit) first show up?
+    - what date was [heat camera](exhibit) created?
+    - how old is [creatures from the sea settling plate](exhibit)?
+    - what year was [small monatomic molecules](exhibit) invented?
+    - when did [soap film painting](exhibit) first appear at the exploratorium?
+    - how old [the edge makes the difference](exhibit)?
+    - what date was the [color conflicts](exhibit) exhibit first opened?
+    - when was [spacetime](exhibit) added to the museum?
+    - what year did [ice window](exhibit) debut?
+    - please tell me when the [bacteriopolis wall](exhibit) exhibit was created
+    - can you tell me what year [saltscapes](exhibit) was debuted?
+    - how long has [the enchanted tree](exhibit) been at the exploratorium?
+    - when did [mirrorly a window](exhibit) first show up?
+    - what date was [horse 's tail](exhibit) created?
+    - how old is [circles of magnetism](exhibit)?
+    - what year was [scent memories](exhibit) invented?
+    - when did [fox walking](exhibit) first appear at the exploratorium?
+    - how old [drawing board](exhibit)?
+    - what date was the [disappearing act](exhibit) exhibit first opened?
+    - when was [a pendulum clock](exhibit) added to the museum?
+    - what year did [ocean tracks](exhibit) debut?
+    - please tell me when the [giant chair](exhibit) exhibit was created
+    - can you tell me what year [pedal generator](exhibit) was debuted?
+    - how long has [square wheel](exhibit) been at the exploratorium?
+    - when did [all the light you see infinity](exhibit) first show up?
+    - what date was [the cow game](exhibit) created?
+    - how old is [mood lighting](exhibit)?
+    - what year was [bicycle wheel gyro](exhibit) invented?
+    - when did [water tornado](exhibit) first appear at the exploratorium?
+    - how old [trust fountain](exhibit)?
+    - what date was the [time shift](exhibit) exhibit first opened?
+    - when was [vortex](exhibit) added to the museum?
+    - what year did [throw pi](exhibit) debut?
+    - please tell me when the [oculus table](exhibit) exhibit was created
+    - can you tell me what year [tactile harp](exhibit) was debuted?
+    - how long has [cattle game](exhibit) been at the exploratorium?
+    - when did [dice](exhibit) first show up?
+    - what date was [magnetic sand](exhibit) created?
+    - how old is [coupled resonant pendulums](exhibit)?
+    - what year was [two ways of seeing yellow](exhibit) invented?
+    - when did [ames room](exhibit) first appear at the exploratorium?
+    - how old [living colors](exhibit)?
+    - what date was the [prelinger library](exhibit) exhibit first opened?
+    - when was [human phenomena explainer station](exhibit) added to the museum?
+    - what year did [elastotron](exhibit) debut?
+    - please tell me when the [noaa buoy](exhibit) exhibit was created
+    - can you tell me what year [fluttering silk](exhibit) was debuted?
+    - how long has [too slow to see](exhibit) been at the exploratorium?
+    - when did [sweeper 's clock](exhibit) first show up?
+    - what date was [tinkerer 's clock](exhibit) created?
+    - how old is [blood cells in your eye](exhibit)?
+    - what year was [chicken eggs](exhibit) invented?
+    - when did [corpuscles in the eye](exhibit) first appear at the exploratorium?
+    - how old [lariat chain](exhibit)?
+    - what date was the [sky theater](exhibit) exhibit first opened?
+    - when was [look inside a developing fish](exhibit) added to the museum?
+    - what year did [colored shadows](exhibit) debut?
+    - please tell me when the [disagreement about color](exhibit) exhibit was created
+    - can you tell me what year [sun swarm](exhibit) was debuted?
+    - how long has [wall watching bench](exhibit) been at the exploratorium?
+    - when did [duck into a kaleidoscope](exhibit) first show up?
+    - what date was [albert](exhibit) created?
+    - how old is [tornado](exhibit)?
+    - what year was [turntable](exhibit) invented?
+    - when did [ice crystals](exhibit) first appear at the exploratorium?
+    - how old [pinscreen](exhibit)?
+    - what date was the [touch the spring](exhibit) exhibit first opened?
+    - when was [colored venn diagram](exhibit) added to the museum?
+    - what year did [all eyes on me](exhibit) debut?
+    - please tell me when the [listening vessels](exhibit) exhibit was created
+    - can you tell me what year [genetic inheritance](exhibit) was debuted?
+    - how long has [water spinner](exhibit) been at the exploratorium?
+    - when did [capture a moment in time](exhibit) first show up?
+    - what date was [community garden](exhibit) created?
+    - how old is [circling wave umbrella](exhibit)?
+    - what year was [can you believe your eyes](exhibit) invented?
+    - when did [still life](exhibit) first appear at the exploratorium?
+    - how old [the dome](exhibit)?
+    - what date was the [pitch slider](exhibit) exhibit first opened?
+    - when was [a cell in motion](exhibit) added to the museum?
+    - what year did [seeing and listening explainer station](exhibit) debut?
+    - please tell me when the [recollections](exhibit) exhibit was created
+    - can you tell me what year [chicken wire](exhibit) was debuted?
+    - how long has [museum of the moon](exhibit) been at the exploratorium?
+    - when did [toothpick sculpture](exhibit) first show up?
+    - what date was [interpreting the living systems lab](exhibit) created?
+    - how old is [living on death](exhibit)?
+    - what year was [pi has your number](exhibit) invented?
+    - when did [library of earth anatomy](exhibit) first appear at the exploratorium?
+    - how old [kalanchoe](exhibit)?
+    - what date was the [snake pendulum](exhibit) exhibit first opened?
+    - when was [lumen illusion](exhibit) added to the museum?
+    - what year did [cubatron core](exhibit) debut?
+    - please tell me when the [3d cell zoetrope](exhibit) exhibit was created
+    - can you tell me what year [sound bite](exhibit) was debuted?
+    - how long has [bubble well](exhibit) been at the exploratorium?
+    - when did [bubble sheet](exhibit) first show up?
+    - what date was [are your cells you](exhibit) created?
+    - how old is [frozen water drop](exhibit)?
+    - what year was [red blue](exhibit) invented?
+    - when did [illuminated fog](exhibit) first appear at the exploratorium?
+    - how old [aurora](exhibit)?
+    - what date was the [land water](exhibit) exhibit first opened?
+    - when was [venn diagram](exhibit) added to the museum?
+    - what year did [downhill race](exhibit) debut?
+    - please tell me when the [washer game](exhibit) exhibit was created
+    - can you tell me what year [hela cells](exhibit) was debuted?
+    - how long has [velvet hands](exhibit) been at the exploratorium?
+    - when did [bicycle rope squirter](exhibit) first show up?
+    - what date was [fog bridge](exhibit) created?
+    - how old is [flock](exhibit)?
+    - what year was [twins photos](exhibit) invented?
+    - when did [bite o - phone](exhibit) first appear at the exploratorium?
+    - how old [cardiac myocytes](exhibit)?
+    - what date was the [circuit workbench](exhibit) exhibit first opened?
+    - when was [spectral meadow](exhibit) added to the museum?
+    - what year did [turbulent sea](exhibit) debut?
+    - please tell me when the [cloud rings](exhibit) exhibit was created
+    - can you tell me what year [bay lexicon](exhibit) was debuted?
+    - how long has [big little chair](exhibit) been at the exploratorium?
+    - when did [golden gate bridge](exhibit) first show up?
+    - what date was [watch water freeze](exhibit) created?
+    - how old is [plant tunes](exhibit)?
+    - what year was [solar hour benches](exhibit) invented?
+    - when did [chick embryos](exhibit) first appear at the exploratorium?
+    - how old [heliorama](exhibit)?
+    - what date was the [bacteriopolis](exhibit) exhibit first opened?
+    - when was [chaotic pendulum](exhibit) added to the museum?
+    - what year did [survival game](exhibit) debut?
+    - please tell me when the [animation station](exhibit) exhibit was created
+    - can you tell me what year [green lips](exhibit) was debuted?
+    - how long has [all the flowers are for me turquoise](exhibit) been at the exploratorium?
+    - when did [red green goggles](exhibit) first show up?
+    - what date was [rolling through the bay](exhibit) created?
+    - how old is [albert 's watching](exhibit)?
+    - what year was [jardín comunitario](exhibit) invented?
+    - when did [café wall illusion](exhibit) first appear at the exploratorium?
+    - how old [pendulum snake](exhibit)?
+    - what date was the [magnetic labyrinth](exhibit) exhibit first opened?
+    - when was [tinkering clock](exhibit) added to the museum?
+    - what year did [gray step](exhibit) debut?
+    - please tell me when the [glass settling plate](exhibit) exhibit was created
+    - can you tell me what year [uroborus a snake chasing its tail](exhibit) was debuted?
+    - how long has [your turn counts](exhibit) been at the exploratorium?
+    - when did [fluttering](exhibit) first show up?
+    - what date was [reaction time 2](exhibit) created?
+    - how old is [magnetic fluid patterns](exhibit)?
+    - what year was [melodías de plantas](exhibit) invented?
+    - when did [bird in a cage](exhibit) first appear at the exploratorium?
+    - how old [bronze hand](exhibit)?
+    - what date was the [blood cell scale](exhibit) exhibit first opened?
+    - when was [zebrafish embryos](exhibit) added to the museum?
+    - what year did [button game](exhibit) debut?
+    - please tell me when the [everyone is you and me](exhibit) exhibit was created
+    - can you tell me what year [golden gate bridge motion](exhibit) was debuted?
+    - how long has [big tuning fork](exhibit) been at the exploratorium?
+    - when did [give heart cells a beat](exhibit) first show up?
+    - what date was [disorted bench](exhibit) created?
+    - how old is [the tree experience](exhibit)?
+    - what year was [tactile gallery](exhibit) invented?
+    - when did [a drop to drink](exhibit) first appear at the exploratorium?
+    - how old [spherical reflections](exhibit)?
+    - what date was the [sharing faces](exhibit) exhibit first opened?
+    - when was [color ball](exhibit) added to the museum?
+    - what year did [look into infinity](exhibit) debut?
+    - please tell me when the [cows](exhibit) exhibit was created
+    - can you tell me what year [icy bodies](exhibit) was debuted?
+    - how long has [chromoscope](exhibit) been at the exploratorium?
+    - when did [drinking fountain](exhibit) first show up?
+    - what date was [pi toss](exhibit) created?
+    - how old is [rotating light](exhibit)?
+    - what year was [sophisticated shadows](exhibit) invented?
+    - when did [observatory library](exhibit) first appear at the exploratorium?
+    - how old [coupled resonant pendula](exhibit)?
+    - what date was the [freeloader](exhibit) exhibit first opened?
+    - when was [becoming horizon](exhibit) added to the museum?
+    - what year did [pi search](exhibit) debut?
+    - please tell me when the [triple aye lightstick](exhibit) exhibit was created
+    - can you tell me what year [bacteria wall](exhibit) was debuted?
+    - how long has [moving objects](exhibit) been at the exploratorium?
+    - when did [color splitter](exhibit) first show up?
+    - what date was [long path diffraction](exhibit) created?
+    - how old is [emotion tracer](exhibit)?
+    - what year was [christmas tree balls](exhibit) invented?
+    - when did [big chair little chair](exhibit) first appear at the exploratorium?
+    - how old [drip chamber](exhibit)?
+    - what date was the [dioximoirekinesis](exhibit) exhibit first opened?
+    - when was [buckyball](exhibit) added to the museum?
+    - what year did [aeolian harp](exhibit) debut?
+    - please tell me when the [try pi](exhibit) exhibit was created
+    - can you tell me what year [echo tube](exhibit) was debuted?
+    - how long has [bernoulli blower](exhibit) been at the exploratorium?
+    - when did [velvet harp](exhibit) first show up?
+    - what date was [sun benches](exhibit) created?
+    - how old is [they 're identical or are they](exhibit)?
+    - what year was [bay windows](exhibit) invented?
+    - when did [water drop photography](exhibit) first appear at the exploratorium?
+    - how old [giant clock](exhibit)?
+    - what date was the [jellybean room](exhibit) exhibit first opened?
+    - when was [raylights](exhibit) added to the museum?
+    - what year did [distorted room](exhibit) debut?
+    - please tell me when the [blood vessels in your eye](exhibit) exhibit was created
+    - can you tell me what year [black sand](exhibit) was debuted?
+    - how long has [visitor pulse](exhibit) been at the exploratorium?
+    - when did [bridge light](exhibit) first show up?
+    - what date was [shaking](exhibit) created?
+    - how old is [machine with concrete](exhibit)?
+    - what year was [compare yellow leds](exhibit) invented?
+    - when did [pi shrine](exhibit) first appear at the exploratorium?
+    - how old [glow ball](exhibit)?
+    - what date was the [prisoner 's dilemma](exhibit) exhibit first opened?
+    - when was [within 15 minutes](exhibit) added to the museum?
+    - what year did [pulling together](exhibit) debut?
+    - please tell me when the [disappearing rings](exhibit) exhibit was created
+    - can you tell me what year [teardrop after robert irwin](exhibit) was debuted?
+    - how long has [ice painting](exhibit) been at the exploratorium?
+    - when did [monochromatic room](exhibit) first show up?
+    - what date was [oscylinderscope](exhibit) created?
+    - how old is [liquid litmus](exhibit)?
+    - what year was [toothpick roller coaster](exhibit) invented?
+    - when did [bay lexicon columns](exhibit) first appear at the exploratorium?
+    - how old [prelinger map archive and library](exhibit)?
+    - what date was the [seismograph](exhibit) exhibit first opened?
+    - when was [bike rope squirter](exhibit) added to the museum?
+    - what year did [leaves that sprout plants](exhibit) debut?
+    - please tell me when the [creating life with just one parent](exhibit) exhibit was
+      created
+    - can you tell me what year [black card white card](exhibit) was debuted?
+    - how long has [need based transfer economy](exhibit) been at the exploratorium?
+    - when did [shifting time](exhibit) first show up?
+    - what date was [chladni singing](exhibit) created?
+    - how old is [giant tuning fork](exhibit)?
+    - what year was [peacemaker](exhibit) invented?
+    - when did [wave organ](exhibit) first appear at the exploratorium?
+    - how old [triple aye stick](exhibit)?
+    - what date was the [yellow room](exhibit) exhibit first opened?
+    - when was [light box](exhibit) added to the museum?
+    - what year did [harmonograms](exhibit) debut?
+    - please tell me when the [time 2 think](exhibit) exhibit was created
+    - can you tell me what year [countless colors](exhibit) was debuted?
+    - how long has [flourish bloom](exhibit) been at the exploratorium?
+    - when did [research buoy](exhibit) first show up?
+    - what date was [praxinoscope tower](exhibit) created?
+    - how old is [stop and start](exhibit)?
+    - what year was [as one](exhibit) invented?
+    - when did [leaves that sprout](exhibit) first appear at the exploratorium?
+    - how old [fog bridge 72494](exhibit)?
+    - what date was the [probably chelsea](exhibit) exhibit first opened?
+    - when was [big wood 300 years of photosynthesis](exhibit) added to the museum?
+    - what year did [winogradsky column](exhibit) debut?
+    - please tell me when the [pitch twanger](exhibit) exhibit was created
+    - can you tell me what year [the art of neon](exhibit) was debuted?
+    - how long has [scrapple](exhibit) been at the exploratorium?
+    - when did [responsive heart cells](exhibit) first show up?
+    - what date was [gray step 1](exhibit) created?
+    - how old is [shadow box](exhibit)?
+    - what year was [bright black](exhibit) invented?
+    - when did [turbulent orb](exhibit) first appear at the exploratorium?
+    - how old [anamorphic bench](exhibit)?
+    - what date was the [colored lights](exhibit) exhibit first opened?
+    - when was [gas model](exhibit) added to the museum?
+    - what year did [sky panorama](exhibit) debut?
+    - please tell me when the [salt ponds from the sky](exhibit) exhibit was created
+    - can you tell me what year [giant spherical mirror](exhibit) was debuted?

@@ -32,6 +32,10 @@ responses:
   - text: Glad I could be of assistance!
   - text: You're very welcome.
   - text: No problem at all!
+  utter_chitchat/very_cool:
+  - text: I'm glad you think so :)
+  - text: That's great to hear!
+  - text: Awesome!
   utter_chitchat/goodbye:
   - text: Bye :)
   - text: See you next time!

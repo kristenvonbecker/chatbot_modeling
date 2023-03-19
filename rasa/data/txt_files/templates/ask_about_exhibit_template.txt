@@ -1,5 +1,10 @@
 what is this exhibit all about?
 how does it work?
+what's up with that exhibit?
+what can you tell me about it?
+what can i expect when i visit the exhibit?
+what's the exhibit like?
+what is it?
 please summarize this exhibit for me
 can you describe the exhibit?
 tell me about this exhibit
@@ -9,6 +14,17 @@ tell me a little about it
 explain the concept behind the exhibit
 can you tell me what this exhibit is about?
 what is going on in [](exhibit)?
+tell me what i can expect from [](exhibit)
+can you please give me some information about [](exhibit)?
+can you tell me how [](exhibit) works?
+what's going on with [](exhibit)?
+i'd like to learn some more about the exhibit [](exhibit)
+i'm trying to learn more about [](exhibit)
+how does [](exhibit) work, anyway?
+what is [](exhibit) like?
+tell me about the exhibit [](exhibit)
+how does it work [](exhibit)?
+what is it made of [](exhibit)?
 please explain the theme of [](exhibit)
 how does [](exhibit) work?
 do you know how [](exhibit) works?

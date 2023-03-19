@@ -1,0 +1,20 @@
+version: "3.1"
+
+rules:
+
+- rule: respond to chitchat
+  steps:
+    - intent: chitchat
+    - action: utter_chitchat
+
+- rule: respond to out-of-scope queries
+  steps:
+    - intent: out_of_scope
+    - action: utter_try_this
+
+- rule: end a line of questioning when the user says nevermind
+  steps:
+    - intent: stop
+    - action: utter_okay
+    - action: action_reset_explanation_slots
+    - action: action_reset_explanation_slots

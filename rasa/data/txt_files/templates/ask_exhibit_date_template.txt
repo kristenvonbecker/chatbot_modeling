@@ -18,3 +18,6 @@ how long has [](exhibit) been at the exploratorium?
 when did [](exhibit) first show up?
 what date was [](exhibit) created?
 how old is [](exhibit)?
+what year was [](exhibit) invented?
+when did [](exhibit) first appear at the exploratorium?
+how old [](exhibit)?
