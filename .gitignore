@@ -1,2 +1,4 @@
 /.env
 /rasa/models/
+.*
+!.gitignore
