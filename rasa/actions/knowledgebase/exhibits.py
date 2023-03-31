@@ -1,11 +1,11 @@
 import os
 import json
-
 from dotenv import load_dotenv
+
 load_dotenv()
 
 home = os.getenv("PROJ_HOME")
-exhibits_filepath = os.path.join(home, "data/chatbot_knowledgebase/institutional/exhibits.json")
+exhibits_filepath = os.path.join(home, "rasa/actions/data/chatbot_knowledgebase/institutional/exhibits.json")
 
 with open(exhibits_filepath, "r") as f:
     exhibits = json.load(f)

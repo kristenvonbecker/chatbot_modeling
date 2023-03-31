@@ -2,35 +2,20 @@ from rasa_sdk.events import SlotSet, SessionStarted, ActionExecuted, BotUttered
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.types import DomainDict
-from rasa_sdk.forms import ValidationAction
+
 from typing import Any, Text, Dict, List
-from actions import scripts
-from actions.knowledgebase import articles, exhibits
-from dotenv import load_dotenv
 import logging
 import random
+
+from actions import scripts
+from actions.knowledgebase import articles, exhibits
+
 from importlib import reload
 reload(scripts)
 reload(articles)
 reload(exhibits)
 
-load_dotenv()
 logger = logging.getLogger(__name__)
-
-
-# class ActionViewTrackerEvents(Action):
-#     def name(self) -> Text:
-#         return "action_view_tracker_events"
-#
-#     def run(
-#         self,
-#         dispatcher: CollectingDispatcher,
-#         tracker: Tracker,
-#         domain: DomainDict,
-#     ) -> List[Dict[Text, Any]]:
-#         events = list(reversed(tracker.events))
-#         dispatcher.utter_message(text=events)
-#         return []
 
 
 exhibit_intents = ["ask_about_exhibit",

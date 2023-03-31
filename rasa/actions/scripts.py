@@ -1,9 +1,9 @@
-from actions.knowledgebase import articles, exhibits
-import random
 from fuzzywuzzy import fuzz, process
+import random
+
+from actions.knowledgebase import articles, exhibits
 
 from importlib import reload
-
 reload(articles)
 reload(exhibits)
 
